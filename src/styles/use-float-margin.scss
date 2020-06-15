@@ -1,0 +1,12 @@
+@import './mixins/mixins.scss';
+
+@include b(use-float-margin) {
+    @include e(left) {
+        // width: 200px; /* 根据用户的值来进行设置 */
+        float: left;
+    }
+
+    @include e(right) {
+        // margin-left: 200px; /* 根据用户的值来进行设置 */
+    }
+}

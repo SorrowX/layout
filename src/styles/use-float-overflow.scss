@@ -1,0 +1,12 @@
+@import './mixins/mixins.scss';
+
+@include b(use-float-overflow) {
+    @include e(left) {
+        // width: 200px; /* calc */
+        float: left;
+    }
+
+    @include e(right) {
+        overflow: hidden; /*触发bfc达到自适应*/
+    }
+}
