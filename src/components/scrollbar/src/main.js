@@ -3,37 +3,38 @@ const { GeminiScrollbar, CLASSNAMES } = require('./gemini-scrollbar')
 export default {
     name: 'LayScrollbar',
     props: {
-        autoshow: {
+        autoshow: { // 滚动条是否自动显示
             type: Boolean,
-            default: true
+            default: false
         },
         forceGemini: {
             type: Boolean,
             default: false
         },
-        onResize: {
+        onResize: { // 窗口改变时触发的回调
             type: Function,
             default: () => {}
         },
-        minThumbSize: {
+        minThumbSize: { // 滚动条的最小长度或高度
             type: Number,
             default: 20
         },
-        className: {
+        className: { // 应用在根dom元素的css类名
             type: [String, Object, Array],
             default: ''
         },
-        native: {
+        native: { // 是否使用原生滚动条
             type: Boolean,
             default: false
         },
-        tag: {
+        tag: { // 根dom的元素的标签名
             type: String,
             default: 'div'
         }
     },
     methods: {
         initScrollbar() {
+            debugger
             this.scrollbar = new GeminiScrollbar({
                 element: this.$el,
                 autoshow: this.autoshow,

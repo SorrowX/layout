@@ -1,19 +1,23 @@
 export default {
     props: {
-        use: { // 使用哪种类型的布局方式
-            type: [String],
-            default: 'float-overflow'
+        fix: { // 左边定宽/右边定宽
+            type: String,
+            default: 'left' // left/right
         },
-        width: { // .left容器的宽度
-            type: [String],
+        nativeScrollbar: { // 是否使用原生滚动条
+            type: Boolean,
+            default: false
+        },
+        width: { // .left/.right容器的宽度
+            type: String,
             default: '0px'
         },
         height: { // .left和.right容器的高度
-            type: [String],
+            type: String,
             default: 'auto'
         },
         overflow: { // .left和.right容器的滚动条是否出现
-            type: [String],
+            type: String,
             default: 'auto'
         },
         leftStyle: { // .left容器style样式

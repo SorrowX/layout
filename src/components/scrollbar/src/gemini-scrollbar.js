@@ -66,6 +66,7 @@
     this.forceGemini = false;
     this.onResize = null;
     this.minThumbSize = 20;
+    this.noresize = false;
 
     Object.keys(config || {}).forEach(function (propertyName) {
       this[propertyName] = config[propertyName];
@@ -106,7 +107,9 @@
         }
         addClass(this.element, [CLASSNAMES.element]);
         addClass(this._viewElement, [CLASSNAMES.view]);
-        this._createResizeTrigger();
+        if (!this.noresize) {
+          this._createResizeTrigger();
+        }
       }
 
       return this;
@@ -156,7 +159,9 @@
     this._scrollbarVerticalElement.style.display = '';
     this._scrollbarHorizontalElement.style.display = '';
 
-    this._createResizeTrigger();
+    if (!this.noresize) {
+      this._createResizeTrigger();
+    }
 
     this._created = true;
 

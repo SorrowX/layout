@@ -11,22 +11,24 @@
 
 <script>
     import { capitalize } from '@/utils/utils'
-    import leftColumnFixedWidthMixin from '@/mixins/left-column-fixed-width-mixin'
-    import LeftColumnFixedWidth from './left-column-fixed-width'
+    import twoColumnsMixin from '@/mixins/two-columns-mixin'
+    import LeftColumn from './left-column-fixed'
+    import RightColumn from './right-column-fixed'
 
     export default {
         name: 'LayTwoColumns',
         components: {
-            ...LeftColumnFixedWidth
+            LeftColumn,
+            RightColumn
         },
-        mixins: [ leftColumnFixedWidthMixin ],
+        mixins: [ twoColumnsMixin ],
         data() {
             return {
                 curComponent: ''
             }
         },
         created() {
-            this.curComponent = `use-${this.use}`.split('-').map(s => capitalize(s)).join('')
+            this.curComponent = this.fix === 'left' ? 'LeftColumn' : 'RightColumn'
         }
     }
 </script>

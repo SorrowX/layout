@@ -16,8 +16,16 @@ const router = new VueRouter({
     mode: 'history',
     routes: [
         {
+            path: '/',
+            redirect: '/two-columns'
+        },
+        {
             path: '/two-columns',
             component: (resolve) => require(['./routers/two-columns.vue'], resolve)
+        },
+        {
+            path: '/scrollbar',
+            component: (resolve) => require(['./routers/scrollbar.vue'], resolve)
         }
     ]
 })

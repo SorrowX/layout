@@ -1,6 +1,7 @@
 @import './mixins/mixins.scss';
 
-@include b(use-float-overflow) {
+/* 使用float+overflow */
+@include b(left-column-fixed) {
     @include e(left) {
         // width: 200px; /* calc */
         float: left;
