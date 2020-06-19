@@ -34,7 +34,6 @@ export default {
     },
     methods: {
         initScrollbar() {
-            debugger
             this.scrollbar = new GeminiScrollbar({
                 element: this.$el,
                 autoshow: this.autoshow,
