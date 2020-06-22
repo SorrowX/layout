@@ -10,7 +10,6 @@
 </template>
 
 <script>
-    import { capitalize } from '@/utils/utils'
     import twoColumnsMixin from '@/mixins/two-columns-mixin'
     import LeftColumn from './left-column-fixed'
     import RightColumn from './right-column-fixed'

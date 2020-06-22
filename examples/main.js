@@ -20,13 +20,17 @@ const router = new VueRouter({
             redirect: '/two-columns'
         },
         {
+            path: '/scrollbar',
+            component: (resolve) => require(['./routers/scrollbar.vue'], resolve)
+        },
+        {
             path: '/two-columns',
             component: (resolve) => require(['./routers/two-columns.vue'], resolve)
         },
         {
-            path: '/scrollbar',
-            component: (resolve) => require(['./routers/scrollbar.vue'], resolve)
-        }
+            path: '/three-columns',
+            component: (resolve) => require(['./routers/three-columns.vue'], resolve)
+        },
     ]
 })
 

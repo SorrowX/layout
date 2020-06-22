@@ -32,7 +32,7 @@
                             <li><router-link to="/two-columns3">垂直居中</router-link></li>
                             <li><router-link to="/two-columns4">水平垂直居中</router-link></li>
                             <li><router-link to="/two-columns">两列布局</router-link></li>
-                            <li><router-link to="/two-columns6">三列布局</router-link></li>
+                            <li><router-link to="/three-columns">三列布局</router-link></li>
                             <li><router-link to="/two-columns7">多列布局</router-link></li>
                         </ul>
                     </div>

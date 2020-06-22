@@ -1,0 +1,16 @@
+@import './mixins/mixins.scss';
+
+/* 使用float+overflow */
+@include b(right-adapt) {
+    @include e(left) {
+        float: left;
+    }
+
+    @include e(center) {
+        float: left;
+    }
+
+    @include e(right) {
+        overflow: hidden; /*触发bfc达到自适应*/
+    }
+}

@@ -1,9 +1,11 @@
-import LayTwoColumns from './components/two-columns'
 import LayScrollbar from './components/scrollbar'
+import LayTwoColumns from './components/two-columns'
+import LayThreeColumns from './components/three-columns'
 
 const components = {
     LayTwoColumns,
-    LayScrollbar
+    LayScrollbar,
+    LayThreeColumns
 }
 
 const install = function(Vue, opts = {}) {
