@@ -19,10 +19,6 @@ export default {
             type: Number,
             default: 20
         },
-        className: { // 应用在根dom元素的css类名
-            type: [String, Object, Array],
-            default: ''
-        },
         native: { // 是否使用原生滚动条
             type: Boolean,
             default: false
@@ -66,16 +62,19 @@ export default {
         this.destroyScrollbar()
     },
     render(h) {
-        const nativeClassName = 'native-scrollbar-container'
-        const divTag = 'div'
         if (this.native) {
             return h(this.tag, {
-                class: nativeClassName,
-                ref: 'scrollbar'
+                ref: 'scrollbar',
+                attrs: {
+                    native: String(this.native)
+                }
             }, this.$slots.default)
         } else {
+            const divTag = 'div'
             return h(this.tag, {
-                class: this.className
+                attrs: {
+                    native: String(this.native)
+                }
             }, [
                 h(divTag, {
                     class: CLASSNAMES.verticalScrollbar

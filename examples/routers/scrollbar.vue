@@ -14,7 +14,7 @@
         </lay-scrollbar>
 
         <p>2.添加autoshow属性, 内容超出,当鼠标移入时显示滚动条,移出时隐藏滚动条</p>
-        <p>&nbsp; 添加className属性, 会把css类名应用在根dom元素上,也可以直接使用class属性</p>
+        <p>&nbsp; 添加class属性, 会把css类名应用在根dom元素上,也可以直接使用class属性</p>
         <pre>
             <code class="language-js" v-html="getCode(code2)">
             </code>
@@ -67,6 +67,11 @@
         components: { FakeContent },
         data() {
             return {
+                testClass1: 'c1',
+                testClass2: { c2: true, c3: true },
+                testClass3: [ 'c1', { c2: true, c3: true } ],
+                testStyle1: { color: 'red', 'font-size': '16px' },
+                testStyle2: [ {color: 'red', 'font-size': '16px'}, { background: '#000' } ],
                 code1: `
                     <template>
                         <lay-scrollbar style="width: 200px; height: 400px;">
@@ -80,7 +85,7 @@
                     <template>
                         <lay-scrollbar 
                             style="width: 200px; height: 400px;"
-                            className="lay-scrollbar-box2"
+                            class="lay-scrollbar-box2"
                             autoshow
                         >
                             ...
@@ -91,7 +96,7 @@
                         autoshow属性: 类型Boolean; (默认值: false)
                             移入显示滚动条,移出隐藏滚动条
                         
-                        className属性: 类型String; (默认值: '') 也可以直接使用class属性
+                        class属性: 类型String; (默认值: '') 也可以直接使用class属性
                             应用在根dom元素的css类名
                     
                     自定义滚动条样式:
@@ -117,7 +122,7 @@
                     <template>
                         <lay-scrollbar 
                             style="width: 200px; height: 400px;"
-                            className="lay-scrollbar-box3"
+                            class="lay-scrollbar-box3"
                             :onResize="() => { }"
                             :minThumbSize="30"
                         >
@@ -178,10 +183,6 @@
                         minThumbSize: { // 滚动条的最小长度或高度
                             type: Number,
                             default: 20
-                        },
-                        className: { // 应用在根dom元素的css类名
-                            type: [String, Object, Array],
-                            default: ''
                         },
                         native: { // 是否使用原生滚动条
                             type: Boolean,
