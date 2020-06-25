@@ -48,12 +48,175 @@
             </template>
         </lay-three-columns> -->
 
-        <lay-three-columns 
+        <!-- <lay-three-columns 
             adapt="right" 
             leftWidth="100px" 
             centerWidth="200px" 
             height="500px" 
             overflow="hidden"
+            :leftStyle="[{ border: '1px solid red' }, { color: 'red' }]"
+            :centerClass="centerClass"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>-->
+
+        <!-- <hr> -->
+
+        <!-- <lay-three-columns 
+            adapt="left" 
+            centerWidth="100px" 
+            rightWidth="200px"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns> -->
+
+        <!-- <lay-three-columns adapt="left" centerWidth="100px" rightWidth="200px" height="500px">
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>  -->
+
+        <!-- <lay-three-columns adapt="left" centerWidth="100px" rightWidth="200px" height="500px" nativeScrollbar>
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>  -->
+
+        <!-- <lay-three-columns adapt="left" centerWidth="100px" rightWidth="200px" height="500px" nativeScrollbar overflow="hidden">
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>  -->
+
+        <!-- <lay-three-columns 
+            adapt="left" 
+            centerWidth="100px" 
+            rightWidth="200px" 
+            height="500px" 
+            :leftStyle="[{ border: '1px solid red' }, { color: 'red' }]"
+            :centerClass="centerClass"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>  -->
+
+        <!-- <hr/> -->
+
+        <!-- <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns> -->
+
+        <!-- <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+            height="500px"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns> -->
+
+        <!-- <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+            height="500px"
+            nativeScrollbar
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns> -->
+
+        <!-- <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+            height="500px"
+            overflow="hidden"
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns> -->
+
+        <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+            height="500px"
             :leftStyle="[{ border: '1px solid red' }, { color: 'red' }]"
             :centerClass="centerClass"
         >

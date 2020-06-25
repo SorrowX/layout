@@ -1,0 +1,22 @@
+@import './mixins/mixins.scss';
+
+/* 使用position */
+@include b(left-adapt) {
+    position: relative;
+    @include e(left) {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    @include e(center) {
+        position: absolute;
+        top: 0;
+    }
+
+    @include e(right) {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}

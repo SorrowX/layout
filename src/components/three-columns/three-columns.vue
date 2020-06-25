@@ -13,14 +13,14 @@
 </template>
 
 <script>
-    import threeColumnsMixin from '@/mixins/three-columns-mixin'
+    import threeColumnsProps from '@/mixins/three-columns-props'
     import RightAdapt from './right-adapt.vue'
     import LeftAdapt from './left-adapt.vue'
     import CenterAdapt from './center-adapt.vue'
 
     export default {
         name: 'ThreeColumns',
-        mixins: [ threeColumnsMixin ],
+        mixins: [ threeColumnsProps ],
         components: { RightAdapt, LeftAdapt, CenterAdapt },
         data() {
             return {

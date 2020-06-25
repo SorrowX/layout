@@ -6,6 +6,12 @@
 ``` bash
 新增LayScrollbar组件
 ```
+
+### 2020/6/25
+``` bash
+新增LayThreeColumns组件
+```
+
 #### 使用姿势
 <lay-scrollbar :native="false" :autoshow="false" >
     <div class="content">

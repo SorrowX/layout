@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>(3)使用position实现▲</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .parent {
+            position: relative;
+        }
+
+        .left {
+            width: 100px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: #f00;
+        }
+
+        .center {
+            height: 500px;
+            margin-left: 100px;
+            margin-right: 200px;
+            background-color: #eeff2b;
+
+        }
+
+        .right {
+            width: 200px;
+            height: 500px;
+            position: absolute;
+            top: 0;
+            right: 0;
+            background-color: #0f0;
+        }
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="left"></div>
+        <div class="center"></div>
+        <div class="right"></div>
+    </div>
+</body>
+</html>
