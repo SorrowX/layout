@@ -24,7 +24,7 @@ export default {
             type: String,
             default: 'auto'
         },
-        overflow: { // left/center/right容器的滚动条是否出现
+        overflow: { // left/center/right容器的滚动条是否出现 auto/visible/hidden/scroll/inherit
             type: String,
             default: 'auto'
         },
