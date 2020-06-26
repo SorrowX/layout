@@ -1,16 +1,34 @@
 <template>
-    <div class="lay-left-adapt" :style="parentStyle">
-        <div class="lay-left-adapt__left" ref="left" :class="leftClass" :style="calcLeftStyle">
+    <div 
+        class="lay-center-adapt" 
+        :style="parentStyle"
+    >
+        <div 
+            ref="left"
+            class="lay-center-adapt__left" 
+            :class="leftClass" 
+            :style="calcLeftStyle"
+        >
             <lay-scrollbar :native="native">
                 <slot name="left"></slot>
             </lay-scrollbar>
         </div>
-        <div class="lay-left-adapt__center" ref="center" :class="centerClass" :style="calcCenterStyle">
+        <div 
+            ref="center"
+            class="lay-center-adapt__center" 
+            :class="centerClass" 
+            :style="calcCenterStyle"
+        >
             <lay-scrollbar :native="native">
                 <slot name="center"></slot>
             </lay-scrollbar>
         </div>
-        <div class="lay-left-adapt__right" ref="right" :class="rightClass" :style="calcRightStyle">
+        <div 
+            ref="right"
+            class="lay-center-adapt__right" 
+            :class="rightClass" 
+            :style="calcRightStyle"
+        >
             <lay-scrollbar :native="native">
                 <slot name="right"></slot>
             </lay-scrollbar>
@@ -19,24 +37,24 @@
 </template>
 
 <script>
-    import threeColumnsMixin from '@/mixins/three-columns-mixin'
+    import threeColumnsMixin from '@/mixins/three-columns/three-columns-mixin'
 
     export default {
-        name: 'LeftAdapt',
+        name: 'CenterAdapt',
         mixins: [ threeColumnsMixin ],
         computed: {
             calcLeftStyle() {
                 return this.getStyle({
+                    width: this.leftWidth,
                     height: this.height,
-                    right: parseFloat(this.centerWidth) + parseFloat(this.rightWidth) + 'px',
                     overflow: this.overflow
                 }, this.leftStyle)
             },
             calcCenterStyle() {
                 return this.getStyle({
-                    width: this.centerWidth,
                     height: this.height,
-                    right: this.rightWidth,
+                    'margin-left': this.leftWidth,
+                    'margin-right': this.rightWidth,
                     overflow: this.overflow
                 }, this.centerStyle)
             },

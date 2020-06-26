@@ -1,7 +1,7 @@
 <template>
     <div class="test-scrollbar">
         <h1>滚动条组件</h1>
-        <p>1.给lay-scrollbar组件容器设置宽度和高度,内容超出时会出现滚动条</p>
+        <p>1.给lay-scrollbar组件容器设置宽度和高度,当子内容超出容器的高度或者宽度时滚动条就会出现</p>
         <pre>
             <code class="language-js" v-html="getCode(code1)">
             </code>
@@ -14,7 +14,7 @@
         </lay-scrollbar>
 
         <p>2.添加autoshow属性, 内容超出,当鼠标移入时显示滚动条,移出时隐藏滚动条</p>
-        <p>&nbsp; 添加class属性, 会把css类名应用在根dom元素上,也可以直接使用class属性</p>
+        <p>&nbsp; 添加class属性, 会把css类名应用在根dom元素上</p>
         <pre>
             <code class="language-js" v-html="getCode(code2)">
             </code>
@@ -79,7 +79,7 @@
                         </lay-scrollbar>
                     </template>
 
-                    说明: 需要给容器添加宽度和高度,滚动条才能出来
+                    说明: 需要给容器添加宽度和高度,子内容超出后相应的滚动条就会出现
                 `,
                 code2: `
                     <template>
@@ -95,9 +95,6 @@
                     属性说明:
                         autoshow属性: 类型Boolean; (默认值: false)
                             移入显示滚动条,移出隐藏滚动条
-                        
-                        class属性: 类型String; (默认值: '') 也可以直接使用class属性
-                            应用在根dom元素的css类名
                     
                     自定义滚动条样式:
                         <style>

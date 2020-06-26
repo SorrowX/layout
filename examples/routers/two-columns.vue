@@ -1,7 +1,7 @@
 <template>
     <div class="test-two-columns">
         <h1>左列固定,右列自适应</h1>
-        <p>1.只指定width属性,左列和右列的高度由子内容撑开</p>
+        <h3>1.只指定width属性,左列和右列的高度由子内容撑开</h3>
         <pre>
             <code class="language-js" v-html="getCode(code1)">
             </code>
@@ -18,47 +18,47 @@
             </template>
         </lay-two-columns>
 
-        <p>2.给定高度,内容超出自动出现滚动条(默认使用自定义滚动条)</p>
+        <h3>2.给定height属性,内容超出自动出现滚动条(默认使用自定义滚动条)</h3>
         <pre>
             <code class="language-js" v-html="getCode(code2)">
             </code>
         </pre>
         <p>效果:</p>
-        <lay-two-columns class="test-box" fix="left" width="200px" height="500px">
+        <lay-two-columns class="test-box" fix="left" width="25%" height="500px">
             <template v-slot:left>
                 <fake-content v-for="num in 10" :key="num">{{ num }}</fake-content>
             </template>
             <template v-slot:right>
-                <div class="right-content">
+                <div class="right-content" style="width: 650px">
                     <fake-content v-for="num in 20" :key="num" height="200px">{{ num }}</fake-content>
                 </div>
             </template>
         </lay-two-columns>
 
-        <p>3.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)</p>
+        <h3>3.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)</h3>
         <pre>
             <code class="language-js" v-html="getCode(code3)">
             </code>
         </pre>
         <p>效果:</p>
-        <lay-two-columns class="test-box" nativeScrollbar fix="left" width="200px" height="500px">
+        <lay-two-columns class="test-box" nativeScrollbar fix="left" width="25%" height="500px">
             <template v-slot:left>
                 <fake-content v-for="num in 10" :key="num">{{ num }}</fake-content>
             </template>
             <template v-slot:right>
-                <div class="right-content">
+                <div class="right-content" style="width: 650px">
                     <fake-content v-for="num in 20" :key="num" height="200px">{{ num }}</fake-content>
                 </div>
             </template>
         </lay-two-columns>
 
-        <p>4.使用overflow属性值为hidden时,内容超出自动隐藏</p>
+        <h3>4.使用overflow属性值为hidden时,内容超出自动隐藏</h3>
         <pre>
             <code class="language-js" v-html="getCode(code4)">
             </code>
         </pre>
         <p>效果:</p>
-        <lay-two-columns class="test-box" fix="left" width="200px" height="500px" overflow="hidden">
+        <lay-two-columns class="test-box" fix="left" width="10rem" height="500px" overflow="hidden">
             <template v-slot:left>
                 <fake-content v-for="num in 10" :key="num">{{ num }}</fake-content>
             </template>
@@ -72,13 +72,13 @@
         <hr/>
 
         <h1>右列固定,左列自适应</h1>
-        <p>5.指定fix属性,开启左列固定还是右列固定</p>
+        <h3>5.指定fix属性,开启左列固定还是右列固定</h3>
         <pre>
             <code class="language-js" v-html="getCode(code5)">
             </code>
         </pre>
         <p>效果:</p>
-        <lay-two-columns class="test-box" fix="right" width="200px">
+        <lay-two-columns class="test-box" fix="right" width="10em">
             <template v-slot:left>
                 <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
             </template>
@@ -89,7 +89,7 @@
             </template>
         </lay-two-columns>
 
-        <p>6.给定高度,内容超出自动出现滚动条(默认使用自定义滚动条)</p>
+        <h3>6.给定高度,内容超出自动出现滚动条(默认使用自定义滚动条)</h3>
         <pre>
             <code class="language-js" v-html="getCode(code6)">
             </code>
@@ -106,7 +106,7 @@
             </template>
         </lay-two-columns>
 
-        <p>7.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)</p>
+        <h3>7.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)</h3>
         <pre>
             <code class="language-js" v-html="getCode(code7)">
             </code>
@@ -123,7 +123,7 @@
             </template>
         </lay-two-columns>
 
-        <p>8.使用overflow属性值为hidden时,内容超出自动隐藏</p>
+        <h3>8.使用overflow属性值为hidden时,内容超出自动隐藏</h3>
         <pre>
             <code class="language-js" v-html="getCode(code8)">
             </code>
@@ -140,7 +140,7 @@
             </template>
         </lay-two-columns>
 
-        <p>9.使用leftStyle和rightStyle属性给左列容器和右列容器添加样式</p>
+        <h3>9.使用leftStyle和rightStyle属性给左列容器和右列容器添加样式</h3>
         <pre>
             <code class="language-js" v-html="getCode(code9)">
             </code>
@@ -157,7 +157,7 @@
             </template>
         </lay-two-columns>
 
-        <p>10.使用leftClass和rightClass属性给左列容器和右列容器添加css类名</p>
+        <h3>10.使用leftClass和rightClass属性给左列容器和右列容器添加css类名</h3>
         <pre>
             <code class="language-js" v-html="getCode(code10)">
             </code>
@@ -220,7 +220,7 @@
                 `,
 
                 code2: `
-                    <lay-two-columns fix="left" width="200px" height="500px">
+                    <lay-two-columns fix="left" width="200%" height="500px">
                         <template v-slot:left>
                             ...
                         </template>
@@ -238,7 +238,7 @@
                 code3: `
                     <lay-two-columns 
                         fix="left" 
-                        width="200px" 
+                        width="25%" 
                         height="500px" 
                         nativeScrollbar
                     >
@@ -259,7 +259,7 @@
                 code4: `
                     <lay-two-columns 
                         fix="left" 
-                        width="200px" 
+                        width="10rem" 
                         height="500px" 
                         nativeScrollbar
                         overflow="hidden"
@@ -281,7 +281,7 @@
                 code5: `
                     <lay-two-columns 
                         fix="right" 
-                        width="200px"
+                        width="10em"
                     >
                         <template v-slot:left>
                             ...
@@ -365,10 +365,10 @@
 
                     属性说明:
 
-                    leftStyle属性: 类型Object {}; (默认值: {})
+                    leftStyle属性: 类型[Object, Array]; (默认值: {})
                         该属性会作用在左列容器上
 
-                    rightStyle属性: 类型Object {}; (默认值: {})
+                    rightStyle属性: 类型[Object, Array]; (默认值: {})
                         该属性会作用在右列容器上
                 `,
 
@@ -391,10 +391,10 @@
 
                     属性说明:
 
-                    leftClass属性: 类型String ''; (默认值: '')
+                    leftClass属性: 类型[String, Object, Array]; (默认值: '')
                         该属性会作用在左列容器上
 
-                    rightClass属性: 类型String''; (默认值: '')
+                    rightClass属性: 类型[String, Object, Array]; (默认值: '')
                         该属性会作用在右列容器上
                 `,
 
@@ -408,32 +408,32 @@
                             type: Boolean,
                             default: false
                         },
-                        width: { // .left/.right容器的宽度
+                        width: { // left/right容器的宽度
                             type: String,
                             default: '0px'
                         },
-                        height: { // .left和.right容器的高度
+                        height: { // left和right容器的高度
                             type: String,
                             default: 'auto'
                         },
-                        overflow: { // .left和.right容器的滚动条是否出现
+                        overflow: { // left和right容器的滚动条是否出现
                             type: String,
                             default: 'auto'
                         },
-                        leftStyle: { // .left容器style样式
-                            type: [Object],
+                        leftStyle: { // left容器style样式
+                            type: [Object, Array],
                             default: () => {}
                         },
                         leftClass: { // left容器class样式类
-                            type: [String],
+                            type: [String, Object, Array],
                             default: ''
                         },
-                        rightStyle: { // .right容器style样式
-                            type: [Object],
+                        rightStyle: { // right容器style样式
+                            type: [Object, Array],
                             default: () => {}
                         },
                         rightClass: { // right容器class样式类
-                            type: [String],
+                            type: [String, Object, Array],
                             default: ''
                         }
                     }

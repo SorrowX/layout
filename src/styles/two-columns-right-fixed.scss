@@ -2,7 +2,7 @@
 @import './mixins/utils.scss';
 
 /* 使用float+overflow */
-@include b(right-column-fixed) {
+@include b(right-fix) {
     @include utils-clearfix;
 
     // padding-left: 100px; /* calc */

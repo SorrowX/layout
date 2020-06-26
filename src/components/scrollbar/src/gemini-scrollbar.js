@@ -418,6 +418,6 @@
   if (typeof exports === 'object') {
     module.exports = { GeminiScrollbar, CLASSNAMES };
   } else {
-    window.GeminiScrollbar = GeminiScrollbar;
+    window.GeminiScrollbar = { GeminiScrollbar, CLASSNAMES };
   }
 })();

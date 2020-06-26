@@ -1,7 +1,7 @@
-import TwoColumns from './two-columns.vue'
+import LayTwoColumns from './src/two-columns.vue'
 
-TwoColumns.install = function(Vue) {
-    Vue.component(TwoColumns.name, TwoColumns)
+LayTwoColumns.install = function(Vue) {
+    Vue.component(LayTwoColumns.name, LayTwoColumns)
 }
 
-export default TwoColumns
+export default LayTwoColumns

@@ -1,5 +1,9 @@
 <template>
-    <component class="three-columns" :is="curComponent" v-bind="$props">
+    <component 
+        class="lay-three-columns" 
+        :is="curComponent" 
+        v-bind="$props"
+    >
         <template v-slot:left>
             <slot name="left"></slot>
         </template>
@@ -13,7 +17,7 @@
 </template>
 
 <script>
-    import threeColumnsProps from '@/mixins/three-columns-props'
+    import threeColumnsProps from '@/mixins/three-columns/three-columns-props'
     import RightAdapt from './right-adapt.vue'
     import LeftAdapt from './left-adapt.vue'
     import CenterAdapt from './center-adapt.vue'
@@ -29,11 +33,11 @@
         },
         created() {
             this.curComponent = 
-               this.adapt === 'left'
-                   ? 'LeftAdapt'
-                   : this.adapt === 'right'
-                        ? 'RightAdapt'
-                        : 'CenterAdapt'
+               this.adapt === 'right'
+                   ? 'RightAdapt'
+                   : this.adapt === 'center'
+                        ? 'CenterAdapt'
+                        : 'LeftAdapt'
         }
     }
 </script>

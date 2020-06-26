@@ -1,7 +1,7 @@
-import ThreeColumns from './three-columns'
+import LayThreeColumns from './src/three-columns.vue'
 
-ThreeColumns.install = function(Vue) {
-    Vue.component(ThreeColumns.name, ThreeColumns)
+LayThreeColumns.install = function(Vue) {
+    Vue.component(LayThreeColumns.name, LayThreeColumns)
 }
 
-export default ThreeColumns
+export default LayThreeColumns

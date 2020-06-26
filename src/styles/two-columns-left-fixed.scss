@@ -1,13 +1,13 @@
 @import './mixins/mixins.scss';
 
 /* 使用float+overflow */
-@include b(left-column-fixed) {
+@include b(left-fix) {
     @include e(left) {
         // width: 200px; /* calc */
         float: left;
     }
 
     @include e(right) {
-        overflow: hidden; /*触发bfc达到自适应*/
+        overflow: hidden; /*hidden/auto触发bfc达到自适应*/
     }
 }
