@@ -9,7 +9,7 @@
         <p>效果:</p>
         <lay-scrollbar class="lay-scrollbar-box">
             <div class="conent">
-                <fake-content v-for="num in 10" :key="num" height="200px">{{ num }}</fake-content>
+                <fake-content v-for="num in 10" :key="num" height="450px">{{ num }}</fake-content>
             </div>
         </lay-scrollbar>
 
@@ -22,7 +22,7 @@
         <p>效果:</p>
         <lay-scrollbar class="lay-scrollbar-box2" autoshow>
             <div class="conent">
-                <fake-content v-for="num in 10" :key="num" height="200px">{{ num }}</fake-content>
+                <fake-content v-for="num in 10" :key="num" height="450px">{{ num }}</fake-content>
             </div>
         </lay-scrollbar>
 
@@ -35,7 +35,7 @@
         <p>效果:</p>
         <lay-scrollbar class="lay-scrollbar-box3" :minThumbSize="30">
             <div class="conent2">
-                <fake-content v-for="num in 10" :key="num" height="200px">{{ num }}</fake-content>
+                <fake-content v-for="num in 10" :key="num" height="450px">{{ num }}</fake-content>
             </div>
         </lay-scrollbar>
 
@@ -47,7 +47,7 @@
         <p>效果:</p>
         <lay-scrollbar style="height: 400px; overflow:auto;" native>
             <div class="conent2">
-                <fake-content v-for="num in 10" :key="num" height="200px">{{ num }}</fake-content>
+                <fake-content v-for="num in 10" :key="num" height="450px">{{ num }}</fake-content>
             </div>
         </lay-scrollbar>
 
@@ -74,7 +74,7 @@
                 testStyle2: [ {color: 'red', 'font-size': '16px'}, { background: '#000' } ],
                 code1: `
                     <template>
-                        <lay-scrollbar style="width: 200px; height: 400px;">
+                        <lay-scrollbar style="width: 450px; height: 400px;">
                             ...
                         </lay-scrollbar>
                     </template>
@@ -84,7 +84,7 @@
                 code2: `
                     <template>
                         <lay-scrollbar 
-                            style="width: 200px; height: 400px;"
+                            style="width: 450px; height: 400px;"
                             class="lay-scrollbar-box2"
                             autoshow
                         >
@@ -118,7 +118,7 @@
                 code3: `
                     <template>
                         <lay-scrollbar 
-                            style="width: 200px; height: 400px;"
+                            style="width: 450px; height: 400px;"
                             class="lay-scrollbar-box3"
                             :onResize="() => { }"
                             :minThumbSize="30"
@@ -212,7 +212,7 @@
     }
     .conent {
         height: 600px;
-        width: 850px;
+        width: 1100px;
     }
     .conent2 {
         height: 600px;

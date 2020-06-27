@@ -46,7 +46,7 @@
             calcLeftStyle() {
                 return this.getStyle({
                     height: this.height,
-                    right: parseFloat(this.centerWidth) + parseFloat(this.rightWidth) + 'px',
+                    right: `calc(${this.centerWidth} + ${this.rightWidth})`,
                     overflow: this.overflow
                 }, this.leftStyle)
             },

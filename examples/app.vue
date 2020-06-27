@@ -60,7 +60,7 @@
         },
         computed: {
             calcWidth() {
-                return this.clientWidth <= 1100 ? '0px' : '300px'
+                return this.clientWidth <= 1300 ? '0px' : '300px'
             }
         },
 
@@ -165,7 +165,7 @@
 
     .content {
         margin-top: 50px;
-        width: 800px;
+        width: 1000px;
         margin: 0 auto;
     }
 
