@@ -1,28 +1,28 @@
 @import "./common/var.scss";
 @import "./mixins/mixins.scss";
 
-@mixin c($value: col-) {
-    @include b(#{$value}-0) {
+@mixin c($size: col) {
+    @include b(#{$size}-0) {
         display: none;
     }
     @for $i from 0 through 24 {
-        @include b($value) {
+        @include b($size) {
             &-#{$i} {
                 width: 1 / 24 * $i * 100%; 
             }
         }
-        @include b(#{$value}-offset) {
+        @include b(#{$size}-offset) {
             &-#{$i} {
                 margin-left: 1 / 24 * $i * 100%; 
             }
         }
-        @include b(#{$value}-pull) {
+        @include b(#{$size}-pull) {
             &-#{$i} {
                 position: relative;
                 right: 1 / 24 * $i * 100%; 
             }
         }
-        @include b(#{$value}-push) {
+        @include b(#{$size}-push) {
             &-#{$i} {
                 position: relative;
                 left: 1 / 24 * $i * 100%; 
@@ -38,6 +38,7 @@
 
 $map: (
   'default': 'col',
+  'xs': 'col-xs',
   'sm' : 'col-sm',
   'md' : 'col-md',
   'lg' : 'col-lg',
