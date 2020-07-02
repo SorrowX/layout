@@ -1,0 +1,12 @@
+@import "common/var";
+@import "mixins/mixins";
+
+.hidden {
+    @each $key,$value in $--breakpoints-spec {
+        &-#{$key} {
+            @include res($key, $--breakpoints-spec) {
+                display: none !important;
+            }
+        }
+    }
+}

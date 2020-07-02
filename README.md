@@ -12,12 +12,10 @@
 新增LayThreeColumns组件
 ```
 
-#### 使用姿势
-<lay-scrollbar :native="false" :autoshow="false" >
-    <div class="content">
-        内容
-    </div>
-</lay-scrollbar>
+### 2020/7/2
+``` bash
+新增LayRow组件和LayCol组件
+```
 
 #### Build Setup
 

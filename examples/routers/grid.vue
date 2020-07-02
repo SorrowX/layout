@@ -83,34 +83,72 @@
             <lay-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="grid-content"></div></lay-col>
         </lay-row> -->
 
-        <lay-row :gutter="10">
+        <!-- <lay-row :gutter="10">
             <lay-col
                 :xs="24"
-                :sm="11" 
-                :md="7"
+                :sm="12" 
+                :md="8"
+                :lg="6"
             >
-                <div class="grid-content"></div>
+                <div class="grid-content">1</div>
             </lay-col>
             <lay-col
-                :xs="0"
-                :sm="0"
-                :md="{ span: 6, offset: 2 }"
+                :xs="24"
+                class="hidden-sm-only"
+                :md="8"
+                :lg="6"
             >
-                <div class="grid-content"></div>
-            </lay-col>
-            <lay-col 
-                :xs="0"
-                :sm="0" 
-                :md="{ span: 0 }"
-            >
-                <div class="grid-content"></div>
+                <div class="grid-content">2</div>
             </lay-col>
             <lay-col
-                :xs="0"
-                :sm="{ span: 11, offset: 2}" 
-                :md="{ span: 7, offset: 2 }"
+                :xs="24"
+                class="hidden-sm-only hidden-md-only"
+                :lg="6"
             >
-                <div class="grid-content"></div>
+                <div class="grid-content">3</div>
+            </lay-col>
+            <lay-col
+                :xs="24"
+                :sm="12" 
+                :md="8"
+                :lg="6"
+            >
+                <div class="grid-content">4</div>
+            </lay-col>
+        </lay-row> -->
+
+        <lay-row :gutter="10">
+            <lay-col
+                :xs="{ span: 24 }"
+                :sm="{ span: 12 }" 
+                :md="8"
+                :lg="6"
+            >
+                <div class="grid-content">1</div>
+            </lay-col>
+            <lay-col
+                :xs="{ span: 24 }"
+                :sm="{ span: 12 }"
+                :md="8"
+                :lg="6"
+            >
+                <div class="grid-content">2</div>
+            </lay-col>
+            <lay-col
+                :xs="{ span: 24 }"
+                :sm="{ span: 12 }"
+                :md="8"
+                :lg="6"
+            >
+                <div class="grid-content">3</div>
+            </lay-col>
+            <lay-col
+                :xs="{ span: 24 }"
+                :sm="{ span: 12 }"
+                :md="24"
+                :lg="6"
+            >
+                <div class="grid-content">4</div>
             </lay-col>
         </lay-row>
     </div>
@@ -148,6 +186,8 @@
     .grid-content {
         height: 36px;
         border: 1px solid rebeccapurple;
+        text-align: center;
+        line-height: 36px;
     }
     .row-bg {
         padding: 10px 0;

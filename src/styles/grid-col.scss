@@ -36,16 +36,7 @@
     box-sizing: border-box;
 }
 
-$map: (
-  'default': 'col',
-  'xs': 'col-xs',
-  'sm' : 'col-sm',
-  'md' : 'col-md',
-  'lg' : 'col-lg',
-  'xl' : 'col-xl'
-);
-
-@each $key,$value in $map {
+@each $key,$value in $--breakpoints-map {
     @if $key == default {
         @include c($value)
     } @else {
