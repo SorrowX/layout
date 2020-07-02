@@ -33,12 +33,12 @@
                             <li><router-link to="/two-columns4">水平垂直居中</router-link></li>
                             <li><router-link to="/two-columns">两列布局</router-link></li>
                             <li><router-link to="/three-columns">三列布局</router-link></li>
-                            <li><router-link to="/two-columns7">多列布局</router-link></li>
+                            <li><router-link to="/grid">栅格布局</router-link></li>
                         </ul>
                     </div>
                 </template>
                 <template v-slot:right>
-                    <div class="content">
+                    <div class="content" :style="contentStyle">
                         <keep-alive>
                             <router-view></router-view>
                         </keep-alive>
@@ -61,6 +61,11 @@
         computed: {
             calcWidth() {
                 return this.clientWidth <= 1300 ? '0px' : '300px'
+            },
+
+            contentStyle() {
+                let isGrid = this.$route.path == '/grid'
+                return isGrid ? { width: 'auto' } : { width: '1000px' }
             }
         },
 

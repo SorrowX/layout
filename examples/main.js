@@ -31,6 +31,10 @@ const router = new VueRouter({
             path: '/three-columns',
             component: (resolve) => require(['./routers/three-columns.vue'], resolve)
         },
+        {
+            path: '/grid',
+            component: (resolve) => require(['./routers/grid.vue'], resolve)
+        },
     ]
 })
 
