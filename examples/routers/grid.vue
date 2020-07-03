@@ -159,7 +159,6 @@
             <lay-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1"><div class="grid-content">4</div></lay-col>
         </lay-row>
 
-        <!-- Ⅴ是5，Ⅵ是6，Ⅶ是7，Ⅷ是8，Ⅸ是9，Ⅹ是10。 -->
         <p>Ⅱ. 在不同的屏幕尺寸下隐藏类</p>
         <ul class="ul-style">
             <li>hidden-xs-only - 当视口在 xs 尺寸时隐藏 <span class="red-text">@media only screen and (max-width: 767px)</span></li>
@@ -216,7 +215,7 @@
             </lay-col>
         </lay-row>
 
-        <p>Ⅲ. 使用对象的形式</p>
+        <p>Ⅲ. 使用对象的形式 对象的key有span pull push offset这4个属性</p>
         <lay-row :gutter="10">
             <lay-col
                 :xs="{ span: 24 }"
@@ -250,6 +249,13 @@
             >
                 <div class="grid-content">4</div>
             </lay-col>
+        </lay-row>
+
+        <p>Ⅳ. span pull push offset 属性可以通过内嵌到 xs sm md lg 属性中来使用。其中 :xs="6" 相当于 :xs="{ span: 6 }"。</p>
+        <lay-row>
+            <lay-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }"><div class="grid-content">1</div></lay-col>
+            <lay-col :xs="{ span: 11, offset: 1 }" :lg="{ span: 6, offset: 2 }"><div class="grid-content">2</div></lay-col>
+            <lay-col :xs="{ span: 5, offset: 1 }" :lg="{ span: 6, offset: 2 }"><div class="grid-content">3</div></lay-col>
         </lay-row>
 
         <h3>lay-row 组件所有属性</h3>
@@ -420,7 +426,7 @@
 <style lang="scss" scoped>
     .grid-content {
         height: 36px;
-        border: 1px solid rebeccapurple;
+        border: 1px solid #ccc;
         text-align: center;
         line-height: 36px;
         overflow: hidden;
