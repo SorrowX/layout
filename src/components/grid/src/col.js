@@ -3,19 +3,19 @@ export default {
     name: 'LayCol',
     inject: ['row'],
     props: {
-        span: {
+        span: { // 项目宽度的占比
             type: Number,
             default: 24
         },
-        push: Number,
-        pull: Number,
-        offset: Number,
+        push: Number, // 向右偏移
+        pull: Number, // 向左偏移
+        offset: Number, // 向右偏移
         xs: [Number, Object],
         sm: [Number, Object],
         md: [Number, Object],
         lg: [Number, Object],
         xl: [Number, Object],
-        tag: {
+        tag: { // 自定义标签
             type: String,
             default: 'div'
         }
@@ -32,7 +32,7 @@ export default {
         colClass() {
             const prefix = 'lay-col', classList = [prefix]
             ;['span', 'offset', 'push', 'pull'].forEach(prop => {
-                const value = this['$props'][prop]
+                const value = this[prop]
                 if (value || value === 0) {
                     prop === 'span'
                         ? classList.push(`${prefix}-${value}`)
@@ -40,7 +40,7 @@ export default {
                 }
             })
             ;['xs', 'sm', 'md', 'lg', 'xl'].forEach(size => {
-                const value = this['$props'][size]
+                const value = this[size]
                 if (typeof value === 'number' && (value || value === 0)) {
                     classList.push(`${prefix}-${size}-${value}`)
                 } else if (isObject(value)) {

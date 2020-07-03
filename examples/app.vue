@@ -60,12 +60,12 @@
         },
         computed: {
             calcWidth() {
-                return this.clientWidth <= 1300 ? '0px' : '300px'
+                return this.clientWidth <= 1300 ? '0px' : '280px'
             },
 
             contentStyle() {
                 let isGrid = this.$route.path == '/grid'
-                return isGrid ? { width: 'auto' } : { width: '1000px' }
+                return isGrid ? { width: 'auto', padding: '0 50px 40px 50px' } : { width: '1000px', padding: '0' }
             }
         },
 

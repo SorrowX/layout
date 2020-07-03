@@ -6,20 +6,20 @@ export default {
         }
     },
     props: {
-        type: String, // flex
-        gutter: {
+        type: String, // flex 开启弹性布局
+        gutter: { // 项目之间的间隔
             type: Number,
             default: 0
         },
-        justify: {
+        justify: { // flex容器的justify-content属性
             type: String,
             default: 'start' // start/end/center/space-around/space-between/space-evenly
         },
-        align: {
+        align: { // flex容器的align-items属性
             type: String,
             default: 'top' // top/middle/bottom
         },
-        tag: {
+        tag: { // 自定义标签
             type: String,
             default: 'div'
         }
