@@ -1,7 +1,8 @@
 <template>
     <div 
+        ref="parent"
         class="lay-left-adapt" 
-        :style="parentStyle"
+        :style="{ height: this.height }"
     >
         <div 
             ref="left" 
@@ -9,7 +10,7 @@
             :class="leftClass" 
             :style="calcLeftStyle"
         >
-            <lay-scrollbar :native="native">
+            <lay-scrollbar ref="leftLayScrollbar" :native="native">
                 <slot name="left"></slot>
             </lay-scrollbar>
         </div>
@@ -19,7 +20,7 @@
             :class="centerClass" 
             :style="calcCenterStyle"
         >
-            <lay-scrollbar :native="native">
+            <lay-scrollbar ref="centerLayScrollbar" :native="native">
                 <slot name="center"></slot>
             </lay-scrollbar>
         </div>
@@ -29,7 +30,7 @@
             :class="rightClass" 
             :style="calcRightStyle"
         >
-            <lay-scrollbar :native="native">
+            <lay-scrollbar ref="rightLayScrollbar" :native="native">
                 <slot name="right"></slot>
             </lay-scrollbar>
         </div>
@@ -65,9 +66,6 @@
                     overflow: this.overflow
                 }, this.rightStyle)
             }
-        },
-        mounted() {
-            this.parentStyle = { height: this.getMaxHeight() + 'px' }
         }
     }
 </script>

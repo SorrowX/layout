@@ -5,15 +5,15 @@ import threeColumnsProps from './three-columns-props'
 export default {
     mixins: [ common, threeColumnsProps ],
     components: { LayScrollbar },
-    data() {
-        return {
-            parentStyle: {}
-        }
-    },
     methods: {
-        getMaxHeight() {
-            let refs = this.$refs
-            return Math.max.apply(null, Object.keys(refs).map(key => refs[key]['offsetHeight']))
+        updateScrollbar() {
+            const refs = this.$refs
+            const scrollbars = [
+                refs.leftLayScrollbar,
+                refs.centerLayScrollbar,
+                refs.rightLayScrollbar
+            ]
+            scrollbars.forEach(c => c.updateScrollbar())
         }
     }
 }

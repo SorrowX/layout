@@ -3,6 +3,7 @@
         class="lay-three-columns" 
         :is="curComponent" 
         v-bind="$props"
+        ref="comp"
     >
         <template v-slot:left>
             <slot name="left"></slot>
@@ -38,6 +39,12 @@
                    : this.adapt === 'center'
                         ? 'CenterAdapt'
                         : 'LeftAdapt'
+        },
+        methods: {
+            updateScrollbar() {
+                const comp = this.$refs.comp
+                comp && comp.updateScrollbar()
+            }
         }
     }
 </script>
