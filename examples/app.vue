@@ -28,9 +28,7 @@
                     <div class="aside">
                         <ul>
                             <li><router-link to="/scrollbar">滚动条</router-link></li>
-                            <li><router-link to="/two-columns2">水平居中</router-link></li>
-                            <li><router-link to="/two-columns3">垂直居中</router-link></li>
-                            <li><router-link to="/two-columns4">水平垂直居中</router-link></li>
+                            <li><router-link to="/development">居中布局</router-link></li>
                             <li><router-link to="/two-columns">两列布局</router-link></li>
                             <li><router-link to="/three-columns">三列布局</router-link></li>
                             <li><router-link to="/grid">栅格布局</router-link></li>

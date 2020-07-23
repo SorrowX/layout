@@ -2,7 +2,8 @@
     <component 
         class="lay-two-columns"
         :is="curComponent" 
-        v-bind="$props" 
+        v-bind="$props"
+        ref="comp"
     >
         <template v-slot:left>
             <slot name="left"></slot>
@@ -28,6 +29,12 @@
         data() {
             return {
                 curComponent: ''
+            }
+        },
+        methods: {
+            updateScrollbar() {
+                const comp = this.$refs.comp
+                comp && comp.updateScrollbar()
             }
         },
         created() {

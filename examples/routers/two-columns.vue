@@ -174,10 +174,27 @@
             </template>
         </lay-two-columns>
 
+        <h3>11.自定义滚动条是否自动显示</h3>
+        <pre>
+            <code class="language-js" v-html="getCode(code11)">
+            </code>
+        </pre>
+        <p>效果:</p>
+        <lay-two-columns class="test-box" fix="right" width="200px" height="500px" leftClass="left-class" rightClass="right-class" autoshow>
+            <template v-slot:left>
+                <fake-content v-for="num in 10" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <div class="right-content">
+                    <fake-content v-for="num in 20" :key="num" height="200px">{{ num }}</fake-content>
+                </div>
+            </template>
+        </lay-two-columns>
+
 
         <p>lay-two-columns 所有属性</p>
         <pre>
-            <code class="language-js" v-html="getCode(code11)">
+            <code class="language-js" v-html="getCode(code12)">
             </code>
         </pre>
     </div>
@@ -399,12 +416,40 @@
                 `,
 
                 code11: `
+                    <lay-two-columns 
+                        fix="right" 
+                        width="200px"
+                        height="500px"
+                        nativeScrollbar
+                        leftClass="left-class" 
+                        rightClass="right-class"
+                        autoshow
+                    >
+                        <template v-slot:left>
+                            ...
+                        </template>
+                        <template v-slot:right>
+                            ...
+                        </template>
+                    </lay-two-columns>
+
+                    属性说明:
+                        autoshow属性: 类型Boolean; (默认值: false)
+                            自定义滚动条是否自动显示
+                            
+                `,
+
+                code12: `
                     props: {
                         fix: { // 左边定宽/右边定宽
                             type: String,
                             default: 'left' // left/right
                         },
                         nativeScrollbar: { // 是否使用原生滚动条
+                            type: Boolean,
+                            default: false
+                        },
+                        autoshow: { // 滚动条是否自动显示
                             type: Boolean,
                             default: false
                         },

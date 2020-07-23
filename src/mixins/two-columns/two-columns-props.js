@@ -8,6 +8,10 @@ export default {
             type: Boolean,
             default: false
         },
+        autoshow: { // 滚动条是否自动显示
+            type: Boolean,
+            default: false
+        },
         width: { // left/right容器的宽度
             type: String,
             default: '0px'

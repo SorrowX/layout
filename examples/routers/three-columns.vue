@@ -276,9 +276,34 @@
             </template>
         </lay-three-columns> -->
 
-        <p>lay-three-columns 组件所有属性</p>
+        <h1>滚动条是否自动显示</h1>
+        <h3>8. 给定autoshow, 滚动条是否自动显示</h3>
         <pre>
             <code class="language-js" v-html="getCode(code8)">
+            </code>
+        </pre>
+        <p>效果:</p>
+        <lay-three-columns 
+            adapt="center" 
+            leftWidth="150px" 
+            rightWidth="150px"
+            height="500px"
+            autoshow
+        >
+            <template v-slot:left>
+                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:center>
+                <fake-content v-for="num in 7" :key="num">{{ num }}</fake-content>
+            </template>
+            <template v-slot:right>
+                <fake-content v-for="num in 9" :key="num">{{ num }}</fake-content>
+            </template>
+        </lay-three-columns>
+
+        <p>lay-three-columns 组件所有属性</p>
+        <pre>
+            <code class="language-js" v-html="getCode(code9)">
             </code>
         </pre>
     </div>
@@ -497,12 +522,42 @@
                 `,
 
                 code8: `
+                    <template>
+                        <lay-three-columns 
+                            adapt="center" 
+                            leftWidth="150px" 
+                            rightWidth="150px"
+                            height="500px"
+                            autoshow
+                        >
+                            <template v-slot:left>
+                                ...
+                            </template>
+                            <template v-slot:center>
+                                ...
+                            </template>
+                            <template v-slot:right>
+                                ...
+                            </template>
+                        </lay-three-columns>
+                    </template>
+
+                    属性说明:
+                        autoshow属性: 类型Boolean; (默认值: false)
+                            自定义滚动条是否自动显示
+                `,
+
+                code9: `
                     props: {
                         adapt: { // 自适应
                             type: String,
                             default: 'right' // left/center/right
                         },
                         nativeScrollbar: { // 是否使用原生滚动条
+                            type: Boolean,
+                            default: false
+                        },
+                        autoshow: { // 滚动条是否自动显示
                             type: Boolean,
                             default: false
                         },
