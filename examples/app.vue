@@ -57,10 +57,16 @@
             }
         },
         computed: {
-            calcWidth() {
-                return this.clientWidth <= 1300 ? '0px' : '280px'
+            isSmallScreen() { // 小于等于1366
+                return this.clientWidth <= 1366 ? true : false
             },
-
+            calcWidth() {
+                if (this.isSmallScreen) {
+                    return this.clientWidth <= 1200 ? '0px' : '180px'
+                } else {
+                    return this.clientWidth <= 1300 ? '0px' : '280px'
+                }
+            },
             contentStyle() {
                 let isGrid = this.$route.path == '/grid'
                 return isGrid ? { width: 'auto', padding: '0 50px 40px 50px' } : { width: '1000px', padding: '0' }
@@ -136,6 +142,7 @@
     }
     .main-left-class {
         border-right: 1px solid #dcdfe6;
+        box-shadow: 1px 0px 2px rgba(26,26,26,0.1);
     }
     .aside {
         margin-top: 20px;
@@ -168,10 +175,9 @@
 
     .content {
         margin-top: 50px;
-        width: 1000px;
+        width: 980px;
         margin: 0 auto;
     }
-
 
 
     /**
