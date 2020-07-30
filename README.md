@@ -17,6 +17,12 @@
 新增LayRow组件和LayCol组件
 ```
 
+### 2020/7/30
+``` bash
+新增utils工具函数
+新增LayCollapseTransition组件
+```
+
 #### Build Setup
 
 ``` bash

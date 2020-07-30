@@ -6,7 +6,6 @@ import Layout from '../src/index'
 
 Vue.use(VueRouter)
 Vue.use(window.Layout = Layout)
-console.log(123, Layout)
 
 // 开启debug模式
 Vue.config.debug = true
@@ -36,6 +35,10 @@ const router = new VueRouter({
             path: '/grid',
             component: (resolve) => require(['./routers/grid.vue'], resolve)
         },
+        {
+            path: '/collapse-transition',
+            component: (resolve) => require(['./routers/collapse-transition.vue'], resolve)
+        }
     ]
 })
 

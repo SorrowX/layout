@@ -1,8 +1,9 @@
+import utils from './utils/index'
 import LayScrollbar from './components/scrollbar'
 import LayTwoColumns from './components/two-columns'
 import LayThreeColumns from './components/three-columns'
 import LayGrid from './components/grid'
-import utils from './utils/index'
+import LayCollapseTransition from './components/transitions'
 
 const { LayRow, LayCol } = LayGrid
 
@@ -11,7 +12,8 @@ const components = {
     LayScrollbar,
     LayThreeColumns,
     LayRow,
-    LayCol
+    LayCol,
+    LayCollapseTransition
 }
 
 const install = function(Vue, opts = {}) {
