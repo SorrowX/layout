@@ -1,5 +1,5 @@
 import LayScrollbar from '@/components/scrollbar'
-import { isArray, isObject } from '@/utils/utils'
+import { isArray, isObject } from '@/utils/util'
 
 export default {
     components: { LayScrollbar },

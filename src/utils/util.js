@@ -20,7 +20,7 @@ export function extend(to, _from) {
 }
   
 export function toObject(arr) {
-    var res = {}
+    let res = {}
     for (let i = 0; i < arr.length; i++) {
         if (arr[i]) {
             extend(res, arr[i])
@@ -46,7 +46,7 @@ export function isHtmlElement(node) {
 }
 
 export const isFunction = (functionToCheck) => {
-    var getType = {}
+    let getType = {}
     return functionToCheck && getType.toString.call(functionToCheck) === '[object Function]'
 }
 
@@ -56,4 +56,18 @@ export const isUndefined = (val)=> {
 
 export const isDefined = (val) => {
     return val !== undefined && val !== null
+}
+
+export const clone = function(value) {
+    if (Array.isArray(value)) {
+        return value.map(clone)
+    } else if (value && typeof value === 'object') {
+        const res = {}
+        for (const key in value) {
+            res[key] = clone(value[key])
+        }
+        return res
+    } else {
+        return value
+    }
 }

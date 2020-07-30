@@ -1,4 +1,4 @@
-import { isObject } from '@/utils/utils'
+import { isObject } from '@/utils/util'
 export default {
     name: 'LayCol',
     inject: ['row'],

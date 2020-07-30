@@ -2,6 +2,7 @@ import LayScrollbar from './components/scrollbar'
 import LayTwoColumns from './components/two-columns'
 import LayThreeColumns from './components/three-columns'
 import LayGrid from './components/grid'
+import utils from './utils/index'
 
 const { LayRow, LayCol } = LayGrid
 
@@ -25,9 +26,26 @@ if (typeof window !== 'undefined' && window.Vue) {
     install(window.Vue)
 }
 
-const API = {
+const Layout = {
     install,
-    ...components
+    ...components,
+    utils
+}
+const has = (target, key) => {
+    return Reflect.has(target, key, target)
 }
 
-module.exports.default = module.exports = API
+export default new Proxy(Layout, {
+    get(target, key, receiver) {
+        if (!target[key] && has(Layout.utils, key)) {
+            return Layout.utils[key]
+        }
+        return Reflect.get(target, key, receiver)
+    },
+    set(target, key, value, receiver) {
+        if (target[key]) {
+            return console.error(`${key} already exists, cannot set value for Layout.`)
+        }
+        return Reflect.set(target, key, value, receiver)
+    }
+})

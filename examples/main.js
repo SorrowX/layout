@@ -5,7 +5,8 @@ import App from './app.vue'
 import Layout from '../src/index'
 
 Vue.use(VueRouter)
-Vue.use(Layout)
+Vue.use(window.Layout = Layout)
+console.log(123, Layout)
 
 // 开启debug模式
 Vue.config.debug = true
