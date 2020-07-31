@@ -38,6 +38,10 @@ const router = new VueRouter({
         {
             path: '/collapse-transition',
             component: (resolve) => require(['./routers/collapse-transition.vue'], resolve)
+        },
+        {
+            path: '/collapse',
+            component: (resolve) => require(['./routers/collapse.vue'], resolve)
         }
     ]
 })

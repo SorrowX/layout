@@ -1,0 +1,76 @@
+@import "common/var";
+@import './mixins/mixins.scss';
+
+@include b(collapse) {
+    border-top: 1px solid $--collapse-border-color;
+}
+
+@include b(collapse-item) {
+    @include e(header) {
+        height: 48px;
+        line-height: 48px;
+        background-color: #FFFFFF;
+        color: #303133;
+        cursor: pointer;
+        border-bottom: 1px solid $--collapse-border-color;
+        font-size: 13px;
+        font-weight: 500;
+        transition: border-bottom-color .3s;
+        outline: none;
+        padding-left: 28px;
+
+        @include when(active) {
+            border-bottom-color: transparent;
+        }
+
+        @include when(custom-header) {
+            padding-left: 0;
+        }
+
+        @include e(title) {
+            width: 100%;
+            height: 100%;
+            float: left;
+            margin-left: -28px;
+            overflow: hidden;
+        }
+
+        @include e(arrow) {
+            display: inline-block;
+            width: 10px;
+            height: 100%;
+            float: right;
+            margin: 0 8px;
+            transition: transform .3s;
+            font-weight: 300;
+            &:after {
+                content: '';
+                display: block;
+                width: 7px;
+                height: 7px;
+                border-right: 1px solid #888;
+                border-top: 1px solid #888;
+                transform: rotate(45deg);
+                margin-top: 20px;
+            }
+
+            @include when(active) {
+                transform: rotate(90deg);
+            }
+        }
+    }
+
+    @include e(wrap) {
+        will-change: 48px;
+    }
+
+    @include e(content) {
+        padding-bottom: 25px;
+        font-size: 13px;
+        color: #303133;
+        line-height: 1.769230769230769;
+        border-bottom: 1px solid $--collapse-border-color;
+    }
+
+    
+}

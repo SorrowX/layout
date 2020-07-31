@@ -4,8 +4,10 @@ import LayTwoColumns from './components/two-columns'
 import LayThreeColumns from './components/three-columns'
 import LayGrid from './components/grid'
 import LayCollapseTransition from './components/transitions'
+import Collapse from './components/collapse'
 
 const { LayRow, LayCol } = LayGrid
+const { LayCollapse, LayCollapseItem } = Collapse
 
 const components = {
     LayTwoColumns,
@@ -13,7 +15,9 @@ const components = {
     LayThreeColumns,
     LayRow,
     LayCol,
-    LayCollapseTransition
+    LayCollapseTransition,
+    LayCollapse,
+    LayCollapseItem
 }
 
 const install = function(Vue, opts = {}) {
@@ -37,7 +41,7 @@ const has = (target, key) => {
     return Reflect.has(target, key, target)
 }
 
-export default new Proxy(Layout, {
+export default Layout || new Proxy(Layout, {
     get(target, key, receiver) {
         if (!target[key] && has(Layout.utils, key)) {
             return Layout.utils[key]

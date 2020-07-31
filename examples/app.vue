@@ -32,6 +32,7 @@
                             <li><router-link to="/two-columns">两列布局</router-link></li>
                             <li><router-link to="/three-columns">三列布局</router-link></li>
                             <li><router-link to="/grid">栅格布局</router-link></li>
+                            <li><router-link to="/collapse">折叠面板</router-link></li>
                         </ul>
                     </div>
                 </template>
