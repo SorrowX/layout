@@ -12,13 +12,13 @@
                 <i class="lay-collapse-item__arrow" :class="activeClass"></i>
             </slot>
         </div>
-        <div class="lay-collapse-item__wrap">
-            <lay-collapse-transition>
-                <div class="lay-collapse-item__content" v-show="isActive">
+        <lay-collapse-transition>
+            <div class="lay-collapse-item__wrap" v-show="isActive">
+                <div class="lay-collapse-item__content">
                     <slot></slot>
                 </div>
-            </lay-collapse-transition>
-        </div>
+            </div>
+        </lay-collapse-transition>
     </div>
 </template>
 
