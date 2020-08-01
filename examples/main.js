@@ -20,6 +20,18 @@ const router = new VueRouter({
             redirect: '/two-columns'
         },
         {
+            path: '/introduce',
+            component: (resolve) => require(['./pages/introduce.vue'], resolve)
+        },
+        {
+            path: '/install',
+            component: (resolve) => require(['./pages/install.vue'], resolve)
+        },
+        {
+            path: '/utils',
+            component: (resolve) => require(['./pages/utils.vue'], resolve)
+        },
+        {
             path: '/scrollbar',
             component: (resolve) => require(['./routers/scrollbar.vue'], resolve)
         },
@@ -42,7 +54,11 @@ const router = new VueRouter({
         {
             path: '/collapse',
             component: (resolve) => require(['./routers/collapse.vue'], resolve)
-        }
+        },
+        {
+            path: '/center',
+            component: (resolve) => require(['./routers/center.vue'], resolve)
+        },
     ]
 })
 

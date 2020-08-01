@@ -1,6 +1,6 @@
 <template>
     <div class="lay-collapse-demo">
-        <lay-collapse v-model="activeNames" @change="handleChange" class="test">
+        <lay-collapse v-model="activeNames" @change="handleChange">
             <lay-collapse-item title="一致性 Consistency" name="1">
                 <!-- <template v-slot:header>
                     <div> 头部 </div>
@@ -28,7 +28,7 @@
 
         <div style="margin-bottom: 100px"></div>
         
-        <lay-collapse accordion v-model="activeNames1" @change="handleChange2" class="test">
+        <lay-collapse accordion v-model="activeNames1" @change="handleChange2">
             <lay-collapse-item title="一致性 Consistency" name="1">
                 <!-- <template v-slot:header>
                     <div> 头部 </div>

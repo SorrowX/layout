@@ -16,7 +16,7 @@
                             <a href="#">API 参考</a>
                         </li>
                         <li>
-                            <a href="#">GitHub</a>
+                            <a href="https://github.com/SorrowX/layout" target="_blank">GitHub</a>
                         </li>
                     </ul>
                 </template>
@@ -26,12 +26,23 @@
             <lay-two-columns class="two-columns" :width="calcWidth" height="100%" leftClass="main-left-class">
                 <template v-slot:left>
                     <div class="aside">
+                        <ul class="no-group-title">
+                            <li><router-link to="/introduce">介绍</router-link></li>
+                            <li><router-link to="/install">安装</router-link></li>
+                            <li><router-link to="/utils">工具类</router-link></li>
+                        </ul>
+
+                        <p class="group-title">布局组件</p>
                         <ul>
-                            <li><router-link to="/scrollbar">滚动条</router-link></li>
-                            <li><router-link to="/development">居中布局</router-link></li>
+                            <li><router-link to="/center">居中布局</router-link></li>
                             <li><router-link to="/two-columns">两列布局</router-link></li>
                             <li><router-link to="/three-columns">三列布局</router-link></li>
                             <li><router-link to="/grid">栅格布局</router-link></li>
+                        </ul>
+
+                        <p class="group-title">常用组件</p>
+                        <ul>
+                            <li><router-link to="/scrollbar">滚动条</router-link></li>
                             <li><router-link to="/collapse">折叠面板</router-link></li>
                         </ul>
                     </div>
@@ -58,19 +69,23 @@
             }
         },
         computed: {
-            isSmallScreen() { // 小于等于1366
-                return this.clientWidth <= 1366 ? true : false
+            isSmallScreen() { // 小于等于1200
+                return this.clientWidth <= 1200 ? true : false
             },
             calcWidth() {
                 if (this.isSmallScreen) {
-                    return this.clientWidth <= 1200 ? '0px' : '180px'
+                    return this.clientWidth <= 1000 ? '0px' : '220px'
                 } else {
-                    return this.clientWidth <= 1300 ? '0px' : '280px'
+                    return this.clientWidth <= 1200 ? '0px' : '280px'
                 }
             },
             contentStyle() {
                 let isGrid = this.$route.path == '/grid'
-                return isGrid ? { width: 'auto', padding: '0 50px 40px 50px' } : { width: '1000px', padding: '0' }
+                return isGrid 
+                    ? { width: 'auto', padding: '0 50px 40px 50px' } 
+                    : this.isSmallScreen
+                        ? { width: '700px', padding: '0' }
+                        : { width: '900px', padding: '0' }
             }
         },
 
@@ -147,8 +162,19 @@
     }
     .aside {
         margin-top: 20px;
+        .group-title {
+            font-size: 1.1em;
+            font-weight: 700;
+            padding: 0 1.5rem;
+            margin-top: .8rem;
+            margin-bottom: .5rem;
+        }
+        .no-group-title {
+            padding-left: 0;
+        }
         ul {
             list-style: none;
+            padding-left: 25px;
             li {
                 margin: 4px 0;
             }
