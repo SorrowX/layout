@@ -6,10 +6,12 @@
             @click="handlerClick"
         >
             <slot name="header">
-                <div class="lay-collapse-item__title">
+                <div class="lay-collapse-item__title lay-ellipsis">
                     <slot name="title">{{ title }}</slot>
                 </div>
-                <i class="lay-collapse-item__arrow" :class="activeClass"></i>
+                <div class="lay-collapse-item__arrow" :class="activeClass">
+                    <i class="lay-arrow-right"></i>
+                </div>
             </slot>
         </div>
         <lay-collapse-transition>
@@ -61,6 +63,7 @@
         },
         methods: {
             handlerClick() {
+                if (this.disabled) return
                 this.dispatch('lay-collapse', 'click-item', this)
             }
         }

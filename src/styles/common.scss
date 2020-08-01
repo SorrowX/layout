@@ -1,0 +1,52 @@
+@import "common/var";
+@import './mixins/mixins.scss';
+
+$--arrow-width: 7px;
+$--arrow-height: 7px;
+$--arrow-border-color: #888;
+
+@mixin arrow {
+    & {
+        display: inline-block;
+        transition: transform .3s;
+    }
+    &:after {
+        content: '';
+        display: inline-block;
+        width: $--arrow-width;
+        height: $--arrow-height;
+        border-right: 1px solid $--arrow-border-color;
+        border-top: 1px solid $--arrow-border-color;
+        @content
+    }
+}
+
+@include b(arrow-left) {
+    @include arrow {
+        transform: rotate(-135deg);
+    }
+}
+
+@include b(arrow-right) {
+    @include arrow {
+        transform: rotate(45deg);
+    }
+}
+
+@include b(arrow-up) {
+    @include arrow {
+        transform: rotate(-45deg);
+    }
+}
+
+@include b(arrow-down) {
+    @include arrow {
+        transform: rotate(135deg);
+    }
+}
+
+@include b(ellipsis) {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
