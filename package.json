@@ -18,7 +18,8 @@
       "build:style": "gulp --gulpfile build/build-style.js",
       "build:dev": "webpack --config build/webpack.build.dev.config.js",
       "build:prod": "webpack --config build/webpack.build.prod.config.js",
-      "build": "npm run build:style && npm run build:dev && npm run build:prod"
+      "build:docs": "webpack --config build/webpack.build.docs.js",
+      "build": "npm run build:style && npm run build:dev && npm run build:prod && npm run build:docs"
   },
   "repository": {
       "type": "git",
