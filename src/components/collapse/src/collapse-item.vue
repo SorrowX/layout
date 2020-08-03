@@ -2,7 +2,7 @@
     <div class="lay-collapse-item" :class="activeClass">
         <div 
             class="lay-collapse-item__header" 
-            :class="[activeClass, customHeaderClass]"
+            :class="[activeClass, customHeaderClass, disabledClass]"
             @click="handlerClick"
         >
             <slot name="header">
@@ -10,7 +10,7 @@
                     <slot name="title">{{ title }}</slot>
                 </div>
                 <div class="lay-collapse-item__arrow" :class="activeClass">
-                    <i class="lay-arrow-right"></i>
+                    <i class="lay-arrow-right" :class="disabledClass"></i>
                 </div>
             </slot>
         </div>
@@ -27,6 +27,7 @@
 <script>
     import LayCollapseTransition from '@/components/transitions'
     import emitter from '@/mixins/emitter'
+    import utils from '@/utils/index'
 
     export default {
         name: 'LayCollapseItem',
@@ -36,7 +37,7 @@
         props: {
             name: { // 唯一标志符
                 type: [Number, String],
-                default: ''
+                default: utils.getUUID()
             },
             title: { // 面板标题
                 type: String,
@@ -53,6 +54,9 @@
             },
             activeClass() {
                 return this.isActive ? 'is-active' : ''
+            },
+            disabledClass() {
+                return this.disabled ? 'is-disabled' : ''
             },
             hasHeaderSlot() {
                 return !!this.$slots.header

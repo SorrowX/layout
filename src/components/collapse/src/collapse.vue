@@ -40,7 +40,7 @@
                     activeNames = this.activeNames
                 if (this.accordion) {
                     const curName = Array.isArray(activeNames) ? activeNames[0] : activeNames
-                    this.setActiveNames(curName === name ? [] : [name])
+                    this.setActiveNames(name, curName === name ? [] : [name])
                 } else {
                     const names = activeNames.slice(0),
                         i = names.indexOf(name)
@@ -49,13 +49,13 @@
                     } else {
                         names.push(name)
                     }
-                    this.setActiveNames(names)
+                    this.setActiveNames(name, names)
                 }
             },
-            setActiveNames(names) {
+            setActiveNames(name, names) {
                 this.activeNames = names
                 this.$emit('input', names)
-                this.$emit('change', names)
+                this.$emit('change', name, names)
             }
         },
         created() {

@@ -23,9 +23,9 @@
 新增LayCollapseTransition组件
 ```
 
-### 2020/7/31
+### 2020/8/3
 ``` bash
-新增LayCollapse组件(有些小问题)
+新增LayCollapse组件
 ```
 
 #### Build Setup

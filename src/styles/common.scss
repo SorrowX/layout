@@ -9,6 +9,13 @@ $--arrow-border-color: #888;
     & {
         display: inline-block;
         transition: transform .3s;
+        @include when(disabled) {
+            &:after {
+                cursor: not-allowed;
+                border-right: 1px solid $--font-color-disabled-base;
+                border-top: 1px solid $--font-color-disabled-base;
+            }
+        }
     }
     &:after {
         content: '';

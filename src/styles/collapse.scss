@@ -10,7 +10,7 @@
         cursor: pointer;
         height: $--collapse-header-height;
         line-height: $--collapse-header-height;
-        color: #303133;
+        color: $--collapse-header-font-color;
         background-color: $--collapse-header-background-color;
         border-bottom: 1px solid $--collapse-border-color;
         font-size: $--collapse-header-font-size;
@@ -22,6 +22,11 @@
 
         @include when(active) {
             border-bottom-color: transparent;
+        }
+
+        @include when(disabled) {
+            cursor: not-allowed;
+            color: $--font-color-disabled-base;
         }
 
         @include when(custom-header) {

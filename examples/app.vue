@@ -23,7 +23,7 @@
             </lay-two-columns>
         </nav>
         <main class="main">
-            <lay-two-columns class="two-columns" :width="calcWidth" height="100%" leftClass="main-left-class">
+            <lay-two-columns class="two-columns" :width="calcWidth" height="100%" leftClass="main-left-class" ref="twoColumnsComp">
                 <template v-slot:left>
                     <div class="aside">
                         <ul class="no-group-title">
@@ -74,9 +74,9 @@
             },
             calcWidth() {
                 if (this.isSmallScreen) {
-                    return this.clientWidth <= 1000 ? '0px' : '220px'
+                    return this.clientWidth <= 1000 ? '0px' : '200px'
                 } else {
-                    return this.clientWidth <= 1200 ? '0px' : '280px'
+                    return this.clientWidth <= 1200 ? '0px' : '240px'
                 }
             },
             contentStyle() {
@@ -88,11 +88,18 @@
                         : { width: '900px', padding: '0' }
             }
         },
+        methods: {
+            updateScrollbar() {
+                this.$refs.twoColumnsComp.updateScrollbar()
+            }
+        },
 
         mounted() {
             window.onresize = () => {
                 this.clientWidth = document.body.clientWidth
             }
+
+            this.$root.$on('update-main-container-scrollbar', this.updateScrollbar)
         },
         beforeDestroy() {
             window.onresize = null
@@ -102,6 +109,13 @@
 
 <style lang="scss">
     @import "../src/styles/index.scss";
+
+    html,body {
+        font-family: Helvetica Neue,Helvetica,PingFang SC,Hiragino Sans GB,Microsoft YaHei,SimSun,sans-serif;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -webkit-tap-highlight-color: transparent;
+    }
     
     html,body,ul,li {
         margin: 0;
