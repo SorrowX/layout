@@ -42,8 +42,9 @@
 
                         <p class="group-title">常用组件</p>
                         <ul>
-                            <li><router-link to="/scrollbar">滚动条</router-link></li>
-                            <li><router-link to="/collapse">折叠面板</router-link></li>
+                            <li><router-link to="/scrollbar">Scrollbar 滚动条</router-link></li>
+                            <li><router-link to="/collapse">Collapse 折叠面板</router-link></li>
+                            <li><router-link to="/tree">Tree 树形控件</router-link></li>
                         </ul>
                     </div>
                 </template>
@@ -191,6 +192,7 @@
             padding-left: 25px;
             li {
                 margin: 4px 0;
+                font-size: 15px;
             }
             li a {
                 font-weight: 400;

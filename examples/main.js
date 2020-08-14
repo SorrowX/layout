@@ -59,6 +59,10 @@ const router = new VueRouter({
             path: '/center',
             component: (resolve) => require(['./routers/center.vue'], resolve)
         },
+        {
+            path: '/tree',
+            component: (resolve) => require(['./routers/tree.vue'], resolve)
+        }
     ]
 })
 

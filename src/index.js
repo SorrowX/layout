@@ -5,19 +5,21 @@ import LayThreeColumns from './components/three-columns'
 import LayGrid from './components/grid'
 import LayCollapseTransition from './components/transitions'
 import Collapse from './components/collapse'
+import LayTree from './components/tree'
 
 const { LayRow, LayCol } = LayGrid
 const { LayCollapse, LayCollapseItem } = Collapse
 
 const components = {
-    LayTwoColumns,
     LayScrollbar,
+    LayTwoColumns,
     LayThreeColumns,
     LayRow,
     LayCol,
     LayCollapseTransition,
     LayCollapse,
-    LayCollapseItem
+    LayCollapseItem,
+    LayTree
 }
 
 const install = function(Vue, opts = {}) {
