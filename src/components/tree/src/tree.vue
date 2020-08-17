@@ -1,16 +1,29 @@
 <template>
     <div role="tree" class="lay-tree">
-        <lay-tree-node></lay-tree-node>
+        <lay-tree-node
+            v-for="child in root.childNodes"
+            :key="getNodeKey(child)"
+            :node="child"
+            :props="props"
+            :render-after-expand="renderAfterExpand"
+            :show-checkbox="showCheckbox"
+            :render-content="renderContent"
+            @node-expand="handleNodeExpand"
+        >
+        </lay-tree-node>
     </div>
 </template>
 
 <script>
     import LayTreeNode from './tree-node'
     import TreeStore from './tree-store'
+    import { getNodeKey } from './util'
+    import Emitter from '@/mixins/emitter'
 
     export default {
         name: 'LayTree',
         components: { LayTreeNode },
+        mixins: [ Emitter ],
         props: {
             data: { // 展示数据
                 type: Array
@@ -80,16 +93,21 @@
         },
         data() {
             return {
-
+                root: null,
+                store: null
             }
         },
         methods: {
+            getNodeKey(node) {
+                return getNodeKey(this.nodeKey, node.data)
+            },
 
+            handleNodeExpand(nodeData, node, instance) {
+                this.broadcast('lay-tree-node', 'tree-node-expand', node)
+                this.$emit('node-expand', nodeData, node, instance)
+            }
         },
         created() {
-
-        },
-        mounted() {
             this.isTree = true
 
             this.store = new TreeStore({

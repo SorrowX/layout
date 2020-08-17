@@ -32,4 +32,8 @@ export default class TreeStore {
     _initDefaultCheckedNodes() {
 
     }
+
+    registerNode() {
+
+    }
 }
