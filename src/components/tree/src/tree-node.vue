@@ -1,9 +1,16 @@
 <template>
     <div role="lay-tree-item" class="lay-tree-node">
-        <div class="el-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
+        <div class="lay-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
             <span 
                 @click.stop="handleExpandIconClick"
-                class="el-tree-node__expand-icon lay-arrow-right"
+                :class="[
+                    'lay-tree-node__expand-icon',
+                    tree.iconClass ? tree.iconClass : 'lay-default-icon-right',
+                    {
+                        'is-leaf': node.isLeaf,
+                        expanded: !node.isLeaf && expanded
+                    }
+                ]"
             >
             </span>
             <span>{{ node.label }}</span>
@@ -11,7 +18,7 @@
         <lay-collapse-transition>
             <div 
                 role="group" 
-                class="el-tree-node__children"
+                class="lay-tree-node__children"
                 v-if="!renderAfterExpand || childNodeRendered"
                 v-show="expanded"
             >

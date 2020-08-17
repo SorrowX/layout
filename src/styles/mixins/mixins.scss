@@ -188,3 +188,27 @@
   }
 }
 
+@mixin arrow($width: $--arrow-width, $height: $--arrow-height) {
+  & {
+      display: inline-block;
+      transition: transform .3s;
+      @include when(disabled) {
+          &:after {
+              cursor: not-allowed;
+              border-right: 1px solid $--font-color-disabled-base;
+              border-top: 1px solid $--font-color-disabled-base;
+          }
+      }
+  }
+  &:after {
+      content: '';
+      display: inline-block;
+      width: $width;
+      height: $height;
+      border-right: 1px solid $--arrow-border-color;
+      border-top: 1px solid $--arrow-border-color;
+      transform-origin: calc(50% - 3.5px) calc(50% - 3.5px);
+      @content
+  }
+}
+

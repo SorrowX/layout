@@ -1,7 +1,7 @@
 @import "common/var";
 @import './mixins/mixins.scss';
 
-$--arrow-width: 7px;
+/* $--arrow-width: 7px;
 $--arrow-height: 7px;
 $--arrow-border-color: #888;
 
@@ -24,9 +24,10 @@ $--arrow-border-color: #888;
         height: $--arrow-height;
         border-right: 1px solid $--arrow-border-color;
         border-top: 1px solid $--arrow-border-color;
+        transform-origin: calc(50% - 3.5px) calc(50% - 3.5px);
         @content
     }
-}
+} */
 
 @include b(arrow-left) {
     @include arrow {

@@ -146,6 +146,20 @@ $--collapse-header-font-color: $--color-text-primary !default;
 $--collapse-header-font-size: 13px !default;
 $--collapse-content-font-size: 13px !default;
 
+/* Tree
+-------------------------- */
+/// color||Color|0
+$--tree-node-hover-background-color: $--background-color-base !default;
+/// color||Color|0
+$--tree-font-color: $--color-text-regular !default;
+/// color||Color|0
+$--tree-expand-icon-color: $--color-text-placeholder !default;
+
+/* arrow
+-------------------------- */
+$--arrow-width: 7px;
+$--arrow-height: 7px;
+$--arrow-border-color: #888;
 
 /* Break-point
 --------------------------*/

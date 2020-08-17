@@ -1,0 +1,57 @@
+@import "mixins/mixins";
+@import "common/var";
+@import "common/transition";
+
+@include b(default-icon-right) {
+    @include arrow(6px, 6px) {
+        transform: rotate(45deg);
+        position: relative;
+        top: -2px;
+    }
+}
+
+
+@include b(tree) {
+    position: relative;
+    color: $--tree-font-color;
+    background: $--color-white;
+}
+
+@include b(tree-node) {
+    white-space: nowrap;
+    outline: none;
+    &:focus {
+        > .lay-tree-node__content {
+            background-color: $--tree-node-hover-background-color;
+        }
+    }
+
+    @include e(content) {
+        height: 26px;
+        cursor: pointer;
+        &:hover {
+            background-color: $--tree-node-hover-background-color;
+        }
+    }
+
+    @include e(expand-icon) {
+        padding: 6px;
+        color: $--tree-expand-icon-color;
+        font-size: 12px;
+
+        transform: rotate(0deg);
+        transition: transform 0.3s ease-in-out;
+
+        &.expanded {
+            transform: rotate(90deg);
+        }
+
+        &.is-leaf {
+            &:after {
+                border-right: 1px solid transparent;
+                border-top: 1px solid transparent;
+            }
+        }
+    }
+}
+
