@@ -207,7 +207,7 @@
       height: $height;
       border-right: 1px solid $--arrow-border-color;
       border-top: 1px solid $--arrow-border-color;
-      transform-origin: calc(50% - 3.5px) calc(50% - 3.5px);
+      transform-origin: calc(50% - #{$width/2}) calc(50% - #{$height/2});
       @content
   }
 }

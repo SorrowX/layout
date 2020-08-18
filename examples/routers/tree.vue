@@ -1,6 +1,6 @@
 <template>
     <div class="test-lay-tree">
-        <lay-tree :data="data" :props="defaultProps"></lay-tree>
+        <lay-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></lay-tree>
     </div>
 </template>
 
@@ -50,6 +50,14 @@
                     children: 'children',
                     label: 'label'
                 }
+            }
+        },
+        methods: {
+            renderContent(h, {node, data, store}) {
+                // return h('span', node.label)
+            },
+            handleNodeClick(nodeData, node, instance) {
+                console.log(nodeData, node, instance)
             }
         }
     }

@@ -16,8 +16,8 @@
 
 <script>
     import LayTreeNode from './tree-node'
-    import TreeStore from './tree-store'
-    import { getNodeKey } from './util'
+    import TreeStore from './store/tree-store'
+    import { getNodeKey } from './store/util'
     import Emitter from '@/mixins/emitter'
 
     export default {
@@ -94,7 +94,8 @@
         data() {
             return {
                 root: null,
-                store: null
+                store: null,
+                currentNode: null
             }
         },
         methods: {

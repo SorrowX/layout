@@ -1,5 +1,14 @@
 <template>
-    <div role="lay-tree-item" class="lay-tree-node">
+    <div 
+        role="tree-item" 
+        class="lay-tree-node"
+        :class="[
+            {
+                'is-current' : node.isCurrent
+            }
+        ]"
+        @click.stop="handleClick"
+    >
         <div class="lay-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
             <span 
                 @click.stop="handleExpandIconClick"
@@ -13,11 +22,12 @@
                 ]"
             >
             </span>
-            <span>{{ node.label }}</span>
+            <!-- <span class="lay-tree-node__loading-icon"></span> -->
+            <node-content :node="node"></node-content>
         </div>
         <lay-collapse-transition>
             <div 
-                role="group" 
+                role="group"
                 class="lay-tree-node__children"
                 v-if="!renderAfterExpand || childNodeRendered"
                 v-show="expanded"
@@ -39,12 +49,13 @@
 
 <script>
     import LayCollapseTransition from '@/components/transitions/index'
-    import { getNodeKey } from './util'
+    import NodeContent from './node-content'
+    import { getNodeKey } from './store/util'
     import Emitter from '@/mixins/emitter'
 
     export default {
         name: 'LayTreeNode',
-        components: { LayCollapseTransition },
+        components: { LayCollapseTransition, NodeContent },
         mixins: [ Emitter ],
         props: {
             node: {
@@ -89,7 +100,7 @@
                 return getNodeKey(this.tree.nodeKey, node.data)
             },
             handleChildNodeExpand(nodeData, node, instance) {
-                this.broadcast('ElTreeNode', 'tree-node-expand', node)
+                this.broadcast('lay-tree-node', 'tree-node-expand', node)
                 this.tree.$emit('node-expand', nodeData, node, instance)
             },
             handleExpandIconClick() {
@@ -101,9 +112,28 @@
                     this.node.expand()
                     this.$emit('node-expand', this.node.data, this.node, this)
                 }
+            },
+            handleClick() {
+                const store = this.tree.store
+                store.setCurrentNode(this.node)
+                this.tree.$emit('current-change', store.currentNode ? store.currentNode.data : null, store.currentNode)
+                this.tree.currentNode = this
+                if (this.tree.expandOnClickNode) {
+                    this.handleExpandIconClick()
+                }
+                if (this.tree.checkOnClickNode && !this.node.disabled) {
+                    this.handleCheckChange(null, { // todo
+                        target: { checked: !this.node.checked }
+                    })
+                }
+                this.tree.$emit('node-click', this.node.data, this.node, this)
+            },
+
+            handleCheckChange() {
+
             }
         },
-        created() { // todo
+        created() {
             const parent = this.$parent
 
             if (parent.isTree) {

@@ -36,4 +36,13 @@ export default class TreeStore {
     registerNode() {
 
     }
+
+    setCurrentNode(node) {
+        const preCurrentNode = this.currentNode
+        if (preCurrentNode) {
+            preCurrentNode.isCurrent = false
+        }
+        this.currentNode = node
+        this.currentNode.isCurrent = true
+    }
 }

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>loading</title>
+    <style>
+        .loader-03 {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border: 1px solid #C0C4CC;
+            border-bottom-color: transparent;
+            border-radius: 50%;
+            -webkit-animation: 1s loader-03 linear infinite;
+            animation: 1s loader-03 linear infinite;
+            position: relative;
+        }
+        @keyframes loader-03 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+        
+        .loader-05 {
+            display: inline-block;
+            width: 10px;
+            height: 10px;
+            border: 1px solid transparent;
+            border-top-color: #C0C4CC;
+            border-radius: 50%;
+            -webkit-animation: 1s loader-05 linear infinite;
+            animation: 1s loader-05 linear infinite;
+            position: relative;
+        }
+        .loader-05:before {
+            content: '';
+            display: block;
+            width: inherit;
+            height: inherit;
+            position: absolute;
+            top: -1px;
+            left: -1px;
+            border: 1px solid #606266;
+            border-radius: 50%;
+            opacity: .5;
+        }
+        @keyframes loader-05 {
+            0% {
+                -webkit-transform: rotate(0deg);
+                transform: rotate(0deg);
+            }
+            100% {
+                -webkit-transform: rotate(360deg);
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+<body>
+    <!--https://wow.techbrood.com/fiddle/29490-->
+    <div class="box">
+        <div class="loader-03"></div>
+        <div class="loader-05"></div>
+    </div>
+</body>
+</html>
