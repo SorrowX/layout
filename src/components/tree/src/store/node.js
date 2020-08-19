@@ -15,6 +15,8 @@ const getPropertyFromData = function(node, prop) {
     }
 }
 
+function reInitChecked() {}
+
 let nodeIdSeed = 0
 
 export default class Node {
@@ -22,7 +24,7 @@ export default class Node {
         this.id = nodeIdSeed++
         this.text = null
         this.checked = false
-        this.indeterminate = false // ?
+        this.indeterminate = false // 不确定状态
         this.data = null
         this.expanded = false
         this.parent = null
@@ -86,7 +88,7 @@ export default class Node {
             store._initDefaultCheckedNode(this) // todo
         }
 
-        this.updateLeafState() // ?
+        this.updateLeafState()
     }
 
     get label() {
@@ -158,20 +160,56 @@ export default class Node {
             callback && callback()
         }
         if (this.shouldLoadData()) {
-            this.loadData((data) => { // todo
-
+            this.loadData((data) => {
+                if (data instanceof Array) {
+                    if (this.checked) {
+                        this.setChecked(true, true) // todo
+                    } else if (!this.store.checkStrictly) {
+                        reInitChecked(this) // todo
+                    }
+                }
+                done()
             })
         } else {
-            done();
+            done()
         }
+    }
+
+    setChecked() {
+
     }
 
     shouldLoadData() {
         return this.store.lazy === true && this.store.load && !this.loaded
     }
 
-    loadData() {
+    loadData(callback, defaultProps = {}) {
+        const store = this.store
+        if (
+            store.lazy === true &&
+            store.load &&
+            !this.loaded &&
+            (
+                !this.loading ||
+                Object.keys(defaultProps).length
+            )
+        ) {
+            this.loading = true
 
+            const resolve = children => {
+                this.loading = false
+                this.loaded = true
+                this.childNodes = []
+
+                this.doCreateChildren(children, defaultProps)
+                this.updateLeafState()
+                callback && callback.call(this, children)
+            }
+
+            store.load(this, resolve)
+        } else {
+            callback && callback.call(this)
+        }
     }
 
     updateLeafState() {
@@ -217,8 +255,10 @@ export default class Node {
         return data[children]
     }
 
-    doCreateChildren() {
-
+    doCreateChildren(array, defaultProps = {}) {
+        array.forEach(item => {
+            this.insertChild(objectAssign({ data: item }, defaultProps), undefined, true)
+        })
     }
 
     updateChildren() {

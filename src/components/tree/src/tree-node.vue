@@ -22,7 +22,7 @@
                 ]"
             >
             </span>
-            <!-- <span class="lay-tree-node__loading-icon"></span> -->
+            <span v-if="node.loading" class="lay-tree-node__loading-icon lay-icon-loading"></span>
             <node-content :node="node"></node-content>
         </div>
         <lay-collapse-transition>

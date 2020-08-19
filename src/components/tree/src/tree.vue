@@ -11,6 +11,9 @@
             @node-expand="handleNodeExpand"
         >
         </lay-tree-node>
+        <div v-if="isEmpty" class="lay-tree__empty-block">
+            <span class="lay-tree__empty-text">{{ emptyText }}</span>
+        </div>
     </div>
 </template>
 
@@ -96,6 +99,14 @@
                 root: null,
                 store: null,
                 currentNode: null
+            }
+        },
+        computed: {
+            isEmpty() {
+                const { childNodes } = this.root
+                return !childNodes || 
+                    childNodes.length === 0 || 
+                    childNodes.every(({ visible }) => !visible)
             }
         },
         methods: {

@@ -1,6 +1,7 @@
 <template>
     <div class="test-lay-tree">
-        <lay-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></lay-tree>
+        <!-- <lay-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></lay-tree> -->
+        <lay-tree lazy :load="load" :props="props"></lay-tree>
     </div>
 </template>
 
@@ -49,6 +50,12 @@
                 defaultProps: {
                     children: 'children',
                     label: 'label'
+                },
+
+                props: {
+                    label: 'name',
+                    children: 'zones',
+                    isLeaf: 'leaf'
                 }
             }
         },
@@ -58,6 +65,24 @@
             },
             handleNodeClick(nodeData, node, instance) {
                 console.log(nodeData, node, instance)
+            },
+            load(node, resolve) {
+                if (node.level === 0) {
+                    return resolve([{ name: 'region' }, { name: 'region2' }])
+                }
+                if (node.level > 3) return resolve([])
+
+                setTimeout(() => {
+                    const data = [{
+                        name: 'leaf',
+                        leaf: true
+                    }, {
+                        name: 'zone'
+                    }]
+
+                    resolve(data)
+                }, 1000 * 1)
+
             }
         }
     }
