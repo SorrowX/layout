@@ -15,4 +15,10 @@ gulp.task('css', function () {
         .pipe(gulp.dest('../dist/styles'));
 });
 
-gulp.task('default', ['css']);
+// 拷贝字体
+gulp.task('fonts', function () {
+    gulp.src('../src/styles/fonts/*.*')
+        .pipe(gulp.dest('../dist/styles/fonts'));
+});
+
+gulp.task('default', ['css', 'fonts']);

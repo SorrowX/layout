@@ -126,8 +126,18 @@ module.exports = {
                 ]
             },
             {
-                test: /\.(gif|jpg|png|woff|svg|eot|ttf)\??.*$/,
-                loader: 'url-loader?limit=8192'
+                test: /\.(gif|jpg|png)\??.*$/,
+                loader: 'url-loader',
+                options: {
+                    limit: 8192,
+                }
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/,
+                loader: 'file-loader',
+                options: {
+                    outputPath: 'fonts/',
+                }
             },
             {
                 test: /\.(html|tpl)$/,
