@@ -2,13 +2,15 @@ import utils from './utils/index'
 import LayScrollbar from './components/scrollbar'
 import LayTwoColumns from './components/two-columns'
 import LayThreeColumns from './components/three-columns'
-import LayGrid from './components/grid'
+import Grid from './components/grid'
 import LayCollapseTransition from './components/transitions'
 import Collapse from './components/collapse'
 import LayTree from './components/tree'
+import Checkbox from './components/checkbox'
 
-const { LayRow, LayCol } = LayGrid
+const { LayRow, LayCol } = Grid
 const { LayCollapse, LayCollapseItem } = Collapse
+const { LayCheckbox, LayCheckboxButton, LayCheckboxGroup } = Checkbox
 
 const components = {
     LayScrollbar,
@@ -19,7 +21,10 @@ const components = {
     LayCollapseTransition,
     LayCollapse,
     LayCollapseItem,
-    LayTree
+    LayTree,
+    LayCheckbox,
+    LayCheckboxButton,
+    LayCheckboxGroup
 }
 
 const install = function(Vue, opts = {}) {

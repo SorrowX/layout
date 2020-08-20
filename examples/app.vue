@@ -45,6 +45,7 @@
                             <li><router-link to="/scrollbar">Scrollbar 滚动条</router-link></li>
                             <li><router-link to="/collapse">Collapse 折叠面板</router-link></li>
                             <li><router-link to="/tree">Tree 树形控件</router-link></li>
+                            <li><router-link to="/checkbox">Checkbox 多选框</router-link></li>
                         </ul>
                     </div>
                 </template>
