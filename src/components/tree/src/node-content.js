@@ -4,6 +4,7 @@ export default {
     name: 'NodeContent',
     props: {
         node: {
+            type: Node,
             required: true
         }
     },

@@ -1,7 +1,7 @@
 <template>
     <div class="test-lay-tree">
         <!-- <lay-tree :data="data" :props="defaultProps" @node-click="handleNodeClick"></lay-tree> -->
-        <lay-tree lazy :load="load" :props="props"></lay-tree>
+        <lay-tree lazy :load="load" :props="props" show-checkbox></lay-tree>
     </div>
 </template>
 

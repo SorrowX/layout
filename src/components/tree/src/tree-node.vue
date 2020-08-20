@@ -22,6 +22,15 @@
                 ]"
             >
             </span>
+            <lay-checkbox
+                v-if="showCheckbox"
+                v-model="node.checked"
+                :indeterminate="node.indeterminate"
+                :disabled="!!node.disabled"
+                @click.native.stop
+                @change="handleCheckChange"
+            >
+            </lay-checkbox>
             <span v-if="node.loading" class="lay-tree-node__loading-icon lay-icon-loading"></span>
             <node-content :node="node"></node-content>
         </div>
@@ -49,13 +58,14 @@
 
 <script>
     import LayCollapseTransition from '@/components/transitions/index'
+    import Checkbox from '@/components/checkbox/index'
     import NodeContent from './node-content'
     import { getNodeKey } from './store/util'
     import Emitter from '@/mixins/emitter'
 
     export default {
         name: 'LayTreeNode',
-        components: { LayCollapseTransition, NodeContent },
+        components: { LayCollapseTransition, NodeContent, LayCheckbox: Checkbox.LayCheckbox },
         mixins: [ Emitter ],
         props: {
             node: {
@@ -129,8 +139,12 @@
                 this.tree.$emit('node-click', this.node.data, this.node, this)
             },
 
-            handleCheckChange() {
-
+            handleCheckChange(value, evt) {
+                this.node.setChecked(value, !this.tree.checkStrictly)
+                // todo
+                this.$nextTick(() => {
+                    this.tree.$emit('check')
+                })
             }
         },
         created() {

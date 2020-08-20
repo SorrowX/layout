@@ -15,7 +15,40 @@ const getPropertyFromData = function(node, prop) {
     }
 }
 
-function reInitChecked() {}
+function reInitChecked(node) {
+    if (node.childNodes.length === 0) return
+
+    const { all, none, half } = getChildState(node.childNodes)
+    if (all) {
+        node.checked = true
+        node.indeterminate = false
+    } else if (half) {
+        node.checked = false
+        node.indeterminate = true
+    } else if (none) {
+        node.checked = false
+        node.indeterminate = false
+    }
+}
+
+function getChildState(nodes) {
+    let all = true, // 都选中
+        none = true, // 都未选中
+        allWithoutDisable = true // ?
+    for (let i = 0, j = nodes.length; i < j; i++) {
+        const n = nodes[i]
+        if (n.checked !== true || n.indeterminate) {
+            all = false
+            if (!n.disabled) {
+                allWithoutDisable = false
+            }
+        }
+        if (n.checked !== false || n.indeterminate) {
+            none = false
+        }
+    }
+    return { all, none, allWithoutDisable, half: !all && !none }
+}
 
 let nodeIdSeed = 0
 
@@ -122,7 +155,7 @@ export default class Node {
             if (!batch) { // ?
                 const children = this.getChildren(true)
                 if (children.indexOf(child.data) === -1) {
-                    if (typeof index === 'undefined' || index < 0) { // ?
+                    if (typeof index === 'undefined' || index < 0) { 
                         children.push(child.data)
                     } else {
                         children.splice(index, 0, child.data)
@@ -138,7 +171,7 @@ export default class Node {
 
         child.level = this.level + 1
 
-        if (typeof index === 'undefined' || index < 0) { // ?
+        if (typeof index === 'undefined' || index < 0) { 
             this.childNodes.push(child)
         } else {
             this.childNodes.splice(index, 0, child)
@@ -163,9 +196,9 @@ export default class Node {
             this.loadData((data) => {
                 if (data instanceof Array) {
                     if (this.checked) {
-                        this.setChecked(true, true) // todo
+                        this.setChecked(true, true)
                     } else if (!this.store.checkStrictly) {
-                        reInitChecked(this) // todo
+                        reInitChecked(this)
                     }
                 }
                 done()
@@ -175,8 +208,56 @@ export default class Node {
         }
     }
 
-    setChecked() {
+    setChecked(value, deep, recursion, passValue) {
+        this.indeterminate = value === 'half'
+        this.checked = value === true
 
+        if (this.store.checkStrictly) return // // 在显示复选框的情况下，是否严格的遵循父子不互相关联的做法，默认为 false
+
+        if (!(this.shouldLoadData() && !this.store.checkDescendants)) { // 不load数据 或者 load数据且不检查后代
+            debugger
+            let { all, allWithoutDisable } = getChildState(this.childNodes)
+
+            if (!this.isLeaf && (!all && allWithoutDisable)) {
+                this.checked = false
+                value = false
+            }
+
+            const handleDescendants = () => {
+                if (deep) {
+                    const childNodes = this.childNodes
+                    for (let i = 0, j = childNodes.length; i < j; i++) {
+                        const child = childNodes[i]
+                        passValue = passValue || value !== false
+                        const isCheck = child.disabled ? child.checked : passValue
+                        child.setChecked(isCheck, deep, true, passValue)
+                    }
+                    const { all, half } = getChildState(childNodes)
+                    if (!all) {
+                        this.checked = all
+                        this.indeterminate = half
+                    }
+                }
+            }
+
+            if (this.shouldLoadData()) {
+                this.loadData(() => {
+                    handleDescendants()
+                    reInitChecked(this)
+                }, {
+                    checked: value !== false
+                })
+            } else {
+                handleDescendants()
+            }
+        }
+
+        const parent = this.parent
+        if (!parent || parent.level === 0) return
+
+        if (!recursion) {
+            reInitChecked(parent)
+        }
     }
 
     shouldLoadData() {
