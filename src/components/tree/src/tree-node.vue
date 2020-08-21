@@ -132,7 +132,7 @@
                     this.handleExpandIconClick()
                 }
                 if (this.tree.checkOnClickNode && !this.node.disabled) {
-                    this.handleCheckChange(null, { // todo
+                    this.handleCheckChange(null, {
                         target: { checked: !this.node.checked }
                     })
                 }
@@ -140,10 +140,15 @@
             },
 
             handleCheckChange(value, evt) {
-                this.node.setChecked(value, !this.tree.checkStrictly)
-                // todo
+                this.node.setChecked(value || evt.target.checked, !this.tree.checkStrictly)
                 this.$nextTick(() => {
-                    this.tree.$emit('check')
+                    const store = thi.tree.store
+                    this.tree.$emit('check', this.node.data, {
+                        checkedNodes: store.getCheckedNodes(),
+                        checkedKeys: store.getCheckedKeys(),
+                        halfCheckedNodes: store.getHalfCheckedNodes(),
+                        halfCheckedKeys: store.getHalfCheckedKeys()
+                    })
                 })
             }
         },

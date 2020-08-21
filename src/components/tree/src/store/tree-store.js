@@ -49,4 +49,57 @@ export default class TreeStore {
         this.currentNode = node
         this.currentNode.isCurrent = true
     }
+
+    getCheckedNodes(leafOnly = false, includeHalfChecked = false) {
+        const checkedNodes = []
+        const traverse = function(node) {
+            const childNodes = node.root ? node.root.childNodes : node.childNodes
+
+            childNodes.forEach(child => {
+                if (
+                    (
+                        child.checked ||
+                        (includeHalfChecked && child.indeterminate)
+                    ) &&
+                    (
+                        !leafOnly ||
+                        (leafOnly && child.isLeaf)
+                    )
+                ) {
+                    checkedNodes.push(child.data)
+                }
+
+                traverse(child)
+            })
+        }
+
+        traverse(this)
+
+        return checkedNodes
+    }
+
+    getCheckedKeys(leafOnly = false) {
+        return this.getCheckedNodes(leafOnly).map(data => (data || {})[this.key])
+    }
+
+    getHalfCheckedNodes() {
+        const nodes = []
+        const traverse = function(node) {
+            const childNodes = node.root ? node.root.childNodes : node.childNodes
+
+            childNodes.forEach((child) => {
+                if (child.indeterminate) {
+                    nodes.push(child.data)
+                }
+
+                traverse(child)
+            })
+        }
+        traverse(this)
+        return nodes
+    }
+
+    getHalfCheckedKeys() {
+        return this.getHalfCheckedNodes().map(data => (data || {})[this.key])
+    }
 }

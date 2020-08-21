@@ -29,6 +29,13 @@ function reInitChecked(node) {
         node.checked = false
         node.indeterminate = false
     }
+
+    const parent = node.parent
+    if (!parent || parent.level === 0) return
+
+    if (!node.store.checkStrictly) {
+        reInitChecked(parent)
+    }
 }
 
 function getChildState(nodes) {
