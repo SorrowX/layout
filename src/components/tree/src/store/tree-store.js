@@ -23,22 +23,33 @@ export default class TreeStore {
                 this.root.doCreateChildren(data)
                 this._initDefaultCheckedNodes()
             })
-
         } else {
             this._initDefaultCheckedNodes()
         }
     }
 
     _initDefaultCheckedNodes() {
+        const defaultCheckedKeys = this.defaultCheckedKeys || []
+        const nodesMap = this.nodesMap
 
+        defaultCheckedKeys.forEach(nodeKey => {
+            const node = nodesMap[nodeKey]
+            if (node) {
+                node.setChecked(true, !this.checkStrictly)
+            }
+        })
     }
 
     _initDefaultCheckedNode() {
         
     }
 
-    registerNode() {
+    registerNode(node) {
+        const key = this.key
+        if (!key || !node || !node.data) return
 
+        const nodeKey = node.key
+        if (nodeKey !== undefined) this.nodesMap[node.key] = node
     }
 
     setCurrentNode(node) {

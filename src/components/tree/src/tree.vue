@@ -73,11 +73,11 @@
             allowDrop: Function, // 拖拽时判定目标节点能否被放置。type 参数有三种情况：'prev'、'inner' 和 'next'，分别表示放置在目标节点前、插入至目标节点和放置在目标节点后	Function(draggingNode, dropNode, type)
             props: { //  配置选项
                 default() {
-                return {
-                    children: 'children',
-                    label: 'label',
-                    disabled: 'disabled'
-                };
+                    return {
+                        children: 'children',
+                        label: 'label',
+                        disabled: 'disabled'
+                    }
                 }
             },
             lazy: { // 是否懒加载子节点，需与 load 方法结合使用

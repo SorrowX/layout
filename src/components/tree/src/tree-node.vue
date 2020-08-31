@@ -10,7 +10,7 @@
         @click.stop="handleClick"
     >
         <div class="lay-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
-            <span 
+            <span
                 @click.stop="handleExpandIconClick"
                 :class="[
                     'lay-tree-node__expand-icon',
@@ -142,7 +142,7 @@
             handleCheckChange(value, evt) {
                 this.node.setChecked(value || evt.target.checked, !this.tree.checkStrictly)
                 this.$nextTick(() => {
-                    const store = thi.tree.store
+                    const store = this.tree.store
                     this.tree.$emit('check', this.node.data, {
                         checkedNodes: store.getCheckedNodes(),
                         checkedKeys: store.getCheckedKeys(),

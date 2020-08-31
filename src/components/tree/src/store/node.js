@@ -90,7 +90,8 @@ export default class Node {
         if (!store) {
             throw new Error('[Node]store is required!')
         }
-        store.registerNode(this) // todo
+
+        store.registerNode(this)
 
         const props = store.props
         if (props && typeof props.isLeaf !== 'undefined') {
@@ -133,6 +134,13 @@ export default class Node {
 
     get label() {
         return getPropertyFromData(this, 'label')
+    }
+
+    get key() {
+        const nodeKey = this.store.key
+        if (nodeKey && this.data) {
+            return this['data'][nodeKey]
+        }
     }
 
     setData(data) {
@@ -222,7 +230,6 @@ export default class Node {
         if (this.store.checkStrictly) return // // 在显示复选框的情况下，是否严格的遵循父子不互相关联的做法，默认为 false
 
         if (!(this.shouldLoadData() && !this.store.checkDescendants)) { // 不load数据 或者 load数据且不检查后代
-            debugger
             let { all, allWithoutDisable } = getChildState(this.childNodes)
 
             if (!this.isLeaf && (!all && allWithoutDisable)) {
