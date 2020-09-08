@@ -136,6 +136,10 @@ export default class Node {
         return getPropertyFromData(this, 'label')
     }
 
+    get disabled() {
+        return getPropertyFromData(this, 'disabled')
+    }
+
     get key() {
         const nodeKey = this.store.key
         if (nodeKey && this.data) {

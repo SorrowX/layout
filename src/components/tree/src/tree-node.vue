@@ -12,17 +12,11 @@
         <div class="lay-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
             <span
                 @click.stop="handleExpandIconClick"
-                :class="[
-                    'lay-tree-node__expand-icon',
-                    tree.iconClass ? tree.iconClass : 'lay-default-icon-right',
-                    {
-                        'is-leaf': node.isLeaf,
-                        expanded: !node.isLeaf && expanded
-                    }
-                ]"
+                :class="[spanClass]"
             >
             </span>
             <lay-checkbox
+                style="margin-right: 5px;"
                 v-if="showCheckbox"
                 v-model="node.checked"
                 :indeterminate="node.indeterminate"
@@ -31,7 +25,6 @@
                 @change="handleCheckChange"
             >
             </lay-checkbox>
-            <span v-if="node.loading" class="lay-tree-node__loading-icon lay-icon-loading"></span>
             <node-content :node="node"></node-content>
         </div>
         <lay-collapse-transition>
@@ -95,6 +88,25 @@
                 tree: null,
                 expanded: false,
                 childNodeRendered: false
+            }
+        },
+        computed: {
+            spanClass() {
+                const klass = {
+                    'lay-tree-node__expand-icon': true,
+                    'is-leaf': this.node.isLeaf,
+                    expanded: !this.node.isLeaf && this.expanded
+                }
+                if (this.node.loading) {
+                    klass['lay-tree-node__loading-icon lay-icon-loading'] = true
+                } else {
+                    if (this.tree.iconClass) {
+                        klass[this.tree.iconClass] = true
+                    } else {
+                        klass['lay-tree-node__arrow-icon lay-icon-arrow-right'] = true
+                    }
+                }
+                return klass
             }
         },
         watch: {

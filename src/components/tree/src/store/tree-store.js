@@ -113,4 +113,104 @@ export default class TreeStore {
     getHalfCheckedKeys() {
         return this.getHalfCheckedNodes().map(data => (data || {})[this.key])
     }
+
+    setCheckedNodes(array, leafOnly = false) {
+        const key = this.key
+        const checkedKeys = {}
+        array.forEach(item => {
+            checkedKeys[(item || {})[key]] = true
+        })
+
+        this._setCheckedKeys(key, leafOnly, checkedKeys)
+    }
+
+    setCheckedKeys(keys, leafOnly = false) {
+        this.defaultCheckedKeys = keys
+        const key = this.key
+        const checkedKeys = {}
+        keys.forEach((key) => {
+            checkedKeys[key] = true
+        })
+    
+        this._setCheckedKeys(key, leafOnly, checkedKeys)
+    }
+
+    _setCheckedKeys(key, leafOnly = false, checkedKeys) {
+        const allNodes = this._getAllNodes().sort((a, b) => b.level - a.level)
+        const cache = Object.create({})
+        const keys = Object.keys(checkedKeys)
+        allNodes.forEach(node => node.setChecked(false, false))
+        for (let i = 0, j = allNodes.length; i < j; i++) {
+            const node = allNodes[i]
+            const nodeKey = String(node['data'][key])
+            let checked = keys.includes(nodeKey)
+
+            if (!checked) {
+                if (node.checked && !cache[nodeKey]) {
+                    node.setChecked(false, false)
+                }
+                continue
+            }
+
+            let parent = node.parent
+            while(parent && parent.level > 0) {
+                cache[parent['data'][key]] = true
+                parent = parent.parent
+            }
+
+            if (node.isLeaf || this.checkStrictly) {
+                node.setChecked(true, false)
+                continue
+            }
+
+            node.setChecked(true, true)
+
+            if (leafOnly) {
+                node.setChecked(false, false)
+
+                function traverse(node) {
+                    const childNodes = node.childNodes
+                    childNodes.forEach(node => {
+                        if (!node.isLeaf) {
+                            node.setChecked(false, false)
+                        }
+                        traverse(node)
+                    })
+                }
+                traverse(node)
+            }
+        }
+
+    }
+
+    _getAllNodes() {
+        const allNodes = []
+        const nodesMap = this.nodesMap
+        for (let key in nodesMap) {
+            if (nodesMap.hasOwnProperty(key)) {
+                allNodes.push(nodesMap[key])
+            }
+        }
+        return allNodes
+    }
+
+    setDefaultCheckedKey(newVal) {
+        if (newVal !== this.defaultCheckedKeys) {
+            this.defaultCheckedKeys = newVal
+            this._initDefaultCheckedNodes()
+        }
+    }
+
+    _initDefaultCheckedNodes() {
+        const defaultCheckedKeys = this.defaultCheckedKeys || []
+        const nodesMap = this.nodesMap
+    
+        defaultCheckedKeys.forEach((checkedKey) => {
+            const node = nodesMap[checkedKey]
+        
+            if (node) {
+                node.setChecked(true, !this.checkStrictly)
+            }
+        })
+      }
 }

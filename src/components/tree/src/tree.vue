@@ -109,6 +109,12 @@
                     childNodes.every(({ visible }) => !visible)
             }
         },
+        watch: {
+            defaultCheckedKeys(newVal) {
+                debugger
+                this.store.setDefaultCheckedKey(newVal)
+            }
+        },
         methods: {
             getNodeKey(node) {
                 return getNodeKey(this.nodeKey, node.data)
@@ -117,7 +123,25 @@
             handleNodeExpand(nodeData, node, instance) {
                 this.broadcast('lay-tree-node', 'tree-node-expand', node)
                 this.$emit('node-expand', nodeData, node, instance)
-            }
+            },
+
+            setCheckedNodes(nodes, leafOnly) {
+                if (!this.nodeKey) throw new Error('[Tree] nodeKey is required in setCheckedNodes');
+                this.store.setCheckedNodes(nodes, leafOnly)
+            },
+
+            setCheckedKeys(keys, leafOnly) {
+                if (!this.nodeKey) throw new Error('[Tree] nodeKey is required in setCheckedKeys');
+                this.store.setCheckedKeys(keys, leafOnly)
+            },
+
+            getCheckedKeys(leafOnly) {
+                return this.store.getCheckedKeys(leafOnly)
+            },
+
+            getCheckedNodes(leafOnly, includeHalfChecked) {
+                return this.store.getCheckedNodes(leafOnly, includeHalfChecked)
+            },
         },
         created() {
             this.isTree = true

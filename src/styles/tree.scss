@@ -2,14 +2,6 @@
 @import "common/var";
 @import "common/transition";
 
-@include b(default-icon-right) {
-    @include arrow(6px, 6px) {
-        transform: rotate(45deg);
-        position: relative;
-        top: -3px;
-    }
-}
-
 @include b(tree) {
     position: relative;
     color: $--tree-font-color;
@@ -61,16 +53,21 @@
         }
 
         &.is-leaf {
-            &:after {
-                border-right: 1px solid transparent;
-                border-top: 1px solid transparent;
+            &:before {
+                opacity: 0;
             }
         }
     }
 
+    @include e(arrow-icon) {
+        font-size: 14px;
+        color: #515a6e;
+    }
+
     @include e(loading-icon) {
         font-size: 14px;
-        margin-left: -5px;
+        font-weight: 400;
+        color: #515a6e;
     }
 
     @include e(label) {
