@@ -1,15 +1,15 @@
 <template>
     <div class="test-lay-tree">
         <h1>Tree 树形控件组件</h1>
-        <example1 />
+        <!-- <example1 />
         <example2 /> 
         <example3 />
         <example4 />
         <example5 />
-        <example6 />
+        <example6 /> -->
         <example7 /> 
-        <example8 /> 
-        <example9 /> 
+        <!-- <example8 /> 
+        <example9 />  -->
     </div>
 </template>
 

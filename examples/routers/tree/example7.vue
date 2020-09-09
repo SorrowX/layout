@@ -12,7 +12,7 @@
         <p>效果:</p>
         <div class="custom-tree-container">
             <div class="block">
-                <p>使用 render-content</p>
+                <!-- <p>使用 render-content</p>
                 <lay-tree
                     :data="data1"
                     show-checkbox
@@ -21,7 +21,7 @@
                     :expand-on-click-node="false"
                     :render-content="renderContent"
                 >
-                </lay-tree>
+                </lay-tree> -->
             </div>
             <div class="block">
                 <p>使用 scoped slot</p>
@@ -95,6 +95,20 @@
                     }]
                 }
             ]
+
+            setTimeout(() => {
+                this.data2 = [{
+                    id: 1,
+                    label: '1',
+                    children: [{
+                        id: 2,
+                        label: '1-2-1'
+                    }, {
+                        id: 3,
+                        label: '1-2-2'
+                    }]
+                }]
+            }, 1000 * 5)
             return {
                 activeNames: '',
                 data1: JSON.parse(JSON.stringify(data)),

@@ -28,6 +28,16 @@ export default class TreeStore {
         }
     }
 
+    setData(newVal) {
+        const changed = newVal !== this.root.data
+        if (changed) {
+            this.root.setData(newVal)
+            this._initDefaultCheckedNodes()
+        } else {
+            this.root.updateChildren()
+        }
+    }
+
     _initDefaultCheckedNodes() {
         const defaultCheckedKeys = this.defaultCheckedKeys || []
         const nodesMap = this.nodesMap
@@ -50,6 +60,17 @@ export default class TreeStore {
 
         const nodeKey = node.key
         if (nodeKey !== undefined) this.nodesMap[node.key] = node
+    }
+
+    deregisterNode(node) {
+        const key = this.key
+        if (!key || !node || !node.data) return
+
+        node.childNodes.forEach(child => {
+            this.deregisterNode(child)
+        })
+
+        delete this.nodesMap[node.key]
     }
 
     setCurrentNode(node) {
@@ -212,5 +233,35 @@ export default class TreeStore {
                 node.setChecked(true, !this.checkStrictly)
             }
         })
-      }
+    }
+
+    filter(value) {
+        const filterNodeMethod = this.filterNodeMethod
+        const lazy = this.lazy
+        const traverse = function(node) {
+            const childNodes = node.root ? node.root.childNodes : node.childNodes
+
+            childNodes.forEach(child => {
+                child.visible = filterNodeMethod.call(child, value, child.data, child)
+                traverse(child)
+            })
+
+            if (!node.visible && childNodes.length) {
+                let allHidden = true
+                allHidden = !childNodes.some(child => child.visible)
+
+                if (node.root) {
+                    node.root.visible = allHidden === false
+                } else {
+                    node.visible = allHidden === false
+                }
+            }
+
+            if (!value) return
+
+            if (node.visible && !node.isLeaf && !lazy) node.expand()
+
+        }
+        traverse(this)
+    }
 }

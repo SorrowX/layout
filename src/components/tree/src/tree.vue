@@ -107,11 +107,21 @@
                 return !childNodes || 
                     childNodes.length === 0 || 
                     childNodes.every(({ visible }) => !visible)
+            },
+            children: {
+                set(value) {
+                    this.data = value
+                },
+                get() {
+                    return this.data
+                }
             }
         },
         watch: {
+            data(newVal) {
+                this.store.setData(newVal)
+            },
             defaultCheckedKeys(newVal) {
-                debugger
                 this.store.setDefaultCheckedKey(newVal)
             }
         },
@@ -142,6 +152,13 @@
             getCheckedNodes(leafOnly, includeHalfChecked) {
                 return this.store.getCheckedNodes(leafOnly, includeHalfChecked)
             },
+
+            filter(value) {
+                if (!this.filterNodeMethod) {
+                    throw new Error('[Tree] filterNodeMethod is required when filter')
+                }
+                this.store.filter(value)
+            }
         },
         created() {
             this.isTree = true
@@ -163,6 +180,7 @@
             })
 
             this.root = this.store.root
+
         }
     }
 </script>

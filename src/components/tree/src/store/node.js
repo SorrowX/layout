@@ -1,4 +1,4 @@
-import { markNodeData, objectAssign } from './util'
+import { markNodeData, objectAssign, NODE_KEY } from './util'
 
 const getPropertyFromData = function(node, prop) {
     const props = node.store.props
@@ -361,7 +361,67 @@ export default class Node {
     }
 
     updateChildren() {
+        const newData = this.getChildren() || []
+        const oldData = this.childNodes.map(node => node.data)
 
+        const newDataMap = {}
+        const newNodes = []
+
+        newData.forEach((item, index) => {
+            const key = item[NODE_KEY]
+            const isExists = !!key && oldData.findIndex(data => data[NODE_KEY] == key) !== -1
+            if (isExists) {
+                newDataMap[key] = { index, data: item }
+            } else {
+                newNodes.push({ index, data: item })
+            }
+        })
+
+        if (!this.store.lazy) {
+            oldData.forEach(item => {
+                if (!newDataMap[item[NODE_KEY]]) {
+                    this.removeChildByData(item)
+                }
+            })
+        }
+
+        newNodes.forEach(({ index, data }) => {
+            this.insertChild({ data }, index)
+        })
+
+        this.updateLeafState()
+    }
+
+    removeChildByData(data) {
+        let targetNode = null
+
+        for(let i = 0, j = this.childNodes.length; i < j; i++) {
+            if (this.childNodes[i]['data'] === data) {
+                targetNode = this.childNodes[i]
+                break
+            }
+        }
+
+        if (targetNode) {
+            this.removeChild(targetNode)
+        }
+    }
+
+    removeChild(child) {
+        const children = this.getChildren(true)
+        const dataIndex = children.indexOf(child.data)
+        if (dataIndex !== -1) {
+            children.splice(dataIndex, 1)
+        }
+
+        const index = this.childNodes.indexOf(child)
+        if (index > -1) {
+            this.store && this.store.deregisterNode(child)
+            child.parent = null
+            this.childNodes.splice(index, 1)
+        }
+
+        this.updateLeafState()
     }
 
     collapse() {

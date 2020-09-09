@@ -1,12 +1,11 @@
 <template>
     <div 
+        v-show="node.visible"
         role="tree-item" 
         class="lay-tree-node"
-        :class="[
-            {
-                'is-current' : node.isCurrent
-            }
-        ]"
+        :class="{
+            'is-current' : node.isCurrent
+        }"
         @click.stop="handleClick"
     >
         <div class="lay-tree-node__content" :style="{ 'padding-left': (node.level - 1) * tree.indent + 'px' }">
