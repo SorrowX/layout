@@ -9,11 +9,11 @@
         <p>效果:</p>
         <lay-two-columns class="test-box" fix="left" width="200px">
             <template v-slot:left>
-                <fake-content v-for="num in 5" :key="num">{{ num }}</fake-content>
+                <fake-content v-for="num in 8" :key="num">{{ num }}</fake-content>
             </template>
             <template v-slot:right>
                 <div class="right-content">
-                    <fake-content v-for="num in 4" :key="num" height="200px">{{ num }}</fake-content>
+                    <fake-content v-for="num in 3" :key="num" height="200px">{{ num }}</fake-content>
                 </div>
             </template>
         </lay-two-columns>

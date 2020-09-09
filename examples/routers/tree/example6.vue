@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h3>6. 禁用状态</h3>
+        <h3>6. 树节点的选择</h3>
         <lay-collapse v-model="activeNames">
             <lay-collapse-item title="树节点的选择." name="demo6">
                 <pre>
