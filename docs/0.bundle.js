@@ -1,19 +1,16 @@
 webpackJsonp([0],{
 
-/***/ 390:
+/***/ 399:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__ = __webpack_require__(408);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__ = __webpack_require__(430);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue__ = __webpack_require__(417);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_538609d6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_tree_vue__ = __webpack_require__(484);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_538609d6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_tree_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_538609d6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_tree_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
-function injectStyle (context) {
-  __webpack_require__(428)
-}
 /* script */
 
 
@@ -22,16 +19,16 @@ function injectStyle (context) {
 /* template functional */
 var __vue_template_functional__ = false
 /* styles */
-var __vue_styles__ = injectStyle
+var __vue_styles__ = null
 /* scopeId */
 var __vue_scopeId__ = null
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 
 var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__["render"],
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__["staticRenderFns"],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_tree_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_538609d6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_tree_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_538609d6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_tree_vue__["staticRenderFns"],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -43,32 +40,7 @@ var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2
 
 /***/ }),
 
-/***/ 398:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = {
-    name: 'FakeContent',
-    props: {
-        width: {
-            type: String,
-            default: '100%'
-        },
-        height: {
-            type: String,
-            default: '100px'
-        }
-    }
-};
-
-/***/ }),
-
-/***/ 399:
+/***/ 401:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {
@@ -1756,19 +1728,1217 @@ Prism.languages.js = Prism.languages.javascript;
 
 /***/ }),
 
-/***/ 400:
+/***/ 417:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+var _example = __webpack_require__(458);
+
+var _example2 = _interopRequireDefault(_example);
+
+var _example3 = __webpack_require__(460);
+
+var _example4 = _interopRequireDefault(_example3);
+
+var _example5 = __webpack_require__(462);
+
+var _example6 = _interopRequireDefault(_example5);
+
+var _example7 = __webpack_require__(464);
+
+var _example8 = _interopRequireDefault(_example7);
+
+var _example9 = __webpack_require__(466);
+
+var _example10 = _interopRequireDefault(_example9);
+
+var _example11 = __webpack_require__(468);
+
+var _example12 = _interopRequireDefault(_example11);
+
+var _example13 = __webpack_require__(470);
+
+var _example14 = _interopRequireDefault(_example13);
+
+var _example15 = __webpack_require__(476);
+
+var _example16 = _interopRequireDefault(_example15);
+
+var _example17 = __webpack_require__(480);
+
+var _example18 = _interopRequireDefault(_example17);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    components: { Example1: _example2.default, Example2: _example4.default, Example3: _example6.default, Example4: _example8.default, Example5: _example10.default, Example6: _example12.default, Example7: _example14.default, Example8: _example16.default, Example9: _example18.default },
+    data: function data() {
+        return {};
+    },
+
+    methods: {}
+};
+
+/***/ }),
+
+/***/ 418:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            data1: [{
+                label: '一级 1',
+                children: [{
+                    label: '二级 1-1',
+                    children: [{
+                        label: '三级 1-1-1'
+                    }, {
+                        label: '三级 1-2-1'
+                    }]
+                }]
+            }, {
+                label: '一级 2',
+                children: [{
+                    label: '二级 2-1',
+                    children: [{
+                        label: '三级 2-1-1'
+                    }]
+                }, {
+                    label: '二级 2-2',
+                    children: [{
+                        label: '三级 2-2-1'
+                    }]
+                }]
+            }, {
+                label: '一级 3',
+                children: [{
+                    label: '二级 3-1',
+                    children: [{
+                        label: '三级 3-1-1'
+                    }]
+                }, {
+                    label: '二级 3-2',
+                    children: [{
+                        label: '三级 3-2-1'
+                    }]
+                }]
+            }],
+            defaultProps1: {
+                children: 'children',
+                label: 'label'
+            }
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        handleNodeClick1: function handleNodeClick1(nodeData, node, instance) {
+            console.log(nodeData, node, instance);
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :data="data1"\n                        :props="defaultProps1"\n                        :renderAfterExpand="true"\n                        @node-click="handleNodeClick1"\n                    >\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                data1: [\n                                    {\n                                        label: \'\u4E00\u7EA7 1\',\n                                        children: [\n                                            {\n                                                label: \'\u4E8C\u7EA7 1-1\',\n                                                children: [\n                                                    {\n                                                        label: \'\u4E09\u7EA7 1-1-1\'\n                                                    },\n                                                    {\n                                                        label: \'\u4E09\u7EA7 1-2-1\'\n                                                    }\n                                                ]\n                                            }\n                                        ]\n                                    }, \n                                    {\n                                        label: \'\u4E00\u7EA7 2\',\n                                        children: [\n                                            {\n                                                label: \'\u4E8C\u7EA7 2-1\',\n                                                children: [\n                                                    {\n                                                        label: \'\u4E09\u7EA7 2-1-1\'\n                                                    }\n                                                ]\n                                            }, \n                                            {\n                                                label: \'\u4E8C\u7EA7 2-2\',\n                                                children: [\n                                                    {\n                                                        label: \'\u4E09\u7EA7 2-2-1\'\n                                                    }\n                                                ]\n                                            }\n                                        ]\n                                    }, \n                                    {\n                                        label: \'\u4E00\u7EA7 3\',\n                                        children: [\n                                            {\n                                                label: \'\u4E8C\u7EA7 3-1\',\n                                                children: [\n                                                    {\n                                                        label: \'\u4E09\u7EA7 3-1-1\'\n                                                    }\n                                                ]\n                                            }, \n                                            {\n                                                label: \'\u4E8C\u7EA7 3-2\',\n                                                children: [\n                                                    {\n                                                        label: \'\u4E09\u7EA7 3-2-1\'\n                                                    }\n                                                ]\n                                            }\n                                        ]\n                                    }\n                                ],\n                                defaultProps1: {\n                                    children: \'children\',\n                                    label: \'label\'\n                                }\n                            }\n                        },\n                        methods: {\n                            handleNodeClick1(nodeData, node, instance) {\n                                console.log(nodeData, node, instance)\n                            }\n                        }\n                    }\n                </script>\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 419:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _newArrowCheck2 = __webpack_require__(4);
+
+var _newArrowCheck3 = _interopRequireDefault(_newArrowCheck2);
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            props: {
+                label: 'name',
+                children: 'zones'
+            },
+            count: 1
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        handleCheckChange: function handleCheckChange(data, checked, indeterminate) {
+            console.log(data, checked, indeterminate);
+        },
+        handleNodeClick: function handleNodeClick(data) {
+            console.log(data);
+        },
+        loadNode: function loadNode(node, resolve) {
+            var _this = this;
+
+            if (node.level === 0) {
+                return resolve([{ name: 'region1' }, { name: 'region2' }]);
+            }
+            if (node.level > 10) return resolve([]);
+
+            var hasChild;
+            if (node.data.name === 'region1') {
+                hasChild = true;
+            } else if (node.data.name === 'region2') {
+                hasChild = false;
+            } else {
+                hasChild = Math.random() > 0.5;
+            }
+
+            setTimeout(function () {
+                (0, _newArrowCheck3.default)(this, _this);
+
+                var data;
+                if (hasChild) {
+                    data = [{
+                        name: 'zone' + this.count++
+                    }, {
+                        name: 'zone' + this.count++
+                    }];
+                } else {
+                    data = [];
+                }
+
+                resolve(data);
+            }.bind(this), 500);
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :props="props"\n                        :load="loadNode"\n                        lazy\n                        show-checkbox\n                        @check-change="handleCheckChange">\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                props: {\n                                    label: \'name\',\n                                    children: \'zones\'\n                                },\n                                count: 1\n                            }\n                        },\n                        methods: {\n                            handleCheckChange(data, checked, indeterminate) {\n                                console.log(data, checked, indeterminate)\n                            },\n                            handleNodeClick(data) {\n                                console.log(data)\n                            },\n                            loadNode(node, resolve) {\n                                if (node.level === 0) {\n                                    return resolve([{ name: \'region1\' }, { name: \'region2\' }])\n                                }\n                                if (node.level > 3) return resolve([])\n\n                                var hasChild;\n                                if (node.data.name === \'region1\') {\n                                    hasChild = true\n                                } else if (node.data.name === \'region2\') {\n                                    hasChild = false\n                                } else {\n                                    hasChild = Math.random() > 0.5\n                                }\n\n                                setTimeout(() => {\n                                    var data\n                                    if (hasChild) {\n                                        data = [{\n                                            name: \'zone\' + this.count++\n                                        }, {\n                                            name: \'zone\' + this.count++\n                                        }]\n                                    } else {\n                                        data = []\n                                    }\n\n                                    resolve(data)\n                                }, 500)\n                            }\n                        }\n                    }\n                </script>\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 420:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _newArrowCheck2 = __webpack_require__(4);
+
+var _newArrowCheck3 = _interopRequireDefault(_newArrowCheck2);
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            props: {
+                label: 'name',
+                children: 'zones',
+                isLeaf: 'leaf'
+            }
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        loadNode: function loadNode(node, resolve) {
+            var _this = this;
+
+            if (node.level === 0) {
+                return resolve([{ name: 'region' }]);
+            }
+            if (node.level > 1) return resolve([]);
+
+            setTimeout(function () {
+                (0, _newArrowCheck3.default)(this, _this);
+
+                var data = [{
+                    name: 'leaf',
+                    leaf: true
+                }, {
+                    name: 'zone'
+                }];
+
+                resolve(data);
+            }.bind(this), 500);
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :props="props"\n                        :load="loadNode"\n                        lazy\n                        show-checkbox>\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                props: {\n                                    label: \'name\',\n                                    children: \'zones\',\n                                    isLeaf: \'leaf\'\n                                }\n                            }\n                        },\n                        methods: {\n                            loadNode(node, resolve) {\n                                if (node.level === 0) {\n                                    return resolve([{ name: \'region\' }])\n                                }\n                                if (node.level > 1) return resolve([])\n\n                                setTimeout(() => {\n                                    const data = [{\n                                        name: \'leaf\',\n                                        leaf: true\n                                    }, {\n                                        name: \'zone\'\n                                    }]\n\n                                    resolve(data)\n                                }, 500)\n                            }\n                        }\n                    }\n                </script>\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 421:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            data: [{
+                id: 1,
+                label: '一级 1',
+                children: [{
+                    id: 4,
+                    label: '二级 1-1',
+                    children: [{
+                        id: 9,
+                        label: '三级 1-1-1'
+                    }, {
+                        id: 10,
+                        label: '三级 1-1-2'
+                    }]
+                }]
+            }, {
+                id: 2,
+                label: '一级 2',
+                children: [{
+                    id: 5,
+                    label: '二级 2-1'
+                }, {
+                    id: 6,
+                    label: '二级 2-2'
+                }]
+            }, {
+                id: 3,
+                label: '一级 3',
+                children: [{
+                    id: 7,
+                    label: '二级 3-1'
+                }, {
+                    id: 8,
+                    label: '二级 3-2'
+                }]
+            }],
+            defaultProps: {
+                children: 'children',
+                label: 'label'
+            }
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :data="data"\n                        show-checkbox\n                        node-key="id"\n                        :default-expanded-keys="[2, 3]"\n                        :default-checked-keys="[5]"\n                        :props="defaultProps">\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                data: [\n                                    {\n                                        id: 1,\n                                        label: \'\u4E00\u7EA7 1\',\n                                        children: [{\n                                            id: 4,\n                                            label: \'\u4E8C\u7EA7 1-1\',\n                                            children: [{\n                                                id: 9,\n                                                label: \'\u4E09\u7EA7 1-1-1\'\n                                            }, {\n                                                id: 10,\n                                                label: \'\u4E09\u7EA7 1-1-2\'\n                                            }]\n                                        }]\n                                    }, \n                                    {\n                                        id: 2,\n                                        label: \'\u4E00\u7EA7 2\',\n                                        children: [{\n                                            id: 5,\n                                            label: \'\u4E8C\u7EA7 2-1\'\n                                        }, {\n                                            id: 6,\n                                            label: \'\u4E8C\u7EA7 2-2\'\n                                        }]\n                                    }, \n                                    {\n                                        id: 3,\n                                        label: \'\u4E00\u7EA7 3\',\n                                        children: [{\n                                            id: 7,\n                                            label: \'\u4E8C\u7EA7 3-1\'\n                                        }, {\n                                            id: 8,\n                                            label: \'\u4E8C\u7EA7 3-2\'\n                                        }]\n                                    }\n                                ],\n                                defaultProps: {\n                                    children: \'children\',\n                                    label: \'label\'\n                                }\n                            }\n                        }\n                    }\n                </script>\n\n\n                \u8BF4\u660E: \u5206\u522B\u901A\u8FC7default-expanded-keys\u548Cdefault-checked-keys\u8BBE\u7F6E\u9ED8\u8BA4\u5C55\u5F00\u548C\u9ED8\u8BA4\u9009\u4E2D\u7684\u8282\u70B9\u3002\n                     \u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0C\u6B64\u65F6\u5FC5\u987B\u8BBE\u7F6Enode-key\uFF0C\u5176\u503C\u4E3A\u8282\u70B9\u6570\u636E\u4E2D\u7684\u4E00\u4E2A\u5B57\u6BB5\u540D\uFF0C\u8BE5\u5B57\u6BB5\u5728\u6574\u68F5\u6811\u4E2D\u662F\u552F\u4E00\u7684\u3002\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 422:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            data: [{
+                id: 1,
+                label: '一级 2',
+                children: [{
+                    id: 3,
+                    label: '二级 2-1',
+                    children: [{
+                        id: 4,
+                        label: '三级 3-1-1'
+                    }, {
+                        id: 5,
+                        label: '三级 3-1-2',
+                        disabled: true
+                    }]
+                }, {
+                    id: 2,
+                    label: '二级 2-2',
+                    disabled: true,
+                    children: [{
+                        id: 6,
+                        label: '三级 3-2-1'
+                    }, {
+                        id: 7,
+                        label: '三级 3-2-2',
+                        disabled: true
+                    }]
+                }]
+            }]
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :data="data"\n                        show-checkbox\n                        node-key="id"\n                        :default-expanded-keys="[2, 3]"\n                        :default-checked-keys="[5]">\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                data: [{\n                                    id: 1,\n                                    label: \'\u4E00\u7EA7 2\',\n                                    children: [\n                                        {\n                                            id: 3,\n                                            label: \'\u4E8C\u7EA7 2-1\',\n                                            children: [{\n                                                id: 4,\n                                                label: \'\u4E09\u7EA7 3-1-1\'\n                                            }, {\n                                                id: 5,\n                                                label: \'\u4E09\u7EA7 3-1-2\',\n                                                disabled: true\n                                            }]\n                                        }, \n                                        {\n                                            id: 2,\n                                            label: \'\u4E8C\u7EA7 2-2\',\n                                            disabled: true,\n                                            children: [{\n                                                id: 6,\n                                                    label: \'\u4E09\u7EA7 3-2-1\'\n                                                }, {\n                                                id: 7,\n                                                    label: \'\u4E09\u7EA7 3-2-2\',\n                                                    disabled: true\n                                                }\n                                            ]\n                                        }\n                                    ]\n                                }]\n                            }\n                        }\n                    }\n                </script>\n\n\n                \u8BF4\u660E: \u901A\u8FC7disabled\u8BBE\u7F6E\u7981\u7528\u72B6\u6001\u3002\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 423:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            data: [{
+                id: 1,
+                label: '一级 1',
+                children: [{
+                    id: 4,
+                    label: '二级 1-1',
+                    children: [{
+                        id: 9,
+                        label: '三级 1-1-1'
+                    }, {
+                        id: 10,
+                        label: '三级 1-1-2'
+                    }]
+                }]
+            }, {
+                id: 2,
+                label: '一级 2',
+                children: [{
+                    id: 5,
+                    label: '二级 2-1'
+                }, {
+                    id: 6,
+                    label: '二级 2-2'
+                }]
+            }, {
+                id: 3,
+                label: '一级 3',
+                children: [{
+                    id: 7,
+                    label: '二级 3-1'
+                }, {
+                    id: 8,
+                    label: '二级 3-2'
+                }]
+            }],
+            defaultProps: {
+                children: 'children',
+                label: 'label'
+            }
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        getCheckedNodes: function getCheckedNodes() {
+            console.log(this.$refs.tree.getCheckedNodes());
+        },
+        getCheckedKeys: function getCheckedKeys() {
+            console.log(this.$refs.tree.getCheckedKeys());
+        },
+        setCheckedNodes: function setCheckedNodes() {
+            this.$refs.tree.setCheckedNodes([{
+                id: 5,
+                label: '二级 2-1'
+            }, {
+                id: 9,
+                label: '三级 1-1-1'
+            }]);
+        },
+        setCheckedKeys: function setCheckedKeys() {
+            this.$refs.tree.setCheckedKeys([3]);
+        },
+        resetChecked: function resetChecked() {
+            this.$refs.tree.setCheckedKeys([]);
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <div>\n                        <lay-tree\n                            :data="data"\n                            show-checkbox\n                            default-expand-all\n                            node-key="id"\n                            ref="tree"\n                            highlight-current\n                            :props="defaultProps">\n                        </lay-tree>\n\n                        <div class="buttons">\n                            <button @click="getCheckedNodes">\u901A\u8FC7 node \u83B7\u53D6</button>\n                            <button @click="getCheckedKeys">\u901A\u8FC7 key \u83B7\u53D6</button>\n                            <button @click="setCheckedNodes">\u901A\u8FC7 node \u8BBE\u7F6E</button>\n                            <button @click="setCheckedKeys">\u901A\u8FC7 key \u8BBE\u7F6E</button>\n                            <button @click="resetChecked">\u6E05\u7A7A</button>\n                        </div>\n                    </div>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                data: [\n                                    {\n                                        id: 1,\n                                        label: \'\u4E00\u7EA7 1\',\n                                        children: [{\n                                            id: 4,\n                                            label: \'\u4E8C\u7EA7 1-1\',\n                                            children: [{\n                                                id: 9,\n                                                label: \'\u4E09\u7EA7 1-1-1\'\n                                            }, {\n                                                id: 10,\n                                                label: \'\u4E09\u7EA7 1-1-2\'\n                                            }]\n                                        }]\n                                    }, \n                                    {\n                                        id: 2,\n                                        label: \'\u4E00\u7EA7 2\',\n                                        children: [{\n                                            id: 5,\n                                            label: \'\u4E8C\u7EA7 2-1\'\n                                        }, {\n                                            id: 6,\n                                            label: \'\u4E8C\u7EA7 2-2\'\n                                        }]\n                                    }, \n                                    {\n                                        id: 3,\n                                        label: \'\u4E00\u7EA7 3\',\n                                        children: [{\n                                            id: 7,\n                                            label: \'\u4E8C\u7EA7 3-1\'\n                                        }, {\n                                            id: 8,\n                                            label: \'\u4E8C\u7EA7 3-2\'\n                                        }]\n                                    }\n                                ],\n                                defaultProps: {\n                                    children: \'children\',\n                                    label: \'label\'\n                                }\n                            }\n                        },\n                        methods: {\n                            getCheckedNodes() {\n                                console.log(this.$refs.tree.getCheckedNodes())\n                            },\n                            getCheckedKeys() {\n                                console.log(this.$refs.tree.getCheckedKeys())\n                            },\n                            setCheckedNodes() {\n                                this.$refs.tree.setCheckedNodes([{\n                                    id: 5,\n                                    label: \'\u4E8C\u7EA7 2-1\'\n                                }, {\n                                    id: 9,\n                                    label: \'\u4E09\u7EA7 1-1-1\'\n                                }])\n                            },\n                            setCheckedKeys() {\n                                this.$refs.tree.setCheckedKeys([3])\n                            },\n                            resetChecked() {\n                                this.$refs.tree.setCheckedKeys([])\n                            }\n                        }\n                    }\n                </script>\n\n\n                \u8BF4\u660E: \u672C\u4F8B\u5C55\u793A\u5982\u4F55\u83B7\u53D6\u548C\u8BBE\u7F6E\u9009\u4E2D\u8282\u70B9\u3002\u83B7\u53D6\u548C\u8BBE\u7F6E\u5404\u6709\u4E24\u79CD\u65B9\u5F0F\uFF1A\u901A\u8FC7 node \u6216\u901A\u8FC7 key\u3002\u5982\u679C\u9700\u8981\u901A\u8FC7 key \u6765\u83B7\u53D6\u6216\u8BBE\u7F6E\uFF0C\u5219\u5FC5\u987B\u8BBE\u7F6Enode-key\u3002\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 424:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _stringify = __webpack_require__(473);
+
+var _stringify2 = _interopRequireDefault(_stringify);
+
+var _newArrowCheck2 = __webpack_require__(4);
+
+var _newArrowCheck3 = _interopRequireDefault(_newArrowCheck2);
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var id = 1000;
+
+exports.default = {
+    data: function data() {
+        var _this = this;
+
+        var data = [{
+            id: 1,
+            label: '一级 1',
+            children: [{
+                id: 4,
+                label: '二级 1-1',
+                children: [{
+                    id: 9,
+                    label: '三级 1-1-1'
+                }, {
+                    id: 10,
+                    label: '三级 1-1-2'
+                }]
+            }]
+        }, {
+            id: 2,
+            label: '一级 2',
+            children: [{
+                id: 5,
+                label: '二级 2-1'
+            }, {
+                id: 6,
+                label: '二级 2-2'
+            }]
+        }, {
+            id: 3,
+            label: '一级 3',
+            children: [{
+                id: 7,
+                label: '二级 3-1'
+            }, {
+                id: 8,
+                label: '二级 3-2'
+            }]
+        }];
+
+        setTimeout(function () {
+            (0, _newArrowCheck3.default)(this, _this);
+
+            this.data2 = [{
+                id: 1,
+                label: '1',
+                children: [{
+                    id: 2,
+                    label: '1-2-1'
+                }, {
+                    id: 3,
+                    label: '1-2-2'
+                }]
+            }];
+        }.bind(this), 1000 * 5);
+        return {
+            activeNames: '',
+            data1: JSON.parse((0, _stringify2.default)(data)),
+            data2: JSON.parse((0, _stringify2.default)(data))
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        append: function append(data) {
+            debugger;
+            var newChild = { id: id++, label: 'testtest', children: [] };
+            if (!data.children) {
+                this.$set(data, 'children', []);
+            }
+            data.children.push(newChild);
+        },
+        remove: function remove(node, data) {
+            var _this2 = this;
+
+            var parent = node.parent;
+            var children = parent.data.children || parent.data;
+            var index = children.findIndex(function (d) {
+                (0, _newArrowCheck3.default)(this, _this2);
+                return d.id === data.id;
+            }.bind(this));
+            children.splice(index, 1);
+        },
+        renderContent: function renderContent(h, _ref) {
+            var _this3 = this;
+
+            var node = _ref.node,
+                data = _ref.data,
+                store = _ref.store;
+
+            return h(
+                'span',
+                { 'class': 'custom-tree-node' },
+                [h('span', [node.label]), h('span', [h(
+                    'button',
+                    {
+                        on: {
+                            'click': function () {
+                                (0, _newArrowCheck3.default)(this, _this3);
+                                return this.append(data);
+                            }.bind(this)
+                        }
+                    },
+                    ['Append']
+                ), h(
+                    'button',
+                    {
+                        on: {
+                            'click': function () {
+                                (0, _newArrowCheck3.default)(this, _this3);
+                                return this.remove(node, data);
+                            }.bind(this)
+                        }
+                    },
+                    ['Delete']
+                )])]
+            );
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    \n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n\n                            }\n                        },\n                        methods: {\n                            \n                        }\n                    }\n                </script>\n\n\n                \u8BF4\u660E: \n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 425:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            filterText: '',
+            data: [{
+                id: 1,
+                label: '一级 1',
+                children: [{
+                    id: 4,
+                    label: '二级 1-1',
+                    children: [{
+                        id: 9,
+                        label: '三级 1-1-1'
+                    }, {
+                        id: 10,
+                        label: '三级 1-1-2'
+                    }]
+                }]
+            }, {
+                id: 2,
+                label: '一级 2',
+                children: [{
+                    id: 5,
+                    label: '二级 2-1'
+                }, {
+                    id: 6,
+                    label: '二级 2-2'
+                }]
+            }, {
+                id: 3,
+                label: '一级 3',
+                children: [{
+                    id: 7,
+                    label: '二级 3-1'
+                }, {
+                    id: 8,
+                    label: '二级 3-2'
+                }]
+            }],
+            defaultProps: {
+                children: 'children',
+                label: 'label'
+            }
+        };
+    },
+
+    watch: {
+        filterText: function filterText(val) {
+            this.$refs.tree.filter(val);
+        }
+    },
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        filterNode: function filterNode(value, data) {
+            if (!value) return true;
+            return data.label.indexOf(value) !== -1;
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <div>\n                        <input placeholder="\u8F93\u5165\u5173\u952E\u5B57\u8FDB\u884C\u8FC7\u6EE4" v-model="filterText" />\n                        <lay-tree\n                            :data="data"\n                            :props="defaultProps"\n                            default-expand-all\n                            :filter-node-method="filterNode"\n                            ref="tree"\n                        >\n                        </lay-tree>\n                    </div>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                filterText: \'\',\n                                data: [\n                                    {\n                                        id: 1,\n                                        label: \'\u4E00\u7EA7 1\',\n                                        children: [{\n                                            id: 4,\n                                            label: \'\u4E8C\u7EA7 1-1\',\n                                            children: [\n                                                {\n                                                    id: 9,\n                                                    label: \'\u4E09\u7EA7 1-1-1\'\n                                                }, {\n                                                    id: 10,\n                                                    label: \'\u4E09\u7EA7 1-1-2\'\n                                                }\n                                            ]\n                                        }]\n                                    }, {\n                                        id: 2,\n                                        label: \'\u4E00\u7EA7 2\',\n                                        children: [\n                                            {\n                                                id: 5,\n                                                label: \'\u4E8C\u7EA7 2-1\'\n                                            }, {\n                                                id: 6,\n                                                label: \'\u4E8C\u7EA7 2-2\'\n                                            }\n                                        ]\n                                }, {\n                                    id: 3,\n                                    label: \'\u4E00\u7EA7 3\',\n                                    children: [\n                                        {\n                                            id: 7,\n                                            label: \'\u4E8C\u7EA7 3-1\'\n                                        }, {\n                                            id: 8,\n                                            label: \'\u4E8C\u7EA7 3-2\'\n                                        }\n                                    ]\n                                }],\n                                defaultProps: {\n                                    children: \'children\',\n                                    label: \'label\'\n                                }\n                            }\n                        },\n                        methods: {\n                            filterNode(value, data) {\n                                if (!value) return true\n                                return data.label.indexOf(value) !== -1\n                            }\n                        }\n                    }\n                </script>\n\n\n                \u8BF4\u660E: \u5728\u9700\u8981\u5BF9\u8282\u70B9\u8FDB\u884C\u8FC7\u6EE4\u65F6\uFF0C\u8C03\u7528 Tree \u5B9E\u4F8B\u7684filter\u65B9\u6CD5\uFF0C\u53C2\u6570\u4E3A\u5173\u952E\u5B57\u3002\n                     \u9700\u8981\u6CE8\u610F\u7684\u662F\uFF0C\u6B64\u65F6\u9700\u8981\u8BBE\u7F6Efilter-node-method\uFF0C\u503C\u4E3A\u8FC7\u6EE4\u51FD\u6570\u3002\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 426:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    data: function data() {
+        return {
+            activeNames: '',
+            data: [{
+                label: '一级 1',
+                children: [{
+                    label: '二级 1-1',
+                    children: [{
+                        label: '三级 1-1-1'
+                    }]
+                }]
+            }, {
+                label: '一级 2',
+                children: [{
+                    label: '二级 2-1',
+                    children: [{
+                        label: '三级 2-1-1'
+                    }]
+                }, {
+                    label: '二级 2-2',
+                    children: [{
+                        label: '三级 2-2-1'
+                    }]
+                }]
+            }, {
+                label: '一级 3',
+                children: [{
+                    label: '二级 3-1',
+                    children: [{
+                        label: '三级 3-1-1'
+                    }]
+                }, {
+                    label: '二级 3-2',
+                    children: [{
+                        label: '三级 3-2-1'
+                    }]
+                }]
+            }],
+            defaultProps: {
+                children: 'children',
+                label: 'label'
+            }
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        },
+        handleNodeClick: function handleNodeClick(data) {
+            console.log(data);
+        },
+        getStr: function getStr() {
+            return '\n                <template>\n                    <lay-tree\n                        :data="data"\n                        :props="defaultProps"\n                        accordion\n                        @node-click="handleNodeClick"\n                    >\n                    </lay-tree>\n                </template>\n\n                <script>\n                    export default {\n                        data() {\n                            return {\n                                data: [\n                                    {\n                                        label: \'\u4E00\u7EA7 1\',\n                                        children: [\n                                            {\n                                                label: \'\u4E8C\u7EA7 1-1\',\n                                                children: [{\n                                                    label: \'\u4E09\u7EA7 1-1-1\'\n                                                }]\n                                        }]\n                                    }, \n                                    {\n                                        label: \'\u4E00\u7EA7 2\',\n                                        children: [\n                                            {\n                                                label: \'\u4E8C\u7EA7 2-1\',\n                                                children: [{\n                                                    label: \'\u4E09\u7EA7 2-1-1\'\n                                                }]\n                                            }, \n                                            {\n                                                label: \'\u4E8C\u7EA7 2-2\',\n                                                children: [{\n                                                    label: \'\u4E09\u7EA7 2-2-1\'\n                                                }]\n                                            }\n                                        ]\n                                    }, \n                                    {\n                                        label: \'\u4E00\u7EA7 3\',\n                                        children: [{\n                                            label: \'\u4E8C\u7EA7 3-1\',\n                                            children: [{\n                                                label: \'\u4E09\u7EA7 3-1-1\'\n                                            }]\n                                        }, {\n                                            label: \'\u4E8C\u7EA7 3-2\',\n                                            children: [{\n                                                label: \'\u4E09\u7EA7 3-2-1\'\n                                            }]\n                                        }]\n                                    }\n                                ],\n                                defaultProps: {\n                                    children: \'children\',\n                                    label: \'label\'\n                                }\n                            }\n                        },\n                        methods: {\n                            handleNodeClick(data) {\n                                console.log(data)\n                            }\n                        }\n                    }\n                </script>\n            ';
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 458:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__ = __webpack_require__(398);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue__ = __webpack_require__(418);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_21c9cc23_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example1_vue__ = __webpack_require__(459);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_21c9cc23_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example1_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_21c9cc23_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example1_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example1_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_21c9cc23_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example1_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_21c9cc23_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example1_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 459:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("1. 基础用法")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "基础的树形结构展示", "name": "demo1" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "data": _vm.data1, "props": _vm.defaultProps1, "renderAfterExpand": true }, on: { "node-click": _vm.handleNodeClick1 } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 460:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue__ = __webpack_require__(419);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_50e85d98_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example2_vue__ = __webpack_require__(461);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_50e85d98_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example2_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_50e85d98_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example2_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example2_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_50e85d98_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example2_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_50e85d98_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example2_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 461:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("2. 可选择")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "适用于需要选择层级时使用。", "name": "demo2" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "props": _vm.props, "load": _vm.loadNode, "lazy": "", "show-checkbox": "" }, on: { "check-change": _vm.handleCheckChange } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 462:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue__ = __webpack_require__(420);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3952f679_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example3_vue__ = __webpack_require__(463);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3952f679_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example3_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3952f679_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example3_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example3_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3952f679_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example3_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3952f679_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example3_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 463:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("3. 懒加载自定义叶子节点")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "可以提前告知 Tree 某个节点是否为叶子节点，从而避免在叶子节点前渲染下拉按钮。", "name": "demo3" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "props": _vm.props, "load": _vm.loadNode, "lazy": "", "show-checkbox": "" } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 464:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue__ = __webpack_require__(421);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_7033e88f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example4_vue__ = __webpack_require__(465);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_7033e88f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example4_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_7033e88f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example4_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example4_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_7033e88f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example4_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_7033e88f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example4_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 465:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("4. 默认展开和默认选中")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "可将 Tree 的某些节点设置为默认展开或默认选中。", "name": "demo4" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "data": _vm.data, "show-checkbox": "", "node-key": "id", "default-expanded-keys": [2, 3], "default-checked-keys": [5], "props": _vm.defaultProps } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 466:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue__ = __webpack_require__(422);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4ab318e6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example5_vue__ = __webpack_require__(467);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4ab318e6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example5_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4ab318e6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example5_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example5_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4ab318e6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example5_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4ab318e6_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example5_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 467:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("5. 禁用状态")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "可将 Tree 的某些节点设置为禁用状态.", "name": "demo5" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "data": _vm.data, "show-checkbox": "", "node-key": "id", "default-expanded-keys": [2, 3], "default-checked-keys": [5] } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 468:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue__ = __webpack_require__(423);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4152b746_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example6_vue__ = __webpack_require__(469);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4152b746_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example6_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4152b746_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example6_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = null
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example6_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4152b746_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example6_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_4152b746_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example6_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 469:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("6. 禁用状态")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "树节点的选择.", "name": "demo6" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { ref: "tree", attrs: { "data": _vm.data, "show-checkbox": "", "default-expand-all": "", "node-key": "id", "highlight-current": "", "props": _vm.defaultProps } }), _vm._v(" "), _c('div', { staticClass: "buttons" }, [_c('button', { on: { "click": _vm.getCheckedNodes } }, [_vm._v("通过 node 获取")]), _vm._v(" "), _c('button', { on: { "click": _vm.getCheckedKeys } }, [_vm._v("通过 key 获取")]), _vm._v(" "), _c('button', { on: { "click": _vm.setCheckedNodes } }, [_vm._v("通过 node 设置")]), _vm._v(" "), _c('button', { on: { "click": _vm.setCheckedKeys } }, [_vm._v("通过 key 设置")]), _vm._v(" "), _c('button', { on: { "click": _vm.resetChecked } }, [_vm._v("清空")])])], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 470:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue__ = __webpack_require__(424);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3b25954f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example7_vue__ = __webpack_require__(475);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3b25954f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example7_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3b25954f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example7_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
 function injectStyle (context) {
-  __webpack_require__(401)
+  __webpack_require__(471)
 }
 /* script */
 
@@ -1785,9 +2955,9 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 
 var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__["render"],
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__["staticRenderFns"],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example7_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3b25954f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example7_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3b25954f_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example7_vue__["staticRenderFns"],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -1799,37 +2969,56 @@ var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2
 
 /***/ }),
 
-/***/ 401:
+/***/ 471:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(402);
+var content = __webpack_require__(472);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(178).default
-var update = add("80dc1f8c", content, true, {});
+var update = add("42de7a50", content, true, {});
 
 /***/ }),
 
-/***/ 402:
+/***/ 472:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(177)(false);
+exports = module.exports = __webpack_require__(177)(true);
 // imports
 
 
 // module
-exports.push([module.i, ".fake-content{position:relative;background-color:rgba(0,0,0,.05);box-shadow:0 0 0 1px rgba(0,0,0,.1);border-radius:3px;margin-bottom:10px}.fake-content:after{content:\"\";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:35px;height:10px;background:#ccc}", ""]);
+exports.push([module.i, "\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n", "", {"version":3,"sources":["/Users/xuzhiwei/Downloads/Code/Github/layout/examples/routers/tree/example7.vue"],"names":[],"mappings":";AACA;IACI,cAAc;CACjB;AACD;IACI,QAAQ;IACR,gBAAgB;IAChB,mBAAmB;CACtB","file":"example7.vue","sourcesContent":["\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 403:
+/***/ 473:
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(474), __esModule: true };
+
+/***/ }),
+
+/***/ 474:
+/***/ (function(module, exports, __webpack_require__) {
+
+var core = __webpack_require__(11);
+var $JSON = core.JSON || (core.JSON = { stringify: JSON.stringify });
+module.exports = function stringify(it) { // eslint-disable-line no-unused-vars
+  return $JSON.stringify.apply($JSON, arguments);
+};
+
+
+/***/ }),
+
+/***/ 475:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1839,7 +3028,17 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var render = function render() {
-  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "fake-content", style: { width: _vm.width, height: _vm.height } });
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("7. 自定义节点内容")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "节点的内容支持自定义，可以在节点区添加按钮或图标等内容.", "name": "demo7" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('div', { staticClass: "custom-tree-container" }, [_c('div', { staticClass: "block" }), _vm._v(" "), _c('div', { staticClass: "block" }, [_c('p', [_vm._v("使用 scoped slot")]), _vm._v(" "), _c('lay-tree', { attrs: { "data": _vm.data2, "show-checkbox": "", "node-key": "id", "default-expand-all": "", "expand-on-click-node": false }, scopedSlots: _vm._u([{ key: "default", fn: function fn(ref) {
+        var node = ref.node;
+        var data = ref.data;
+        return _c('span', { staticClass: "custom-tree-node" }, [_c('span', [_vm._v(_vm._s(node.label))]), _vm._v(" "), _c('span', [_c('button', { on: { "click": function click() {
+              return _vm.append(data);
+            } } }, [_vm._v("\n                            Append\n                        ")]), _vm._v(" "), _c('button', { on: { "click": function click() {
+              return _vm.remove(node, data);
+            } } }, [_vm._v("\n                            Delete\n                        ")])])]);
+      } }]) })], 1)])], 1);
 };
 var staticRenderFns = [];
 exports.render = render;
@@ -1847,104 +3046,80 @@ exports.staticRenderFns = staticRenderFns;
 
 /***/ }),
 
-/***/ 408:
-/***/ (function(module, exports, __webpack_require__) {
+/***/ 476:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue__ = __webpack_require__(425);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_388ebf64_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example8_vue__ = __webpack_require__(479);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_388ebf64_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example8_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_388ebf64_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example8_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+function injectStyle (context) {
+  __webpack_require__(477)
+}
+/* script */
 
 
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
+/* template */
 
-var _prismjs = __webpack_require__(399);
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
 
-var _prismjs2 = _interopRequireDefault(_prismjs);
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example8_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_388ebf64_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example8_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_388ebf64_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example8_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
 
-var _fakeContent = __webpack_require__(400);
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
 
-var _fakeContent2 = _interopRequireDefault(_fakeContent);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-exports.default = {
-    components: { FakeContent: _fakeContent2.default },
-    data: function data() {
-        return {
-            leftStyle: {
-                border: '1px solid red',
-                'box-sizing': 'border-box'
-            },
-            rightStyle: {
-                border: '1px solid green',
-                'box-sizing': 'border-box'
-            },
-            code1: '\n                <lay-two-columns fix="left" width="200px">\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                fix\u5C5E\u6027: \u7C7B\u578BString left/right; (\u9ED8\u8BA4\u503C: left)\n                    left\u8868\u793A\u5DE6\u5217\u4E3A\u5B9A\u5BBD,\u53F3\u5217\u81EA\u9002\u5E94\n                    right\u8868\u793A\u53F3\u5217\u4E3A\u5B9A\u5BBD,\u5DE6\u5217\u81EA\u9002\u5E94\n\n                width\u5C5E\u6027: \u7C7B\u578BString 200px;  (\u9ED8\u8BA4\u503C: 0px)\n                    \u5F53fix="left"\u65F6\u8868\u793A\u5DE6\u5217\u5B9A\u5BBD200px,\n                    \u5F53fix="right"\u65F6\u8868\u793A\u53F3\u5217\u5B9A\u5BBD200px\n            ',
-
-            code2: '\n                <lay-two-columns fix="left" width="200%" height="500px">\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                height\u5C5E\u6027: \u7C7B\u578BString auto; (\u9ED8\u8BA4\u503C: auto)\n                    \u5DE6\u5217\u548C\u53F3\u5217\u5BB9\u5668\u7684\u9AD8\u5EA6\n            ',
-
-            code3: '\n                <lay-two-columns \n                    fix="left" \n                    width="25%" \n                    height="500px" \n                    nativeScrollbar\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                nativeScrollbar\u5C5E\u6027: \u7C7B\u578BBoolean false; (\u9ED8\u8BA4\u503C: false)\n                    \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n            ',
-
-            code4: '\n                <lay-two-columns \n                    fix="left" \n                    width="10rem" \n                    height="500px" \n                    nativeScrollbar\n                    overflow="hidden"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                overflow\u5C5E\u6027: \u7C7B\u578BString auto/visible/hidden/scroll/inherit; \n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u548C\u53F3\u5217\u5BB9\u5668\u4E0A(\u9ED8\u8BA4\u503C: auto)\n            ',
-
-            code5: '\n                <lay-two-columns \n                    fix="right" \n                    width="10em"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                fix\u5C5E\u6027: \u7C7B\u578BString left/right; (\u9ED8\u8BA4\u503C: left)\n                    left\u8868\u793A\u5DE6\u5217\u4E3A\u5B9A\u5BBD,\u53F3\u5217\u81EA\u9002\u5E94\n                    right\u8868\u793A\u53F3\u5217\u4E3A\u5B9A\u5BBD,\u5DE6\u5217\u81EA\u9002\u5E94\n            ',
-
-            code6: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
-
-            code7: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
-
-            code8: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    overflow="hidden"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
-
-            code9: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    :leftStyle="leftStyle" \n                    :rightStyle="rightStyle"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                leftStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u5BB9\u5668\u4E0A\n\n                rightStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u53F3\u5217\u5BB9\u5668\u4E0A\n            ',
-
-            code10: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    leftClass="left-class" \n                    rightClass="right-class"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                leftClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u5BB9\u5668\u4E0A\n\n                rightClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u53F3\u5217\u5BB9\u5668\u4E0A\n            ',
-
-            code11: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    leftClass="left-class" \n                    rightClass="right-class"\n                    autoshow\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    autoshow\u5C5E\u6027: \u7C7B\u578BBoolean; (\u9ED8\u8BA4\u503C: false)\n                        \u81EA\u5B9A\u4E49\u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n                        \n            ',
-
-            code12: '\n                props: {\n                    fix: { // \u5DE6\u8FB9\u5B9A\u5BBD/\u53F3\u8FB9\u5B9A\u5BBD\n                        type: String,\n                        default: \'left\' // left/right\n                    },\n                    nativeScrollbar: { // \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n                        type: Boolean,\n                        default: false\n                    },\n                    autoshow: { // \u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n                        type: Boolean,\n                        default: false\n                    },\n                    width: { // left/right\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        type: String,\n                        default: \'0px\'\n                    },\n                    height: { // left\u548Cright\u5BB9\u5668\u7684\u9AD8\u5EA6\n                        type: String,\n                        default: \'auto\'\n                    },\n                    overflow: { // left\u548Cright\u5BB9\u5668\u7684\u6EDA\u52A8\u6761\u662F\u5426\u51FA\u73B0\n                        type: String,\n                        default: \'auto\'\n                    },\n                    leftStyle: { // left\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    leftClass: { // left\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    },\n                    rightStyle: { // right\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    rightClass: { // right\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    }\n                }\n            '
-        };
-    },
-
-    methods: {
-        getCode: function getCode(code) {
-            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
-        }
-    }
-};
 
 /***/ }),
 
-/***/ 428:
+/***/ 477:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(429);
+var content = __webpack_require__(478);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(178).default
-var update = add("18c3e8dc", content, true, {});
+var update = add("0737c120", content, true, {});
 
 /***/ }),
 
-/***/ 429:
+/***/ 478:
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(177)(false);
+exports = module.exports = __webpack_require__(177)(true);
 // imports
 
 
 // module
-exports.push([module.i, ".test-box{margin-bottom:30px;border:1px solid #dcdfe6}.right-content{padding-left:10px}.left-class,.right-class{padding:10px;box-sizing:border-box}", ""]);
+exports.push([module.i, "\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n", "", {"version":3,"sources":["/Users/xuzhiwei/Downloads/Code/Github/layout/examples/routers/tree/example8.vue"],"names":[],"mappings":";AACA;IACI,cAAc;CACjB;AACD;IACI,QAAQ;IACR,gBAAgB;IAChB,mBAAmB;CACtB","file":"example8.vue","sourcesContent":["\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n"],"sourceRoot":""}]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 430:
+/***/ 479:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1954,95 +3129,124 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var render = function render() {
-  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "test-two-columns" }, [_c('h1', [_vm._v("左列固定,右列自适应")]), _vm._v(" "), _c('h3', [_vm._v("1.只指定width属性,左列和右列的高度由子内容撑开")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code1)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "200px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("2.给定height属性,内容超出自动出现滚动条(默认使用自定义滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code2)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "25%", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content", staticStyle: { "width": "650px" } }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("3.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code3)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "nativeScrollbar": "", "fix": "left", "width": "25%", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content", staticStyle: { "width": "650px" } }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("4.使用overflow属性值为hidden时,内容超出自动隐藏")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code4)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "10rem", "height": "500px", "overflow": "hidden" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('hr'), _vm._v(" "), _c('h1', [_vm._v("右列固定,左列自适应")]), _vm._v(" "), _c('h3', [_vm._v("5.指定fix属性,开启左列固定还是右列固定")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code5)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "10em" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("6.给定高度,内容超出自动出现滚动条(默认使用自定义滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code6)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("7.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code7)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "nativeScrollbar": "", "width": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("8.使用overflow属性值为hidden时,内容超出自动隐藏")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code8)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "overflow": "hidden" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("9.使用leftStyle和rightStyle属性给左列容器和右列容器添加样式")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code9)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftStyle": _vm.leftStyle, "rightStyle": _vm.rightStyle }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("10.使用leftClass和rightClass属性给左列容器和右列容器添加css类名")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code10)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftClass": "left-class", "rightClass": "right-class" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("11.自定义滚动条是否自动显示")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code11)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftClass": "left-class", "rightClass": "right-class", "autoshow": "" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(10, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
-          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
-        }), 1)];
-      }, proxy: true }]) }), _vm._v(" "), _c('p', [_vm._v("lay-two-columns 所有属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code12)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")])], 1);
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("8. 节点过滤")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "通过关键字过滤树节点.", "name": "demo8" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('input', { directives: [{ name: "model", rawName: "v-model", value: _vm.filterText, expression: "filterText" }], attrs: { "placeholder": "输入关键字进行过滤" }, domProps: { "value": _vm.filterText }, on: { "input": function input($event) {
+        if ($event.target.composing) {
+          return;
+        }_vm.filterText = $event.target.value;
+      } } }), _vm._v(" "), _c('lay-tree', { ref: "tree", attrs: { "data": _vm.data, "props": _vm.defaultProps, "default-expand-all": "", "filter-node-method": _vm.filterNode } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 480:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue__ = __webpack_require__(426);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_1a906458_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example9_vue__ = __webpack_require__(483);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_1a906458_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example9_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_1a906458_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example9_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+function injectStyle (context) {
+  __webpack_require__(481)
+}
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_example9_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_1a906458_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example9_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_1a906458_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_example9_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 481:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(482);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(178).default
+var update = add("942c76e0", content, true, {});
+
+/***/ }),
+
+/***/ 482:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(177)(true);
+// imports
+
+
+// module
+exports.push([module.i, "\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n", "", {"version":3,"sources":["/Users/xuzhiwei/Downloads/Code/Github/layout/examples/routers/tree/example9.vue"],"names":[],"mappings":";AACA;IACI,cAAc;CACjB;AACD;IACI,QAAQ;IACR,gBAAgB;IAChB,mBAAmB;CACtB","file":"example9.vue","sourcesContent":["\n.custom-tree-container {\n    display: flex;\n}\n.block {\n    flex: 1;\n    font-size: 14px;\n    padding-right: 8px;\n}\n"],"sourceRoot":""}]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 483:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', [_c('h3', [_vm._v("9. 手风琴模式")]), _vm._v(" "), _c('lay-collapse', { model: { value: _vm.activeNames, callback: function callback($$v) {
+        _vm.activeNames = $$v;
+      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "对于同一级的节点，每次只能展开一个.", "name": "demo9" } }, [_c('pre', [_vm._v("                "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.getStr())) } }), _vm._v("\n            ")])])], 1), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-tree', { attrs: { "data": _vm.data, "props": _vm.defaultProps, "accordion": "" }, on: { "node-click": _vm.handleNodeClick } })], 1);
+};
+var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 484:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "test-lay-tree" }, [_c('h1', [_vm._v("Tree 树形控件组件")]), _vm._v(" "), _c('example7')], 1);
 };
 var staticRenderFns = [];
 exports.render = render;

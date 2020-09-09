@@ -1,18 +1,18 @@
 webpackJsonp([4],{
 
-/***/ 394:
+/***/ 395:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue__ = __webpack_require__(412);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_66c3ee34_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_collapse_vue__ = __webpack_require__(442);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_66c3ee34_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_collapse_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_66c3ee34_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_collapse_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue__ = __webpack_require__(413);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_377c3450_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_grid_vue__ = __webpack_require__(448);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_377c3450_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_grid_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_377c3450_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_grid_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
 function injectStyle (context) {
-  __webpack_require__(440)
+  __webpack_require__(446)
 }
 /* script */
 
@@ -24,14 +24,14 @@ var __vue_template_functional__ = false
 /* styles */
 var __vue_styles__ = injectStyle
 /* scopeId */
-var __vue_scopeId__ = "data-v-66c3ee34"
+var __vue_scopeId__ = "data-v-377c3450"
 /* moduleIdentifier (server only) */
 var __vue_module_identifier__ = null
 
 var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_collapse_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_66c3ee34_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_collapse_vue__["render"],
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_66c3ee34_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_collapse_vue__["staticRenderFns"],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_grid_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_377c3450_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_grid_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_377c3450_hasScoped_true_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_grid_vue__["staticRenderFns"],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -43,7 +43,7 @@ var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2
 
 /***/ }),
 
-/***/ 399:
+/***/ 401:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {
@@ -1731,7 +1731,7 @@ Prism.languages.js = Prism.languages.javascript;
 
 /***/ }),
 
-/***/ 412:
+/***/ 402:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1740,78 +1740,81 @@ Prism.languages.js = Prism.languages.javascript;
 Object.defineProperty(exports, "__esModule", {
     value: true
 });
-
-var _prismjs = __webpack_require__(399);
-
-var _prismjs2 = _interopRequireDefault(_prismjs);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
 exports.default = {
-    data: function data() {
-        return {
-            activeNames: ['1'],
-            activeNames1: '1',
-            activeNames2: ['1'],
-            activeNames3: ['1'],
-
-            isCollapse: false,
-
-            code1: '\n                <template>\n                    <lay-collapse v-model="activeNames">\n                        <lay-collapse-item title="\u6807\u98981" name="uid1">\n                            ...\n                        </lay-collapse-item>\n                        <lay-collapse-item title="\u6807\u98981" name="uid2">\n                            ...\n                        </lay-collapse-item>\n                    </lay-collapse>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    value / v-model\u5C5E\u6027: \u7C7B\u578B[Number, String, Array];  (\u9ED8\u8BA4\u503C: [])\n                        \u5F53\u524D\u6FC0\u6D3B\u7684\u9762\u677F(\u5982\u679C\u662F\u624B\u98CE\u7434\u6A21\u5F0F\uFF0C\u7ED1\u5B9A\u503C\u7C7B\u578B\u9700\u8981\u4E3Astring\uFF0C\u5426\u5219\u4E3Aarray)\n            ',
-
-            code2: '\n                <template>\n                    <lay-collapse v-model="activeNames" accordion @change="handlerChange">\n                        <lay-collapse-item title="\u6807\u98981" name="uid1">\n                            ...\n                        </lay-collapse-item>\n                        <lay-collapse-item title="\u6807\u98981" name="uid2">\n                            ...\n                        </lay-collapse-item>\n                    </lay-collapse>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    accordion\u5C5E\u6027: \u7C7B\u578B[Boolean];  (\u9ED8\u8BA4\u503C: false)\n                        \u662F\u5426\u5F00\u542F\u624B\u98CE\u7434\u6A21\u5F0F\n                    \u81EA\u5B9A\u4E49change\u4E8B\u4EF6\u540D: \u53C2\u6570(curName, names) \n                        curName: \u7C7B\u578B[Number, String] \u5F53\u524D\u70B9\u51FBlay-collapse-item\u7EC4\u4EF6\u7684name\u540D\n                        names: \u7C7B\u578B[Array] \u6240\u6709\u6FC0\u6D3B\u7684lay-collapse-item\u7EC4\u4EF6name\u7684\u96C6\u5408\n            ',
-
-            code3: '\n                <template>\n                    <lay-collapse v-model="activeNames2" @change="handlerChange">\n                        <lay-collapse-item title="\u6807\u98981" name="uid1">\n                            ...\n                        </lay-collapse-item>\n                        <lay-collapse-item title="\u6807\u98981" name="uid2" disabled>\n                            ...\n                        </lay-collapse-item>\n                    </lay-collapse>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    disabled\u5C5E\u6027: \u7C7B\u578B[Boolean];  (\u9ED8\u8BA4\u503C: false)\n                        \u662F\u5426\u7981\u6B62\u70B9\u51FB\n                    name\u5C5E\u6027: \u7C7B\u578B[Number, String];  (\u9ED8\u8BA4\u503C:  \u81EA\u52A8\u751F\u6210\u7684uid\u552F\u4E00\u6807\u8BC6)\n                        \u552F\u4E00\u6807\u8BC6\n                    title\u5C5E\u6027: \u7C7B\u578B[Boolean];  (\u9ED8\u8BA4\u503C: \'\')\n                        \u9762\u677F\u6807\u9898\n            ',
-
-            code4: '\n                <template>\n                    <lay-collapse v-model="activeNames2" @change="handlerChange2">\n                        <lay-collapse-item title="\u4E00\u81F4\u6027 Consistency" name="1">\n                            <template v-slot:header>\n                                <div>\n                                    <i class="lay-arrow-left" :style="customArrowStyle" style="margin: 0 6px"></i>\n                                    <span>\u6211\u662F\u81EA\u5B9A\u4E49\u5934\u90E8</span>\n                                </div>\n                            </template>\n                            ...\n                        </lay-collapse-item>\n                        <lay-collapse-item title="\u53CD\u9988 Feedback" name="2">\n                            <template v-slot:title>\n                                <span style="color: red">\u6211\u662F\u81EA\u5B9A\u4E49title</span>\n                            </template>\n                            ...\n                        </lay-collapse-item>\n                    </lay-collapse>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    \u5177\u540D\u63D2\u69FDheader: \u53EF\u4EE5\u81EA\u5B9A\u4E49\u7C7B.lay-collapse-item__header\u7684\u5B69\u5B50, \u81EA\u5B9A\u4E49\u6574\u4E2A\u5934\u90E8 \n                    \u5177\u540D\u63D2\u69FDtitle: \u53EF\u4EE5\u81EA\u5B9A\u4E49\u7C7B.lay-collapse-item__title\u7684\u5B69\u5B50 \n            ',
-
-            code5: '\n                // props\n                props: {\n                    value: { // \u5F53\u524D\u6FC0\u6D3B\u7684\u9762\u677F(\u5982\u679C\u662F\u624B\u98CE\u7434\u6A21\u5F0F\uFF0C\u7ED1\u5B9A\u503C\u7C7B\u578B\u9700\u8981\u4E3Astring\uFF0C\u5426\u5219\u4E3Aarray)\n                        type: [Number, String, Array],\n                        default: function() {\n                            return []\n                        }\n                    },\n                    accordion: { // \u662F\u5426\u624B\u98CE\u7434\u6A21\u5F0F\n                        type: Boolean,\n                        default: false\n                    }\n                }\n\n                // \u81EA\u5B9A\u4E49\u4E8B\u4EF6\u540D\n                @change="fn(curName, names)"\n                    curName: \u7C7B\u578B[Number, String] \u5F53\u524D\u70B9\u51FBlay-collapse-item\u7EC4\u4EF6\u7684name\u540D\n                    names: \u7C7B\u578B[Array] \u6240\u6709\u6FC0\u6D3B\u7684lay-collapse-item\u7EC4\u4EF6name\u7684\u96C6\u5408\n            ',
-
-            code6: '\n                props: {\n                    name: { // \u552F\u4E00\u6807\u5FD7\u7B26\n                        type: [Number, String],\n                        default: \'\'\n                    },\n                    title: { // \u9762\u677F\u6807\u9898\n                        type: String,\n                        default: \'\'\n                    },\n                    disabled: { // \u662F\u5426\u7981\u7528\n                        type: Boolean,\n                        default: false\n                    }\n                }\n            '
-        };
-    },
-
-    computed: {
-        customArrowStyle: function customArrowStyle() {
-            return this.isCollapse ? { transform: 'rotate(-90deg)' } : { transform: 'rotate(0deg)' };
-        }
-    },
-    methods: {
-        handleChange: function handleChange(curName, names) {
-            console.log(curName, names);
+    name: 'FakeContent',
+    props: {
+        width: {
+            type: String,
+            default: '100%'
         },
-        handleChange2: function handleChange2(curName, names) {
-            if (curName == 1) {
-                this.isCollapse = !names.includes(curName);
-            }
-        },
-        getCode: function getCode(code) {
-            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        height: {
+            type: String,
+            default: '100px'
         }
-    },
-    updated: function updated() {
-        this.$root.$emit('update-main-container-scrollbar');
     }
 };
 
 /***/ }),
 
-/***/ 440:
+/***/ 403:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__ = __webpack_require__(402);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__ = __webpack_require__(406);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
+function injectStyle (context) {
+  __webpack_require__(404)
+}
+/* script */
+
+
+/* template */
+
+/* template functional */
+var __vue_template_functional__ = false
+/* styles */
+var __vue_styles__ = injectStyle
+/* scopeId */
+var __vue_scopeId__ = null
+/* moduleIdentifier (server only) */
+var __vue_module_identifier__ = null
+
+var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__["staticRenderFns"],
+  __vue_template_functional__,
+  __vue_styles__,
+  __vue_scopeId__,
+  __vue_module_identifier__
+)
+
+/* harmony default export */ __webpack_exports__["default"] = (Component.exports);
+
+
+/***/ }),
+
+/***/ 404:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(441);
+var content = __webpack_require__(405);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(178).default
-var update = add("7a646c4a", content, true, {});
+var update = add("80dc1f8c", content, true, {});
 
 /***/ }),
 
-/***/ 441:
+/***/ 405:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(177)(false);
@@ -1819,14 +1822,14 @@ exports = module.exports = __webpack_require__(177)(false);
 
 
 // module
-exports.push([module.i, ".lay-collapse-demo[data-v-66c3ee34]{margin-top:20px}.box1[data-v-66c3ee34]{padding:10px;background:#ccc;border:1px solid red}.test[data-v-66c3ee34]{max-width:500px}", ""]);
+exports.push([module.i, ".fake-content{position:relative;background-color:rgba(0,0,0,.05);box-shadow:0 0 0 1px rgba(0,0,0,.1);border-radius:3px;margin-bottom:10px}.fake-content:after{content:\"\";position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:35px;height:10px;background:#ccc}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 442:
+/***/ 406:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1836,21 +1839,122 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var render = function render() {
-  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "lay-collapse-demo" }, [_c('h1', [_vm._v("折叠面板组件")]), _vm._v(" "), _c('h3', [_vm._v("1. LayCollapse组件: 使用v-model或者value属性激活当前面板,面板之间不影响")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code1)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-collapse', { on: { "change": _vm.handleChange }, model: { value: _vm.activeNames, callback: function callback($$v) {
-        _vm.activeNames = $$v;
-      }, expression: "activeNames" } }, [_c('lay-collapse-item', { attrs: { "title": "一致性 Consistency", "name": "1" } }, [_c('div', [_vm._v("与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；")]), _vm._v(" "), _c('div', [_vm._v("在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "反馈 Feedback", "name": "2" } }, [_c('div', [_vm._v("控制反馈：通过界面样式和交互动效让用户可以清晰的感知自己的操作；")]), _vm._v(" "), _c('div', [_vm._v("页面反馈：操作后，通过页面元素的变化清晰地展现当前状态。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "效率 Efficiency", "name": "3" } }, [_c('div', [_vm._v("简化流程：设计简洁直观的操作流程；")]), _vm._v(" "), _c('div', [_vm._v("清晰明确：语言表达清晰且表意明确，让用户快速理解进而作出决策；")]), _vm._v(" "), _c('div', [_vm._v("帮助用户识别：界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "可控 Controllability", "name": "4" } }, [_c('div', [_vm._v("用户决策：根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；")]), _vm._v(" "), _c('div', [_vm._v("结果可控：用户可以自由的进行操作，包括撤销、回退和终止当前操作等。")])])], 1), _vm._v(" "), _c('div', { staticStyle: { "margin-bottom": "50px" } }), _vm._v(" "), _c('h3', [_vm._v("2. LayCollapse组件: 使用accordion属性开启手风琴模式")]), _vm._v(" "), _c('h3', [_vm._v("    LayCollapse组件: 使用自定义change事件,来监听当前点击了哪个面板及激活的面板集合")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code2)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-collapse', { attrs: { "accordion": "" }, on: { "change": _vm.handleChange }, model: { value: _vm.activeNames1, callback: function callback($$v) {
-        _vm.activeNames1 = $$v;
-      }, expression: "activeNames1" } }, [_c('lay-collapse-item', { attrs: { "title": "一致性 Consistency", "name": "1" } }, [_c('div', [_vm._v("与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；")]), _vm._v(" "), _c('div', [_vm._v("在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "反馈 Feedback", "name": "2" } }, [_c('div', [_vm._v("控制反馈：通过界面样式和交互动效让用户可以清晰的感知自己的操作；")]), _vm._v(" "), _c('div', [_vm._v("页面反馈：操作后，通过页面元素的变化清晰地展现当前状态。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "效率 Efficiency", "name": "3" } }, [_c('div', [_vm._v("简化流程：设计简洁直观的操作流程；")]), _vm._v(" "), _c('div', [_vm._v("清晰明确：语言表达清晰且表意明确，让用户快速理解进而作出决策；")]), _vm._v(" "), _c('div', [_vm._v("帮助用户识别：界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "可控 Controllability", "name": "4" } }, [_c('div', [_vm._v("用户决策：根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；")]), _vm._v(" "), _c('div', [_vm._v("结果可控：用户可以自由的进行操作，包括撤销、回退和终止当前操作等。")])])], 1), _vm._v(" "), _c('div', { staticStyle: { "margin-bottom": "50px" } }), _vm._v(" "), _c('h3', [_vm._v("3. LayCollapseItem组件: 使用name属性标识唯一性")]), _vm._v(" "), _c('h3', [_vm._v("    LayCollapseItem组件: 使用title属性,来显示头部标题")]), _vm._v(" "), _c('h3', [_vm._v("    LayCollapseItem组件: 使用disabled属性,来禁止点击")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code3)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-collapse', { on: { "change": _vm.handleChange }, model: { value: _vm.activeNames2, callback: function callback($$v) {
-        _vm.activeNames2 = $$v;
-      }, expression: "activeNames2" } }, [_c('lay-collapse-item', { attrs: { "title": "一致性 Consistency", "name": "1" } }, [_c('div', [_vm._v("与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；")]), _vm._v(" "), _c('div', [_vm._v("在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "反馈 Feedback", "name": "2", "disabled": "" } }, [_c('div', [_vm._v("控制反馈：通过界面样式和交互动效让用户可以清晰的感知自己的操作；")]), _vm._v(" "), _c('div', [_vm._v("页面反馈：操作后，通过页面元素的变化清晰地展现当前状态。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "效率 Efficiency", "name": "3" } }, [_c('div', [_vm._v("简化流程：设计简洁直观的操作流程；")]), _vm._v(" "), _c('div', [_vm._v("清晰明确：语言表达清晰且表意明确，让用户快速理解进而作出决策；")]), _vm._v(" "), _c('div', [_vm._v("帮助用户识别：界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "可控 Controllability", "name": "4" } }, [_c('div', [_vm._v("用户决策：根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；")]), _vm._v(" "), _c('div', [_vm._v("结果可控：用户可以自由的进行操作，包括撤销、回退和终止当前操作等。")])])], 1), _vm._v(" "), _c('div', { staticStyle: { "margin-bottom": "50px" } }), _vm._v(" "), _c('h3', [_vm._v("4. LayCollapseItem组件: 使用v-slot:header插槽 来自定义整个header")]), _vm._v(" "), _c('h3', [_vm._v("    LayCollapseItem组件: 使用v-slot:title插槽 来自定义title块")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code4)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-collapse', { on: { "change": _vm.handleChange2 }, model: { value: _vm.activeNames3, callback: function callback($$v) {
-        _vm.activeNames3 = $$v;
-      }, expression: "activeNames3" } }, [_c('lay-collapse-item', { attrs: { "title": "一致性 Consistency", "name": "1" }, scopedSlots: _vm._u([{ key: "header", fn: function fn() {
-        return [_c('div', [_c('i', { staticClass: "lay-arrow-left", staticStyle: { "margin-right": "6px" }, style: _vm.customArrowStyle }), _vm._v(" "), _c('span', { staticStyle: { "color": "green" } }, [_vm._v("我是自定义头部")])])];
-      }, proxy: true }]) }, [_vm._v(" "), _c('div', [_vm._v("与现实生活一致：与现实生活的流程、逻辑保持一致，遵循用户习惯的语言和概念；")]), _vm._v(" "), _c('div', [_vm._v("在界面中一致：所有的元素和结构需保持一致，比如：设计样式、图标和文本、元素的位置等。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "反馈 Feedback", "name": "2" }, scopedSlots: _vm._u([{ key: "title", fn: function fn() {
-        return [_c('span', { staticStyle: { "color": "red" } }, [_vm._v("我是自定义title")])];
-      }, proxy: true }]) }, [_vm._v(" "), _c('div', [_vm._v("控制反馈：通过界面样式和交互动效让用户可以清晰的感知自己的操作；")]), _vm._v(" "), _c('div', [_vm._v("页面反馈：操作后，通过页面元素的变化清晰地展现当前状态。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "效率 Efficiency", "name": "3" } }, [_c('div', [_vm._v("简化流程：设计简洁直观的操作流程；")]), _vm._v(" "), _c('div', [_vm._v("清晰明确：语言表达清晰且表意明确，让用户快速理解进而作出决策；")]), _vm._v(" "), _c('div', [_vm._v("帮助用户识别：界面简单直白，让用户快速识别而非回忆，减少用户记忆负担。")])]), _vm._v(" "), _c('lay-collapse-item', { attrs: { "title": "可控 Controllability", "name": "4" } }, [_c('div', [_vm._v("用户决策：根据场景可给予用户操作建议或安全提示，但不能代替用户进行决策；")]), _vm._v(" "), _c('div', [_vm._v("结果可控：用户可以自由的进行操作，包括撤销、回退和终止当前操作等。")])])], 1), _vm._v(" "), _c('div', { staticStyle: { "margin-bottom": "50px" } }), _vm._v(" "), _c('p', [_vm._v("lay-collapse 组件所有prop属性和自定义事件名")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code5)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('div', { staticStyle: { "margin-bottom": "50px" } }), _vm._v(" "), _c('p', [_vm._v("lay-collapse-item 组件所有prop属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code6)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")])], 1);
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "fake-content", style: { width: _vm.width, height: _vm.height } });
 };
 var staticRenderFns = [];
+exports.render = render;
+exports.staticRenderFns = staticRenderFns;
+
+/***/ }),
+
+/***/ 413:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+
+var _fakeContent = __webpack_require__(403);
+
+var _fakeContent2 = _interopRequireDefault(_fakeContent);
+
+var _prismjs = __webpack_require__(401);
+
+var _prismjs2 = _interopRequireDefault(_prismjs);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+exports.default = {
+    components: { FakeContent: _fakeContent2.default },
+    data: function data() {
+        return {
+            code1: '\n                <template>\n                    <lay-row>\n                        <lay-col :span="12"><div class="grid-content">\u5185\u5BB9</div></lay-col>\n                        <lay-col :span="12"><div class="grid-content">\u5185\u5BB9</div></lay-col>\n                    </lay-row>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    lay-col\u7EC4\u4EF6\u7684span\u5C5E\u6027: \u7C7B\u578BNumber; (\u9ED8\u8BA4\u503C: 24) 0~24\n                       \u6BCF\u4E2A\u5B50\u9879\u76EE\u5BBD\u5EA6\u6240\u5360\u7684\u767E\u5206\u6BD4: 1 / 24 * span * 100%\n            ',
+            code2: '\n                <lay-row :gutter="20">\n                    <lay-col :span="6"><div class="grid-content">:span="6"</div></lay-col>\n                    <lay-col :span="6"><div class="grid-content">:span="6"</div></lay-col>\n                    <lay-col :span="6"><div class="grid-content">:span="6"</div></lay-col>\n                    <lay-col :span="6"><div class="grid-content">:span="6"</div></lay-col>\n                </lay-row>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    lay-row\u7EC4\u4EF6\u7684gutter\u5C5E\u6027: \u7C7B\u578BNumber; (\u9ED8\u8BA4\u503C: 0) \u5355\u4F4Dpx\n                       \u6BCF\u4E2A\u5B50\u9879\u76EE\u4F1A\u6DFB\u52A0padding-left = padding-right = (gutter/2)px,\n                       \u7236\u5BB9\u5668\u4F1A\u6DFB\u52A0margin-left = margin-right = -(gutter/2)px\n            ',
+            code3: '\n                <lay-row :gutter="20">\n                    <lay-col :span="4">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4" :offset="1">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4" :push="1">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4" :offset="2" :pull="1">\u5185\u5BB9</lay-col>\n                </lay-row>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    lay-col\u7EC4\u4EF6\u7684offset\u5C5E\u6027: \u7C7B\u578BNumber; 0~24\n                       \u7ED9\u5143\u7D20\u6DFB\u52A0margin-left\u503C,\u4F7F\u5176\u5411\u53F3\u504F\u79FB\n                    \n                    lay-col\u7EC4\u4EF6\u7684push\u5C5E\u6027: \u7C7B\u578BNumber; 0~24\n                       \u7ED9\u5143\u7D20\u6DFB\u52A0position: relative\u548Cleft:\u503C,\u4F7F\u5176\u5411\u53F3\u504F\u79FB\n\n                    lay-col\u7EC4\u4EF6\u7684pull\u5C5E\u6027: \u7C7B\u578BNumber; 0~24\n                       \u7ED9\u5143\u7D20\u6DFB\u52A0position: relative\u548Cright:\u503C,\u4F7F\u5176\u5411\u5DE6\u504F\u79FB\n            ',
+            code4: '\n                <lay-row type="flex" justify="center" align="center">\n                    <lay-col :span="4">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4">\u5185\u5BB9</lay-col>\n                    <lay-col :span="4">\u5185\u5BB9</lay-col>\n                </lay-row>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    lay-row\u7EC4\u4EF6\u7684type\u5C5E\u6027: \u7C7B\u578BString (\u9ED8\u8BA4\u503C: \'\')\n                       type\u7684\u503C\u4E3Aflex\u65F6\u5F00\u542Fflex\u5E03\u5C40\n                    \n                    lay-row\u7EC4\u4EF6\u7684justify\u5C5E\u6027: \u7C7B\u578BString (\u9ED8\u8BA4\u503C: start)\n                       start: \u76F8\u5F53\u4E8E justify-content: flex-start;\n                       end: \u76F8\u5F53\u4E8E justify-content: flex-end;\n                       center: \u76F8\u5F53\u4E8E justify-content: center;\n                       space-around: \u76F8\u5F53\u4E8E justify-content: space-around;\n                       space-between: \u76F8\u5F53\u4E8E justify-content: space-between;\n                       space-evenly: \u76F8\u5F53\u4E8E justify-content: space-evenly;\n\n                    lay-row\u7EC4\u4EF6\u7684align\u5C5E\u6027: \u7C7B\u578BString (\u9ED8\u8BA4\u503C: top)\n                       top: \u76F8\u5F53\u4E8E align-items: flex-start;\n                       middle: \u76F8\u5F53\u4E8E align-items: center;\n                       bottom: \u76F8\u5F53\u4E8E align-items: flex-end;\n            ',
+            code5: '\n                <lay-row :gutter="10">\n                    <lay-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1">1</lay-col>\n                    <lay-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11">2</lay-col>\n                    <lay-col :xs="4" :sm="6" :md="8" :lg="9" :xl="11">3</lay-col>\n                    <lay-col :xs="8" :sm="6" :md="4" :lg="3" :xl="1">4</lay-col>\n                </lay-row>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    xs\u5C5E\u6027: \u7C7B\u578B[Number, Object]\n                        @media only screen and (max-width: 767px)\n\n                    sm\u5C5E\u6027: \u7C7B\u578B[Number, Object]\n                        @media only screen and (min-width: 768px)\n\n                    md\u5C5E\u6027: \u7C7B\u578B[Number, Object]\n                        @media only screen and (min-width: 992px)\n\n                    lg\u5C5E\u6027: \u7C7B\u578B[Number, Object]\n                        @media only screen and (min-width: 1200px)\n\n                    xl\u5C5E\u6027: \u7C7B\u578B[Number, Object]\n                        @media only screen and (min-width: 1920px)\n                    \n            ',
+            code6: '\n                props: {\n                    type: String, // flex \u5F00\u542F\u5F39\u6027\u5E03\u5C40\n                    gutter: { // \u9879\u76EE\u4E4B\u95F4\u7684\u95F4\u9694\n                        type: Number,\n                        default: 0\n                    },\n                    justify: { // flex\u5BB9\u5668\u7684justify-content\u5C5E\u6027\n                        type: String,\n                        default: \'start\' // start/end/center/space-around/space-between/space-evenly\n                    },\n                    align: { // flex\u5BB9\u5668\u7684align-items\u5C5E\u6027\n                        type: String,\n                        default: \'top\' // top/middle/bottom\n                    },\n                    tag: { // \u81EA\u5B9A\u4E49\u6807\u7B7E\n                        type: String,\n                        default: \'div\'\n                    }\n                }\n            ',
+            code7: '\n                props: {\n                    span: { // \u9879\u76EE\u5BBD\u5EA6\u7684\u5360\u6BD4\n                        type: Number,\n                        default: 24\n                    },\n                    push: Number, // \u5411\u53F3\u504F\u79FB\n                    pull: Number, // \u5411\u5DE6\u504F\u79FB\n                    offset: Number, // \u5411\u53F3\u504F\u79FB\n                    xs: [Number, Object],\n                    sm: [Number, Object],\n                    md: [Number, Object],\n                    lg: [Number, Object],\n                    xl: [Number, Object],\n                    tag: { // \u81EA\u5B9A\u4E49\u6807\u7B7E\n                        type: String,\n                        default: \'div\'\n                    }\n                }\n            '
+        };
+    },
+
+    methods: {
+        getCode: function getCode(code) {
+            return _prismjs2.default.highlight(code, _prismjs2.default.languages.javascript, 'javascript');
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 446:
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(447);
+if(typeof content === 'string') content = [[module.i, content, '']];
+if(content.locals) module.exports = content.locals;
+// add the styles to the DOM
+var add = __webpack_require__(178).default
+var update = add("1f4decb2", content, true, {});
+
+/***/ }),
+
+/***/ 447:
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(177)(false);
+// imports
+
+
+// module
+exports.push([module.i, ".grid-content[data-v-377c3450]{height:36px;border:1px solid #ccc;text-align:center;line-height:36px;overflow:hidden}.row-bg[data-v-377c3450]{padding:10px 0;background-color:#f9fafc}h3[data-v-377c3450]{margin-top:50px}.red-text[data-v-377c3450]{color:red}.ul-style[data-v-377c3450]{padding-left:50px;list-style:circle}.ul-style li[data-v-377c3450]{margin-bottom:15px}.li--hidden[data-v-377c3450]{visibility:hidden;margin:0!important}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ 448:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var render = function render() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "test-grid" }, [_c('h1', [_vm._v("栅格布局, lay-row组件为容器,lay-col为容器的项目")]), _vm._v(" "), _c('h3', [_vm._v("1.给lay-col组件设置span来给项目分配宽度")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code1)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("Ⅰ. span默认24 占比100%")]), _vm._v(" "), _c('lay-row', [_c('lay-col', [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"24\" 100%")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅱ. 2列")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "span": 12 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"12\" 50%")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 12 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"12\" 50%")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅲ. 4列")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" 25%")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" 25%")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" 25%")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" 25%")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅳ. 6列")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])])], 1), _vm._v(" "), _c('h3', [_vm._v("2.给lay-row组件设置gutter属性,使子项目之间存在间隔")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code2)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("Ⅰ. 子项目之间20px的间隔")]), _vm._v(" "), _c('lay-row', { attrs: { "gutter": 20 } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _c('h3', [_vm._v("3.给lay-col组件设置offset,pull,push使子项目偏移")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code3)) } }), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("Ⅰ. 给lay-col组件设置offset值为6,表示向右偏移百分之1/24*6*100 (原理:给类lay-col的tag元素添加 margin-left: 1/24*6*100%)")]), _vm._v(" "), _c('lay-row', { attrs: { "gutter": 20 } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6, "offset": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" :offset=\"6\"")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅱ. 给lay-col组件设置push值为6,表示向右偏移百分之1/24*5*100 (原理:给类lay-col的tag元素添加 position: relative; left: 1/24*5*100%)")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "span": 12, "push": 5 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"12\" :push=\"5\"")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅲ. 给lay-col组件设置pull值为1,表示向左偏移百分之1/24*1*100 (原理:给类lay-col的tag元素添加 position: relative; right: 1/24*1*100%)")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "span": 4 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"4\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6, "offset": 4, "pull": 1 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\" :offset=\"4\" :pull=\"1\"")])])], 1), _vm._v(" "), _c('h3', [_vm._v("4.给lay-row组件设置type justify align属性,开启flex布局")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code4)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _vm._m(0), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "start", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(1), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "end", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(2), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "center", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(3), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "space-around", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(4), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "space-between", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(5), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "space-evenly", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(6), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "center", "align": "top" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(7), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "center", "align": "middle" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _vm._m(8), _vm._v(" "), _c('lay-row', { staticStyle: { "height": "100px", "border": "1px solid #ccc" }, attrs: { "type": "flex", "justify": "center", "align": "bottom" } }, [_c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "span": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v(":span=\"6\"")])])], 1), _vm._v(" "), _c('h3', [_vm._v("5.使用预设预五个响应尺寸：xs、sm、md、lg 和 xl,进行响应式布局")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code5)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("Ⅰ. xs、sm、md、lg、xl可以是Number或者Object")]), _vm._v(" "), _vm._m(9), _vm._v(" "), _c('lay-row', { attrs: { "gutter": 10 } }, [_c('lay-col', { attrs: { "xs": 8, "sm": 6, "md": 4, "lg": 3, "xl": 1 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("1")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": 4, "sm": 6, "md": 8, "lg": 9, "xl": 11 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("2")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": 4, "sm": 6, "md": 8, "lg": 9, "xl": 11 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("3")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": 8, "sm": 6, "md": 4, "lg": 3, "xl": 1 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("4")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅱ. 在不同的屏幕尺寸下隐藏类")]), _vm._v(" "), _vm._m(10), _vm._v(" "), _c('lay-row', { attrs: { "gutter": 10 } }, [_c('lay-col', { attrs: { "xs": 24, "sm": 12, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("1")])]), _vm._v(" "), _c('lay-col', { staticClass: "hidden-sm-only", attrs: { "xs": 24, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("class=\"hidden-sm-only\"")])]), _vm._v(" "), _c('lay-col', { staticClass: "hidden-sm-only hidden-md-only", attrs: { "xs": 24, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("class=\"hidden-sm-only hidden-md-only\"")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": 24, "sm": 12, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("4")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅲ. 使用对象的形式 对象的key有span pull push offset这4个属性")]), _vm._v(" "), _c('lay-row', { attrs: { "gutter": 10 } }, [_c('lay-col', { attrs: { "xs": { span: 24 }, "sm": { span: 12 }, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("1")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": { span: 24 }, "sm": { span: 12 }, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("2")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": { span: 24 }, "sm": { span: 12 }, "md": 8, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("3")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": { span: 24 }, "sm": { span: 12 }, "md": 24, "lg": 6 } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("4")])])], 1), _vm._v(" "), _c('p', [_vm._v("Ⅳ. span pull push offset 属性可以通过内嵌到 xs sm md lg 属性中来使用。其中 :xs=\"6\" 相当于 :xs=\"{ span: 6 }\"。")]), _vm._v(" "), _c('lay-row', [_c('lay-col', { attrs: { "xs": { span: 5, offset: 1 }, "lg": { span: 6, offset: 2 } } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("1")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": { span: 11, offset: 1 }, "lg": { span: 6, offset: 2 } } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("2")])]), _vm._v(" "), _c('lay-col', { attrs: { "xs": { span: 5, offset: 1 }, "lg": { span: 6, offset: 2 } } }, [_c('div', { staticClass: "grid-content" }, [_vm._v("3")])])], 1), _vm._v(" "), _c('h3', [_vm._v("lay-row 组件所有属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code6)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('h3', [_vm._v("lay-col 组件所有属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code7)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")])], 1);
+};
+var staticRenderFns = [function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅰ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"start\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅱ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"end\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅲ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"center\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅳ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"space-around\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅴ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"space-between\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅵ. type=\"flex\" "), _c('span', { staticClass: "red-text" }, [_vm._v("justify=\"space-evenly\"")]), _vm._v(" align=\"middle\"")]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅶ. type=\"flex\" justify=\"center\" "), _c('span', { staticClass: "red-text" }, [_vm._v("align=\"top\"")])]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅷ. type=\"flex\" justify=\"center\" "), _c('span', { staticClass: "red-text" }, [_vm._v("align=\"middle\"")])]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('p', [_vm._v("Ⅸ. type=\"flex\" justify=\"center\" "), _c('span', { staticClass: "red-text" }, [_vm._v("align=\"bottom\"")])]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('ul', { staticClass: "ul-style" }, [_c('li', [_vm._v("xs: @media only screen and (max-width: 767px)")]), _vm._v(" "), _c('li', [_vm._v("sm: @media only screen and (min-width: 768px)")]), _vm._v(" "), _c('li', [_vm._v("md: @media only screen and (min-width: 992px)")]), _vm._v(" "), _c('li', [_vm._v("lg: @media only screen and (min-width: 1200px)")]), _vm._v(" "), _c('li', [_vm._v("xl: @media only screen and (min-width: 1920px)")])]);
+}, function () {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('ul', { staticClass: "ul-style" }, [_c('li', [_vm._v("hidden-xs-only - 当视口在 xs 尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (max-width: 767px)")])]), _vm._v(" "), _c('li', { staticClass: "li--hidden" }), _vm._v(" "), _c('li', [_vm._v("hidden-sm-and-up - 当视口在 sm 及以上尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 768px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-sm-only - 当视口在 sm 尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 768px) and (max-width: 991px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-sm-and-down - 当视口在 sm 及以下尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (max-width: 991px)")])]), _vm._v(" "), _c('li', { staticClass: "li--hidden" }), _vm._v(" "), _c('li', [_vm._v("hidden-md-and-up - 当视口在 md 及以上尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 992px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-md-only - 当视口在 md 尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 992px) and (max-width: 1199px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-md-and-down - 当视口在 md 及以下尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (max-width: 1199px)")])]), _vm._v(" "), _c('li', { staticClass: "li--hidden" }), _vm._v(" "), _c('li', [_vm._v("hidden-lg-and-up - 当视口在 lg 及以上尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 1200px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-lg-only - 当视口在 lg 尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 1200px) and (max-width: 1919px)")])]), _vm._v(" "), _c('li', [_vm._v("hidden-lg-and-down - 当视口在 lg 及以下尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (max-width: 1919px)")])]), _vm._v(" "), _c('li', { staticClass: "li--hidden" }), _vm._v(" "), _c('li', [_vm._v("hidden-xl-only - 当视口在 xl 尺寸时隐藏 "), _c('span', { staticClass: "red-text" }, [_vm._v("@media only screen and (min-width: 1920px)")])])]);
+}];
 exports.render = render;
 exports.staticRenderFns = staticRenderFns;
 

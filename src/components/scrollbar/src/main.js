@@ -42,9 +42,21 @@ export default {
         destroyScrollbar() {
             this.scrollbar && this.scrollbar.destroy()
             this.scrollbar = null
+
+            this.observer && this.observer.disconnect()
+            this.observer = null
         },
         updateScrollbar() {
             this.scrollbar && this.scrollbar.update()
+        },
+        observe() {
+            const targetNode = this.$el
+            const config = { childList: true, subtree: true }
+            const callback = (mutationsList, observer) => {
+                this.updateScrollbar()
+            }
+            this.observer = new MutationObserver(callback)
+            this.observer.observe(targetNode, config)
         }
     },
     beforeCreate() {
@@ -53,6 +65,7 @@ export default {
     mounted() {
         if (!this.native) {
             this.initScrollbar()
+            // this.observe()
         }
     },
     updated() {

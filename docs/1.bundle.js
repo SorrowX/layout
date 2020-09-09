@@ -1,18 +1,18 @@
 webpackJsonp([1],{
 
-/***/ 391:
+/***/ 393:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue__ = __webpack_require__(409);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue__);
-/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3167f04a_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_three_columns_vue__ = __webpack_require__(433);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3167f04a_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_three_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3167f04a_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_three_columns_vue__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__ = __webpack_require__(411);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__);
+/* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__ = __webpack_require__(442);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
 function injectStyle (context) {
-  __webpack_require__(431)
+  __webpack_require__(440)
 }
 /* script */
 
@@ -29,9 +29,9 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 
 var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__["a" /* default */])(
-  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_three_columns_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3167f04a_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_three_columns_vue__["render"],
-  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_3167f04a_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_three_columns_vue__["staticRenderFns"],
+  __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_two_columns_vue___default.a,
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__["render"],
+  __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_bb5703a8_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_two_columns_vue__["staticRenderFns"],
   __vue_template_functional__,
   __vue_styles__,
   __vue_scopeId__,
@@ -43,32 +43,7 @@ var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2
 
 /***/ }),
 
-/***/ 398:
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-    value: true
-});
-exports.default = {
-    name: 'FakeContent',
-    props: {
-        width: {
-            type: String,
-            default: '100%'
-        },
-        height: {
-            type: String,
-            default: '100px'
-        }
-    }
-};
-
-/***/ }),
-
-/***/ 399:
+/***/ 401:
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {
@@ -1756,19 +1731,44 @@ Prism.languages.js = Prism.languages.javascript;
 
 /***/ }),
 
-/***/ 400:
+/***/ 402:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+    value: true
+});
+exports.default = {
+    name: 'FakeContent',
+    props: {
+        width: {
+            type: String,
+            default: '100%'
+        },
+        height: {
+            type: String,
+            default: '100px'
+        }
+    }
+};
+
+/***/ }),
+
+/***/ 403:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__ = __webpack_require__(402);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__);
 /* harmony namespace reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_script_index_0_fake_content_vue__[key]; }) }(__WEBPACK_IMPORT_KEY__));
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__ = __webpack_require__(403);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__ = __webpack_require__(406);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__babel_loader_sourceMap_node_modules_vue_loader_14_2_4_vue_loader_lib_template_compiler_index_id_data_v_55621018_hasScoped_false_optionsId_0_buble_transforms_node_modules_vue_loader_14_2_4_vue_loader_lib_selector_type_template_index_0_fake_content_vue__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2_4_vue_loader_lib_runtime_component_normalizer__ = __webpack_require__(8);
 function injectStyle (context) {
-  __webpack_require__(401)
+  __webpack_require__(404)
 }
 /* script */
 
@@ -1799,13 +1799,13 @@ var Component = Object(__WEBPACK_IMPORTED_MODULE_2__node_modules_vue_loader_14_2
 
 /***/ }),
 
-/***/ 401:
+/***/ 404:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(402);
+var content = __webpack_require__(405);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
@@ -1814,7 +1814,7 @@ var update = add("80dc1f8c", content, true, {});
 
 /***/ }),
 
-/***/ 402:
+/***/ 405:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(177)(false);
@@ -1829,7 +1829,7 @@ exports.push([module.i, ".fake-content{position:relative;background-color:rgba(0
 
 /***/ }),
 
-/***/ 403:
+/***/ 406:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1847,7 +1847,7 @@ exports.staticRenderFns = staticRenderFns;
 
 /***/ }),
 
-/***/ 409:
+/***/ 411:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1857,11 +1857,11 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _prismjs = __webpack_require__(399);
+var _prismjs = __webpack_require__(401);
 
 var _prismjs2 = _interopRequireDefault(_prismjs);
 
-var _fakeContent = __webpack_require__(400);
+var _fakeContent = __webpack_require__(403);
 
 var _fakeContent2 = _interopRequireDefault(_fakeContent);
 
@@ -1871,25 +1871,37 @@ exports.default = {
     components: { FakeContent: _fakeContent2.default },
     data: function data() {
         return {
-            centerClass: { c1: true, c2: true },
+            leftStyle: {
+                border: '1px solid red',
+                'box-sizing': 'border-box'
+            },
+            rightStyle: {
+                border: '1px solid green',
+                'box-sizing': 'border-box'
+            },
+            code1: '\n                <lay-two-columns fix="left" width="200px">\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                fix\u5C5E\u6027: \u7C7B\u578BString left/right; (\u9ED8\u8BA4\u503C: left)\n                    left\u8868\u793A\u5DE6\u5217\u4E3A\u5B9A\u5BBD,\u53F3\u5217\u81EA\u9002\u5E94\n                    right\u8868\u793A\u53F3\u5217\u4E3A\u5B9A\u5BBD,\u5DE6\u5217\u81EA\u9002\u5E94\n\n                width\u5C5E\u6027: \u7C7B\u578BString 200px;  (\u9ED8\u8BA4\u503C: 0px)\n                    \u5F53fix="left"\u65F6\u8868\u793A\u5DE6\u5217\u5B9A\u5BBD200px,\n                    \u5F53fix="right"\u65F6\u8868\u793A\u53F3\u5217\u5B9A\u5BBD200px\n            ',
 
-            code1: '\n                <template>\n                    <lay-three-columns \n                        adapt="right" \n                        leftWidth="100px" \n                        centerWidth="200px"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    adapt\u5C5E\u6027: \u7C7B\u578BString; left/center/right (\u9ED8\u8BA4\u503C: right)\n                        \u6307\u5B9A\u53F3\u4FA7/\u5DE6\u4FA7/\u4E2D\u95F4\u5BB9\u5668\u81EA\u9002\u5E94\n\n                    leftWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u5DE6\u4FA7\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        \n                    centerWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u4E2D\u95F4\u5BB9\u5668\u7684\u5BBD\u5EA6\n            ',
+            code2: '\n                <lay-two-columns fix="left" width="200%" height="500px">\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                height\u5C5E\u6027: \u7C7B\u578BString auto; (\u9ED8\u8BA4\u503C: auto)\n                    \u5DE6\u5217\u548C\u53F3\u5217\u5BB9\u5668\u7684\u9AD8\u5EA6\n            ',
 
-            code2: '\n                <template>\n                    <lay-three-columns \n                        adapt="right" \n                        leftWidth="100px" \n                        centerWidth="200px"\n                        height="500px"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    height\u5C5E\u6027: \u7C7B\u578BString; (\u9ED8\u8BA4\u503C: auto)\n                        left/center/right\u5BB9\u5668\u7684\u9AD8\u5EA6\n            ',
+            code3: '\n                <lay-two-columns \n                    fix="left" \n                    width="25%" \n                    height="500px" \n                    nativeScrollbar\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                nativeScrollbar\u5C5E\u6027: \u7C7B\u578BBoolean false; (\u9ED8\u8BA4\u503C: false)\n                    \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n            ',
 
-            code3: '\n                <template>\n                    <lay-three-columns \n                        adapt="right" \n                        leftWidth="100px" \n                        centerWidth="200px"\n                        height="500px"\n                        nativeScrollbar\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    nativeScrollbar\u5C5E\u6027: \u7C7B\u578BBoolean; (\u9ED8\u8BA4\u503C: false)\n                        \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n            ',
+            code4: '\n                <lay-two-columns \n                    fix="left" \n                    width="10rem" \n                    height="500px" \n                    nativeScrollbar\n                    overflow="hidden"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                overflow\u5C5E\u6027: \u7C7B\u578BString auto/visible/hidden/scroll/inherit; \n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u548C\u53F3\u5217\u5BB9\u5668\u4E0A(\u9ED8\u8BA4\u503C: auto)\n            ',
 
-            code4: '\n                <template>\n                    <lay-three-columns \n                        adapt="right" \n                        leftWidth="100px" \n                        centerWidth="200px"\n                        height="500px"\n                        overflow="hidden"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    overflow\u5C5E\u6027: \u7C7B\u578BString; (\u9ED8\u8BA4\u503C: auto)\n                        left/center/right\u5BB9\u5668\u7684\u6EDA\u52A8\u6761\u662F\u5426\u51FA\u73B0,\u53EF\u7528\u503C auto/visible/hidden/scroll/inherit\n            ',
+            code5: '\n                <lay-two-columns \n                    fix="right" \n                    width="10em"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                fix\u5C5E\u6027: \u7C7B\u578BString left/right; (\u9ED8\u8BA4\u503C: left)\n                    left\u8868\u793A\u5DE6\u5217\u4E3A\u5B9A\u5BBD,\u53F3\u5217\u81EA\u9002\u5E94\n                    right\u8868\u793A\u53F3\u5217\u4E3A\u5B9A\u5BBD,\u5DE6\u5217\u81EA\u9002\u5E94\n            ',
 
-            code5: '\n                <template>\n                    <lay-three-columns \n                        adapt="right" \n                        leftWidth="100px" \n                        centerWidth="200px"\n                        height="500px"\n                        overflow="hidden"\n                        :leftStyle="[{ border: \'1px solid red\' }, { color: \'red\' }]"\n                        :centerClass="centerClass"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    leftStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    leftClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    centerStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    centerClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    rightStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    rightClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n\n                    \u4F7F\u7528\u540E\u76F4\u63A5\u4F5C\u7528\u5728\u5BF9\u5E94\u7684\u5BB9\u5668\u4E0A\uFF0C\u53EF\u4EE5\u53C2\u8003Vue\u5B98\u65B9\u6559\u7A0B https://cn.vuejs.org/v2/guide/class-and-style.html\n            ',
+            code6: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
 
-            code6: '\n                <template>\n                    <lay-three-columns \n                        adapt="left" \n                        centerWidth="100px" \n                        rightWidth="200px"\n                        height="500px"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    adapt\u5C5E\u6027: \u7C7B\u578BString; left/center/right (\u9ED8\u8BA4\u503C: right)\n                        \u6307\u5B9A\u53F3\u4FA7/\u5DE6\u4FA7/\u4E2D\u95F4\u5BB9\u5668\u81EA\u9002\u5E94\n\n                    rightWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u53F3\u4FA7\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        \n                    centerWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u4E2D\u95F4\u5BB9\u5668\u7684\u5BBD\u5EA6\n            ',
+            code7: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
 
-            code7: '\n                <template>\n                    <lay-three-columns \n                        adapt="center" \n                        leftWidth="150px" \n                        rightWidth="150px"\n                        height="500px"\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    adapt\u5C5E\u6027: \u7C7B\u578BString; left/center/right (\u9ED8\u8BA4\u503C: right)\n                        \u6307\u5B9A\u53F3\u4FA7/\u5DE6\u4FA7/\u4E2D\u95F4\u5BB9\u5668\u81EA\u9002\u5E94\n\n                    leftWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u5DE6\u4FA7\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        \n                    rightWidth: \u7C7B\u578BString;  (\u9ED8\u8BA4\u503C: 0px)\n                        \u6307\u5B9A\u53F3\u4FA7\u5BB9\u5668\u7684\u5BBD\u5EA6\n            ',
+            code8: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    overflow="hidden"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n            ',
 
-            code8: '\n                <template>\n                    <lay-three-columns \n                        adapt="center" \n                        leftWidth="150px" \n                        rightWidth="150px"\n                        height="500px"\n                        autoshow\n                    >\n                        <template v-slot:left>\n                            ...\n                        </template>\n                        <template v-slot:center>\n                            ...\n                        </template>\n                        <template v-slot:right>\n                            ...\n                        </template>\n                    </lay-three-columns>\n                </template>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    autoshow\u5C5E\u6027: \u7C7B\u578BBoolean; (\u9ED8\u8BA4\u503C: false)\n                        \u81EA\u5B9A\u4E49\u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n            ',
+            code9: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    :leftStyle="leftStyle" \n                    :rightStyle="rightStyle"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                leftStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u5BB9\u5668\u4E0A\n\n                rightStyle\u5C5E\u6027: \u7C7B\u578B[Object, Array]; (\u9ED8\u8BA4\u503C: {})\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u53F3\u5217\u5BB9\u5668\u4E0A\n            ',
 
-            code9: '\n                props: {\n                    adapt: { // \u81EA\u9002\u5E94\n                        type: String,\n                        default: \'right\' // left/center/right\n                    },\n                    nativeScrollbar: { // \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n                        type: Boolean,\n                        default: false\n                    },\n                    autoshow: { // \u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n                        type: Boolean,\n                        default: false\n                    },\n                    leftWidth: { // left\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        type: String,\n                        default: \'0px\'\n                    },\n                    centerWidth: { // center\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        type: String,\n                        default: \'0px\'\n                    },\n                    rightWidth: { // right\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        type: String,\n                        default: \'0px\'\n                    },\n                    height: { // left/center/right\u5BB9\u5668\u7684\u9AD8\u5EA6\n                        type: String,\n                        default: \'auto\'\n                    },\n                    overflow: { // left/center/right\u5BB9\u5668\u7684\u6EDA\u52A8\u6761\u662F\u5426\u51FA\u73B0 auto/visible/hidden/scroll/inherit\n                        type: String,\n                        default: \'auto\'\n                    },\n                    leftStyle: { // left\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    leftClass: { // left\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    },\n                    centerStyle: { // center\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    centerClass: { // center\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    },\n                    rightStyle: { // right\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    rightClass: { // right\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    }\n                }\n            '
+            code10: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    leftClass="left-class" \n                    rightClass="right-class"\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n\n                leftClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u5DE6\u5217\u5BB9\u5668\u4E0A\n\n                rightClass\u5C5E\u6027: \u7C7B\u578B[String, Object, Array]; (\u9ED8\u8BA4\u503C: \'\')\n                    \u8BE5\u5C5E\u6027\u4F1A\u4F5C\u7528\u5728\u53F3\u5217\u5BB9\u5668\u4E0A\n            ',
+
+            code11: '\n                <lay-two-columns \n                    fix="right" \n                    width="200px"\n                    height="500px"\n                    nativeScrollbar\n                    leftClass="left-class" \n                    rightClass="right-class"\n                    autoshow\n                >\n                    <template v-slot:left>\n                        ...\n                    </template>\n                    <template v-slot:right>\n                        ...\n                    </template>\n                </lay-two-columns>\n\n                \u5C5E\u6027\u8BF4\u660E:\n                    autoshow\u5C5E\u6027: \u7C7B\u578BBoolean; (\u9ED8\u8BA4\u503C: false)\n                        \u81EA\u5B9A\u4E49\u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n                        \n            ',
+
+            code12: '\n                props: {\n                    fix: { // \u5DE6\u8FB9\u5B9A\u5BBD/\u53F3\u8FB9\u5B9A\u5BBD\n                        type: String,\n                        default: \'left\' // left/right\n                    },\n                    nativeScrollbar: { // \u662F\u5426\u4F7F\u7528\u539F\u751F\u6EDA\u52A8\u6761\n                        type: Boolean,\n                        default: false\n                    },\n                    autoshow: { // \u6EDA\u52A8\u6761\u662F\u5426\u81EA\u52A8\u663E\u793A\n                        type: Boolean,\n                        default: false\n                    },\n                    width: { // left/right\u5BB9\u5668\u7684\u5BBD\u5EA6\n                        type: String,\n                        default: \'0px\'\n                    },\n                    height: { // left\u548Cright\u5BB9\u5668\u7684\u9AD8\u5EA6\n                        type: String,\n                        default: \'auto\'\n                    },\n                    overflow: { // left\u548Cright\u5BB9\u5668\u7684\u6EDA\u52A8\u6761\u662F\u5426\u51FA\u73B0\n                        type: String,\n                        default: \'auto\'\n                    },\n                    leftStyle: { // left\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    leftClass: { // left\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    },\n                    rightStyle: { // right\u5BB9\u5668style\u6837\u5F0F\n                        type: [Object, Array],\n                        default: () => {}\n                    },\n                    rightClass: { // right\u5BB9\u5668class\u6837\u5F0F\u7C7B\n                        type: [String, Object, Array],\n                        default: \'\'\n                    }\n                }\n            '
         };
     },
 
@@ -1902,22 +1914,22 @@ exports.default = {
 
 /***/ }),
 
-/***/ 431:
+/***/ 440:
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(432);
+var content = __webpack_require__(441);
 if(typeof content === 'string') content = [[module.i, content, '']];
 if(content.locals) module.exports = content.locals;
 // add the styles to the DOM
 var add = __webpack_require__(178).default
-var update = add("44d56592", content, true, {});
+var update = add("18c3e8dc", content, true, {});
 
 /***/ }),
 
-/***/ 432:
+/***/ 441:
 /***/ (function(module, exports, __webpack_require__) {
 
 exports = module.exports = __webpack_require__(177)(false);
@@ -1925,14 +1937,14 @@ exports = module.exports = __webpack_require__(177)(false);
 
 
 // module
-exports.push([module.i, ".c1{border:1px solid green}.left{border:1px solid red}.center{border:1px solid green}.right{border:1px solid #f60}", ""]);
+exports.push([module.i, ".test-box{margin-bottom:30px;border:1px solid #dcdfe6}.right-content{padding-left:10px}.left-class,.right-class{padding:10px;box-sizing:border-box}", ""]);
 
 // exports
 
 
 /***/ }),
 
-/***/ 433:
+/***/ 442:
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1942,103 +1954,95 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 var render = function render() {
-  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "test-three-columns" }, [_c('h1', [_vm._v("右侧自适应,左侧和中间定宽")]), _vm._v(" "), _c('h3', [_vm._v("1. 给定左侧和中间容器的宽度，右侧容器自适应，容器由内容撑开")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code1)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "right", "leftWidth": "100px", "centerWidth": "200px", "leftClass": "left", "rightClass": "right", "centerClass": "center" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+  var _vm = this;var _h = _vm.$createElement;var _c = _vm._self._c || _h;return _c('div', { staticClass: "test-two-columns" }, [_c('h1', [_vm._v("左列固定,右列自适应")]), _vm._v(" "), _c('h3', [_vm._v("1.只指定width属性,左列和右列的高度由子内容撑开")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code1)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "200px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
         return _vm._l(5, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+      }, proxy: true }, { key: "right", fn: function fn() {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("2.给定height属性,内容超出自动出现滚动条(默认使用自定义滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code2)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "25%", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
+        return [_c('div', { staticClass: "right-content", staticStyle: { "width": "650px" } }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("3.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code3)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "nativeScrollbar": "", "fix": "left", "width": "25%", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("2. 给定height属性,当内容超出时出现自定义滚动条")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code2)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "right", "leftWidth": "100px", "centerWidth": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+      }, proxy: true }, { key: "right", fn: function fn() {
+        return [_c('div', { staticClass: "right-content", staticStyle: { "width": "650px" } }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("4.使用overflow属性值为hidden时,内容超出自动隐藏")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code4)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "left", "width": "10rem", "height": "500px", "overflow": "hidden" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
+          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
+        });
+      }, proxy: true }, { key: "right", fn: function fn() {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('hr'), _vm._v(" "), _c('h1', [_vm._v("右列固定,左列自适应")]), _vm._v(" "), _c('h3', [_vm._v("5.指定fix属性,开启左列固定还是右列固定")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code5)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "10em" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
         return _vm._l(5, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("3. 给定nativeScrollbar属性,当内容超出时出现原生滚动条")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code3)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "right", "leftWidth": "100px", "centerWidth": "200px", "height": "500px", "nativeScrollbar": "" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("6.给定高度,内容超出自动出现滚动条(默认使用自定义滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code6)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
         return _vm._l(5, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+      }, proxy: true }, { key: "right", fn: function fn() {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(4, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("7.使用nativeScrollbar属性,内容超出自动出现滚动条(原生滚动条)")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code7)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "nativeScrollbar": "", "width": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("4. 给定overflow属性,当内容超出时内容隐藏")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code4)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "right", "leftWidth": "100px", "centerWidth": "200px", "height": "500px", "overflow": "hidden", "leftClass": "left", "rightClass": "right", "centerClass": "center" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("8.使用overflow属性值为hidden时,内容超出自动隐藏")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code8)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "overflow": "hidden" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("5. 可以分别给左侧/中间/右侧容器添加样式和class类")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code5)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "right", "leftWidth": "100px", "centerWidth": "200px", "height": "500px", "overflow": "hidden", "leftStyle": [{ border: '1px solid red' }, { color: 'red' }], "centerClass": _vm.centerClass }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("9.使用leftStyle和rightStyle属性给左列容器和右列容器添加样式")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code9)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftStyle": _vm.leftStyle, "rightStyle": _vm.rightStyle }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h1', [_vm._v("左侧自适应,中间和右侧定宽")]), _vm._v(" "), _c('h3', [_vm._v("6. 给定adapt为left, 左侧容器则自适应")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code6)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "left", "centerWidth": "100px", "rightWidth": "200px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("10.使用leftClass和rightClass属性给左列容器和右列容器添加css类名")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code10)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftClass": "left-class", "rightClass": "right-class" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h1', [_vm._v("中间自适应,左侧和右侧定宽")]), _vm._v(" "), _c('h3', [_vm._v("7. 给定adapt为center, 中间容器则自适应")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code7)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "center", "leftWidth": "150px", "rightWidth": "150px", "height": "500px" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('h3', [_vm._v("11.自定义滚动条是否自动显示")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code11)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-two-columns', { staticClass: "test-box", attrs: { "fix": "right", "width": "200px", "height": "500px", "leftClass": "left-class", "rightClass": "right-class", "autoshow": "" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
+        return _vm._l(10, function (num) {
           return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
         });
       }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('h1', [_vm._v("滚动条是否自动显示")]), _vm._v(" "), _c('h3', [_vm._v("8. 给定autoshow, 滚动条是否自动显示")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code8)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")]), _vm._v(" "), _c('p', [_vm._v("效果:")]), _vm._v(" "), _c('lay-three-columns', { attrs: { "adapt": "center", "leftWidth": "150px", "rightWidth": "150px", "height": "500px", "autoshow": "" }, scopedSlots: _vm._u([{ key: "left", fn: function fn() {
-        return _vm._l(5, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "center", fn: function fn() {
-        return _vm._l(7, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }, { key: "right", fn: function fn() {
-        return _vm._l(9, function (num) {
-          return _c('fake-content', { key: num }, [_vm._v(_vm._s(num))]);
-        });
-      }, proxy: true }]) }), _vm._v(" "), _c('p', [_vm._v("lay-three-columns 组件所有属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code9)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")])], 1);
+        return [_c('div', { staticClass: "right-content" }, _vm._l(20, function (num) {
+          return _c('fake-content', { key: num, attrs: { "height": "200px" } }, [_vm._v(_vm._s(num))]);
+        }), 1)];
+      }, proxy: true }]) }), _vm._v(" "), _c('p', [_vm._v("lay-two-columns 所有属性")]), _vm._v(" "), _c('pre', [_vm._v("        "), _c('code', { staticClass: "language-js", domProps: { "innerHTML": _vm._s(_vm.getCode(_vm.code12)) } }, [_vm._v("\n        ")]), _vm._v("\n    ")])], 1);
 };
 var staticRenderFns = [];
 exports.render = render;
