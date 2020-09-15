@@ -36,6 +36,7 @@
                 <lay-tree-node
                     v-for="child in node.childNodes"
                     :key="getNodeKey(child)"
+                    :props="props"
                     :render-after-expand="renderAfterExpand"
                     :show-checkbox="showCheckbox"
                     :render-content="renderContent"

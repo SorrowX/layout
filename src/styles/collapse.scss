@@ -40,6 +40,10 @@
             margin-left: -$--collapse-header-arrow-width;
         }
 
+        @include e(icon) {
+            transition: transform .3s;
+        }
+
         @include e(arrow) {
             width: $--collapse-header-arrow-width;
             float: right;

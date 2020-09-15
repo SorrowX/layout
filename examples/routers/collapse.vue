@@ -97,7 +97,7 @@
             <lay-collapse-item title="一致性 Consistency" name="1">
                 <template v-slot:header>
                     <div>
-                        <i class="lay-arrow-left" :style="customArrowStyle" style="margin-right: 6px;"></i>
+                        <i class="lay-icon-arrow-down" :style="customArrowStyle" style="margin-right: 6px;"></i>
                         <span style="color: green">我是自定义头部</span>
                     </div>
                 </template>
@@ -277,7 +277,9 @@
         },
         computed: {
             customArrowStyle() {
-                return this.isCollapse ? { transform: 'rotate(-90deg)' } : { transform: 'rotate(0deg)' }
+                return this.isCollapse 
+                    ? { transform: 'rotate(90deg)', transition: 'transform 0.3s ease 0s' } 
+                    : { transform: 'rotate(0deg)', transition: 'transform 0.3s ease 0s' }
             }
         },
         methods: {

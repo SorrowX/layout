@@ -10,7 +10,7 @@
                     <slot name="title">{{ title }}</slot>
                 </div>
                 <div class="lay-collapse-item__arrow" :class="activeClass">
-                    <i class="lay-arrow-right" :class="disabledClass"></i>
+                    <i class="lay-collapse-item__icon lay-icon-arrow-right" :class="disabledClass"></i>
                 </div>
             </slot>
         </div>

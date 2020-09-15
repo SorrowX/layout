@@ -28,6 +28,11 @@
 新增LayCollapse组件
 ```
 
+### 2020/9/15
+``` bash
+新增LayTree组件 (来自element-ui tree组件)
+```
+
 #### Build Setup
 
 ``` bash

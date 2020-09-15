@@ -14,6 +14,7 @@
             :data="data1"
             :props="defaultProps1"
             :renderAfterExpand="true"
+            :checkOnClickNode="true"
             @node-click="handleNodeClick1"
         >
         </lay-tree>
